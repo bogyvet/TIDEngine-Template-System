@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="group__xhtml__cache__settings" kind="group">
+    <compoundname>xhtml_cache_settings</compoundname>
+    <title>TIDEngine XHTML Cache Settings</title>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="group__xhtml__cache__settings_1ga0216b64e0f4557ed5a36e5aaeccd2745" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xhtml_code_operations</definition>
+        <argsstring></argsstring>
+        <name>$xhtml_code_operations</name>
+        <initializer> &apos;indent&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>You can use two types of XHTML Optimization. Indent XHTML code or clean whitespace and combine XHTML code in one lien.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$xhtml_code_operations</parametername>
+<parametertype>string</parametertype>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>compact - optimize XHTML code and remove whitespace complete XHTML in one line</para></listitem><listitem><para>indent - set XHTML code indentation,</para></listitem><listitem><para>false - any value no XHTML manipulation </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="219" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__xhtml__cache__settings_1ga2395c8c084b383c7fa248df50b624e9a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xhtml_code_indentation</definition>
+        <argsstring></argsstring>
+        <name>$xhtml_code_indentation</name>
+        <initializer> &apos;   &apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set default indentation space only. EG. &apos; &apos;</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$xhtml_code_indentation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="226" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> different XHTML Cache Settings.</para><para>Your Pages performance depends from this settings. We recomend to use Default settings for best results.<linebreak/>
+<linebreak/>
+ But anyway you could make experiments and adjust by your needs. This settings are applied just to XHTML Page/Template Cache files code. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

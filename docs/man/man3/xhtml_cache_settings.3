@@ -1,0 +1,56 @@
+.TH "TIDEngine XHTML Cache Settings" 3 "Sat Apr 30 2011" "Version 1.0" "TIDEngine API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TIDEngine XHTML Cache Settings \- 
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$xhtml_code_operations\fP = 'indent'"
+.br
+.ti -1c
+.RI "\fB$xhtml_code_indentation\fP = ' '"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBTIDEngine\fP different XHTML Cache Settings.
+.PP
+Your Pages performance depends from this settings. We recomend to use Default settings for best results.
+.br
+
+.br
+ But anyway you could make experiments and adjust by your needs. This settings are applied just to XHTML Page/Template Cache files code. 
+.SH "Variable Documentation"
+.PP 
+.SS "$xhtml_code_operations = 'indent'\fC [inherited]\fP"You can use two types of XHTML Optimization. Indent XHTML code or clean whitespace and combine XHTML code in one lien.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$xhtml_code_operations,:\fP 
+.IP "\(bu" 2
+compact - optimize XHTML code and remove whitespace complete XHTML in one line
+.IP "\(bu" 2
+indent - set XHTML code indentation,
+.IP "\(bu" 2
+false - any value no XHTML manipulation 
+.PP
+.RE
+.PP
+
+.PP
+Definition at line 219 of file TIDEngine.php.
+.SS "$xhtml_code_indentation = ' '\fC [inherited]\fP"Set default indentation space only. EG. ' '
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$xhtml_code_indentation\fP 
+.RE
+.PP
+
+.PP
+Definition at line 226 of file TIDEngine.php.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TIDEngine API from the source code.

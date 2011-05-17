@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="group__paths__settings" kind="group">
+    <compoundname>paths_settings</compoundname>
+    <title>TIDEngine Paths Settings</title>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="group__paths__settings_1gaef9cf198312d2f89238a8e8e2f0f67f3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$domain</definition>
+        <argsstring></argsstring>
+        <name>$domain</name>
+        <initializer> &apos;http://localhost/TIDengine/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>You can define root domain if for some reason you have problems with Javascript and/or CSS Cache Files Paths.<linebreak/>
+ If you have no problems you can leave it empty.<linebreak/>
+ <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="26" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1gae39d9273ea31335b789e7d9a65ddd5e5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$root_cache</definition>
+        <argsstring></argsstring>
+        <name>$root_cache</name>
+        <initializer> &apos;cache/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache directory root path. If you do not change orginal <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> structure, Default : &apos;cache/&apos; <linebreak/>
+ If you have your own structure set path depending of your needs. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$root_cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="35" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga63fb01efe0d6e48b4ec22d087e8146fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$pages_cache</definition>
+        <argsstring></argsstring>
+        <name>$pages_cache</name>
+        <initializer> &apos;pages/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cached Templates/Pages cache directory name. Default : &apos;pages/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$pages_cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="42" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga0e80adb33d63c6d68ba4c65404df2f94" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$css_cache</definition>
+        <argsstring></argsstring>
+        <name>$css_cache</name>
+        <initializer> &apos;css/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Css cache directory name. Default : &apos;css/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$css_cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="49" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga16d37062fd28b17ccfbbc08ce3e0b776" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$js_cache</definition>
+        <argsstring></argsstring>
+        <name>$js_cache</name>
+        <initializer> &apos;javascript/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Javascript cache directory name. Default : &apos;javascript/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$js_cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="56" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga2f10132b94f95d29119dbfc721ec89f5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$javascript_source</definition>
+        <argsstring></argsstring>
+        <name>$javascript_source</name>
+        <initializer> &apos;javascript/native/source/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Javascript source files directory path. Default : &apos;javascript/native/source/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$javascript_source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="63" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1gaf110565a1dfb60e0e30898d5087688be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$javascript_minified</definition>
+        <argsstring></argsstring>
+        <name>$javascript_minified</name>
+        <initializer> &apos;javascript/native/minified/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Javascript minified files directory path. Default : &apos;javascript/native/minified/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$javascript_minified</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="70" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga35ab8cb7ae69ec347b63dda82a173005" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$frameworks_source</definition>
+        <argsstring></argsstring>
+        <name>$frameworks_source</name>
+        <initializer> &apos;javascript/frameworks/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Javascript Frameworks source files directory path. Default : &apos;javascript/frameworks/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$frameworks_source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="77" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga117298df65ff2026617e125d21463b93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$css_source</definition>
+        <argsstring></argsstring>
+        <name>$css_source</name>
+        <initializer> &apos;css/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CSS source files directory path. Default : &apos;css/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$css_source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="84" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> different paths setting for source and cached files.</para><para>If you do not change <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> structure you can use default paths if not you must define your own. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

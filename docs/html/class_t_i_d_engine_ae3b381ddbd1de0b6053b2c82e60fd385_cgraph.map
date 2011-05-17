@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_t_i_d_engine.html#aa51877c4a67aee5e44b3291aa3aa4de2" title="gzip_data" alt="" coords="191,32,268,61"/>
+<area shape="rect" id="node5" href="$class_t_i_d_engine.html#aa59f4a795d744620f3cc6b49f4a27992" title="js_packers" alt="" coords="187,85,272,115"/>
+<area shape="rect" id="node7" href="$class_t_i_d_engine.html#ab97cdbd51067978f155d7611010b4e7f" title="JShrink" alt="" coords="329,5,393,35"/>
+<area shape="rect" id="node9" href="$class_t_i_d_engine.html#a33c1ef0d08960a1d75f4b55ecc7a844d" title="JSmin" alt="" coords="332,59,391,88"/>
+<area shape="rect" id="node11" href="$class_t_i_d_engine.html#a37b0692940dabb81cb4b317721fe1657" title="JSminplus" alt="" coords="320,112,403,141"/>
+<area shape="rect" id="node13" href="$class_t_i_d_engine.html#a5a39f9ecf7304d4645246b5bcb916c1e" title="Packer" alt="" coords="331,165,392,195"/>
+</map>

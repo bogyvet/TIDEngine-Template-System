@@ -1,0 +1,203 @@
+.TH "TIDEngine Javascript Cache Settings" 3 "Sat Apr 30 2011" "Version 1.0" "TIDEngine API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TIDEngine Javascript Cache Settings \- 
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$optimize_javascript\fP = true"
+.br
+.ti -1c
+.RI "\fB$combine_all_javascript\fP = true"
+.br
+.ti -1c
+.RI "\fB$compact_javascript\fP = true"
+.br
+.ti -1c
+.RI "\fB$optimize_javascript_gz\fP = true"
+.br
+.ti -1c
+.RI "\fB$packer\fP = 'jsmin'"
+.br
+.ti -1c
+.RI "\fB$js_ext\fP = '.js'"
+.br
+.ti -1c
+.RI "\fB$javascript_combined\fP = 'combined'"
+.br
+.ti -1c
+.RI "\fB$javascript_filename\fP = 'javascript'"
+.br
+.ti -1c
+.RI "\fB$framework_filename\fP = 'framework'"
+.br
+.ti -1c
+.RI "\fB$frameworks_type\fP = 'minified'"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBTIDEngine\fP different Javascript Cache Settings.
+.PP
+Your Pages performance depends from this settings. We recomend to use Default settings for best results.
+.br
+
+.br
+ But anyway you could make experiments and adjust by your needs. This settings are applied just to Javascript Cache files. 
+.SH "Variable Documentation"
+.PP 
+.SS "$optimize_javascript = true\fC [inherited]\fP"Use Javascript optimization. Clean Javascript files and put all code in one line - size reduction. This means we will use some of external Javascript Packers.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$optimize_javascript\fP 
+.RE
+.PP
+
+.PP
+Definition at line 303 of file TIDEngine.php.
+.SS "$combine_all_javascript = true\fC [inherited]\fP"Combine all Javascript and Javscript Frameworks files in one file. If we use this option all Javascript files will be treated as native Javascript files.
+.br
+ Compress Javascript files - Reduces the number of HTTP requests.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$combine_all_javascript\fP 
+.RE
+.PP
+
+.PP
+Definition at line 312 of file TIDEngine.php.
+.SS "$compact_javascript = true\fC [inherited]\fP"Combine all Javascript files in two files, one for native Javascript source files and other for Javscript Frameworks Files.
+.br
+ Compress Javascript files - Reduces the number of HTTP requests.
+.br
+
+.br
+ If $combine_all_javascript are enabled this setting will have no effects.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$compact_javascript\fP 
+.RE
+.PP
+
+.PP
+Definition at line 321 of file TIDEngine.php.
+.SS "bool $optimize_javascript_gz = true\fC [inherited]\fP"Use gzip compression on Javascript Cache files . Compress Javascript files - size reduction. 
+.PP
+Definition at line 328 of file TIDEngine.php.
+.SS "$packer = 'jsmin'\fC [inherited]\fP"Optimize Javascript files, by using some of build in Javascript Packers. 
+.br
+ You must realize that every time you use Javascript Optimization you will have high server load, and long response time.
+.br
+
+.br
+ Workarround for this is to create minified versions of Javascript Frameworks files. Or to create them on Localhost.
+.br
+
+.br
+ By default \fBTIDEngine\fP checks if there are minified version of Javascript files during first time load and if they 
+.br
+ do not exist create them, so you will have high Server load just once during creation of minified version of 
+.br
+ Javascript files. When you have minified version of Javascript files there are no high Server load.
+.br
+ If you do not have Javascript changes you could just:
+.IP "\(bu" 2
+set $cache_lifetime = 'permanent'; and
+.IP "\(bu" 2
+change .httacces file lines 1 month to 1 year:
+.br
+
+.br
+ 
+.PP
+.nf
+                       ExpiresByType application/javascript 'access plus 1 month'
+                          ExpiresByType application/x-javascript 'access plus 1 month'
+
+.fi
+.PP
+
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$packer,:\fP 
+.IP "\(bu" 2
+packer - PHP 5 ported version of Dean Edwards Packer
+.IP "\(bu" 2
+jsmin - JSmin packer PHP ported version of Dean Edwards JSmin
+.IP "\(bu" 2
+jshrink - JShrink-0.2.class.php hosted on Google Code
+.IP "\(bu" 2
+jsminplus - one more port of Dean Edwards JSmin
+.IP "\(bu" 2
+native - \fBTIDEngine\fP native compressor based on regular Expressions - Not finished. 
+.PP
+.RE
+.PP
+
+.PP
+Definition at line 352 of file TIDEngine.php.
+.SS "$js_ext = '.js'\fC [inherited]\fP"Set default Javascript extension. Look sily but we need that for Safari gzip bug. Safari acceprt default extension for gzipped files in format .js.gz.js or .css.gz.css*
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$js_ext\fP 
+.RE
+.PP
+
+.PP
+Definition at line 360 of file TIDEngine.php.
+.SS "$javascript_combined = 'combined'\fC [inherited]\fP"New combined javascript file name. When we use combinig all Javascript files into one.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$javascript_combined\fP 
+.RE
+.PP
+
+.PP
+Definition at line 367 of file TIDEngine.php.
+.SS "$javascript_filename = 'javascript'\fC [inherited]\fP"New combined javascript file name. When we combine native Javascript files ad one Cache file and Frameworks as second..
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$javascript_filename\fP 
+.RE
+.PP
+
+.PP
+Definition at line 374 of file TIDEngine.php.
+.SS "$framework_filename = 'framework'\fC [inherited]\fP"New combined frameworks file name. When we combine native Javascript files ad one Cache file and Frameworks as second..
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$framework_filename\fP 
+.RE
+.PP
+
+.PP
+Definition at line 382 of file TIDEngine.php.
+.SS "$frameworks_type = 'minified'\fC [inherited]\fP"If Framework type in use.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$frameworks_type,:\fP 
+.IP "\(bu" 2
+source - If we use source - no minified versions of Javascript will be created.
+.IP "\(bu" 2
+minified - If we use minified - minified versions of all Javascript will be created. 
+.PP
+.RE
+.PP
+
+.PP
+Definition at line 391 of file TIDEngine.php.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TIDEngine API from the source code.

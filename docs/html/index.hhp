@@ -1,0 +1,43 @@
+[OPTIONS]
+Compiled file=TIDEngine API
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=TIDEngine API
+
+[WINDOWS]
+main="TIDEngine API","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+index.html
+pages.html
+_t_i_d_engine_8php_source.html
+_t_i_d_engine_8php.html
+todo.html
+group__paths__settings.html
+group__general__cache__settings.html
+group__xhtml__cache__settings.html
+group__css__cache__settings.html
+group__js__cache__settings.html
+group__priv__settings.html
+modules.html
+annotated.html
+classes.html
+functions.html
+functions_func.html
+functions_vars.html
+class_t_i_d_engine.html
+graph_legend.html
+files.html
+tabs.css
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png

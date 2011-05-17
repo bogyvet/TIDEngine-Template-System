@@ -1,0 +1,98 @@
+.TH "TIDEngine CSS Cache Settings" 3 "Sat Apr 30 2011" "Version 1.0" "TIDEngine API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TIDEngine CSS Cache Settings \- 
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$optimize_css\fP = true"
+.br
+.ti -1c
+.RI "\fB$optimize_css_gz\fP = true"
+.br
+.ti -1c
+.RI "\fB$compact_css\fP = true"
+.br
+.ti -1c
+.RI "\fB$css_file_name\fP = 'master'"
+.br
+.ti -1c
+.RI "\fB$css_ext\fP = '.css'"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBTIDEngine\fP different CSS Cache Settings.
+.PP
+Your Pages performance depends from this settings. We recomend to use Default settings for best results.
+.br
+
+.br
+ But anyway you could make experiments and adjust by your needs. This settings are applied just to CSS Cache files. 
+.SH "Variable Documentation"
+.PP 
+.SS "$optimize_css = true\fC [inherited]\fP"Use CSS optimization. Clean CSS files and put all code in one line - size reduction.
+.br
+
+.br
+ 
+.PP
+\fBTodo\fP
+.RS 4
+add CSStidy support
+.RE
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$optimize_css\fP 
+.RE
+.PP
+
+.PP
+Definition at line 249 of file TIDEngine.php.
+.SS "bool $optimize_css_gz = true\fC [inherited]\fP"Use gzip compression on CSS Cache files. File size reduction. 
+.PP
+Definition at line 256 of file TIDEngine.php.
+.SS "$compact_css = true\fC [inherited]\fP"Combine all CSS files in one unique file. CoReduces the number of HTTP requests.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$compact_css\fP 
+.RE
+.PP
+
+.PP
+Definition at line 263 of file TIDEngine.php.
+.SS "$css_file_name = 'master'\fC [inherited]\fP"Set file name for combined file. If we combine all CSS files combined CSS file name.
+.PP
+\fBTodo\fP
+.RS 4
+.IP "\(bu" 2
+CSS Files versioning if we need it. 
+.PP
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$css_file_name\fP 
+.RE
+.PP
+
+.PP
+Definition at line 271 of file TIDEngine.php.
+.SS "$css_ext = '.css'\fC [inherited]\fP"Set default CSS extension. Look sily but we need that for Safari gzip bug. Safari acceprt default extension for gzipped files in format .css.gz or .css.gz.css*
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$css_ext\fP 
+.RE
+.PP
+
+.PP
+Definition at line 279 of file TIDEngine.php.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TIDEngine API from the source code.

@@ -1,0 +1,88 @@
+.TH "TIDEngine Class Settings" 3 "Sat Apr 30 2011" "Version 1.0" "TIDEngine API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TIDEngine Class Settings \- 
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$shortcodes\fP = array()"
+.br
+.ti -1c
+.RI "\fB$data_changes_check\fP"
+.br
+.ti -1c
+.RI "\fB$modification_time\fP"
+.br
+.ti -1c
+.RI "\fB$template_id\fP"
+.br
+.ti -1c
+.RI "\fB$configuration_file\fP = ''"
+.br
+.ti -1c
+.RI "\fB$meta_spec\fP = array('Content-Language', 'Expires', 'Pragma', 'Cache-Control', 'imagetoolbar')"
+.br
+.ti -1c
+.RI "\fB$debug_meta\fP = false"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBTIDEngine\fP different private class parameters.
+.PP
+No need to change anything. 
+.SH "Variable Documentation"
+.PP 
+.SS "array $shortcodes = array()\fC [private, inherited]\fP"Shortcodes array defined for specific template 
+.PP
+Definition at line 410 of file TIDEngine.php.
+.SS "num $data_changes_check\fC [private, inherited]\fP"Data send to TempEngine md5 for checking for changes. 
+.PP
+Definition at line 417 of file TIDEngine.php.
+.SS "num $modification_time\fC [private, inherited]\fP"Cache file modification time. 
+.PP
+Definition at line 424 of file TIDEngine.php.
+.SS "num $template_id\fC [private, inherited]\fP"Template file name/id. 
+.PP
+Definition at line 431 of file TIDEngine.php.
+.SS "$configuration_file = ''\fC [private, inherited]\fP"Include external cofiguration file.
+.br
+ If you leave empty this path, you must set settings when you init Class. If there are no defined settings default settings will be used.
+.br
+
+.br
+ default path: 'TIDEngine/configuration/config.php'
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$configuration_file\fP 
+.RE
+.PP
+
+.PP
+Definition at line 441 of file TIDEngine.php.
+.SS "$meta_spec = array('Content-Language', 'Expires', 'Pragma', 'Cache-Control', 'imagetoolbar')\fC [private, inherited]\fP"For meta tags spec.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$meta_spec\fP 
+.RE
+.PP
+
+.PP
+Definition at line 448 of file TIDEngine.php.
+.SS "$debug_meta = false\fC [private, inherited]\fP"Use SEO Optimization Adviser/Debugger.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$debug_meta\fP 
+.RE
+.PP
+
+.PP
+Definition at line 455 of file TIDEngine.php.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TIDEngine API from the source code.

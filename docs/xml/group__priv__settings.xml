@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="group__priv__settings" kind="group">
+    <compoundname>priv_settings</compoundname>
+    <title>TIDEngine Class Settings</title>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="group__priv__settings_1gaac9c786f32cb63904e4579cc2bded602" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>array $shortcodes</definition>
+        <argsstring></argsstring>
+        <name>$shortcodes</name>
+        <initializer> array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shortcodes array defined for specific template </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="410" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1gade4bdb833871c0c762dd08d7ae627218" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>num $data_changes_check</definition>
+        <argsstring></argsstring>
+        <name>$data_changes_check</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Data send to TempEngine md5 for checking for changes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="417" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga1c507c75ecec577b312bb845ff0e5cc2" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>num $modification_time</definition>
+        <argsstring></argsstring>
+        <name>$modification_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache file modification time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="424" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga88d4a982e092d52e64e05ee2b28f418f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>num $template_id</definition>
+        <argsstring></argsstring>
+        <name>$template_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Template file name/id. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="431" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="431" bodyend="-1"/>
+        <referencedby refid="class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d" compoundref="_t_i_d_engine_8php" startline="509" endline="800">TIDEngine::check_cache</referencedby>
+        <referencedby refid="class_t_i_d_engine_1a05cc9b8d0b0f75a57a2b3da3a8891780" compoundref="_t_i_d_engine_8php" startline="1603" endline="1630">TIDEngine::clear_cache</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga25b8691d25affc422f8de6218c2adc44" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$configuration_file</definition>
+        <argsstring></argsstring>
+        <name>$configuration_file</name>
+        <initializer> &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Include external cofiguration file.<linebreak/>
+ If you leave empty this path, you must set settings when you init Class. If there are no defined settings default settings will be used.<linebreak/>
+<linebreak/>
+ default path: &apos;TIDEngine/configuration/config.php&apos;</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$configuration_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="441" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga9296b8da0b01b82041584bbf469081ce" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$meta_spec</definition>
+        <argsstring></argsstring>
+        <name>$meta_spec</name>
+        <initializer> array(&apos;Content-Language&apos;, &apos;Expires&apos;, &apos;Pragma&apos;, &apos;Cache-Control&apos;, &apos;imagetoolbar&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For meta tags spec.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$meta_spec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="448" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga25d50f7db79ecf7fc2a94c16eacfac6b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$debug_meta</definition>
+        <argsstring></argsstring>
+        <name>$debug_meta</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use SEO Optimization Adviser/Debugger.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$debug_meta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="455" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> different private class parameters.</para><para>No need to change anything. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

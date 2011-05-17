@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="dir_2f90a8441afb193b61a0865c4333eda2" kind="dir">
+    <compoundname>TIDEngine/</compoundname>
+    <innerdir refid="dir_0f2f79cdc164b01cdbe43321e29111bd">TIDEngine/core/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/"/>
+  </compounddef>
+</doxygen>

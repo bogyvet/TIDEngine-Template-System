@@ -1,0 +1,226 @@
+\hypertarget{group__js__cache__settings}{
+\section{TIDEngine Javascript Cache Settings}
+\label{group__js__cache__settings}\index{TIDEngine Javascript Cache Settings@{TIDEngine Javascript Cache Settings}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__js__cache__settings_gaf2d235fefcbea23d664080143edad37f}{\$optimize\_\-javascript} = true
+\item 
+\hyperlink{group__js__cache__settings_ga73a53fbf95bca0dd45d7b6cca1f6a689}{\$combine\_\-all\_\-javascript} = true
+\item 
+\hyperlink{group__js__cache__settings_ga8090fbc1c574d4134d6ab4b973d170d0}{\$compact\_\-javascript} = true
+\item 
+\hyperlink{group__js__cache__settings_ga0cdc0ded508ad7f1a3cfc63ef1df780a}{\$optimize\_\-javascript\_\-gz} = true
+\item 
+\hyperlink{group__js__cache__settings_ga16b8a20321620dbef3a8deb7462ef4f4}{\$packer} = 'jsmin'
+\item 
+\hyperlink{group__js__cache__settings_ga0d34488b74d51638331cf68641b18369}{\$js\_\-ext} = '.js'
+\item 
+\hyperlink{group__js__cache__settings_ga08f8005b517d19f5a2d099d7ec595e2d}{\$javascript\_\-combined} = 'combined'
+\item 
+\hyperlink{group__js__cache__settings_ga38703f3ad6532639e4ec66aaa9ffc03b}{\$javascript\_\-filename} = 'javascript'
+\item 
+\hyperlink{group__js__cache__settings_ga79efa8f1523c6f83cffbe8d18366a0f3}{\$framework\_\-filename} = 'framework'
+\item 
+\hyperlink{group__js__cache__settings_ga74a35165f016f24e125268a1e122c14f}{\$frameworks\_\-type} = 'minified'
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_t_i_d_engine}{TIDEngine} different Javascript Cache Settings.
+
+Your Pages performance depends from this settings. We recomend to use Default settings for best results.\par
+\par
+ But anyway you could make experiments and adjust by your needs. This settings are applied just to Javascript Cache files. 
+
+\subsection{Variable Documentation}
+\hypertarget{group__js__cache__settings_gaf2d235fefcbea23d664080143edad37f}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$optimize\_\-javascript@{\$optimize\_\-javascript}}
+\index{\$optimize\_\-javascript@{\$optimize\_\-javascript}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$optimize\_\-javascript}]{\setlength{\rightskip}{0pt plus 5cm}\$optimize\_\-javascript = true\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_gaf2d235fefcbea23d664080143edad37f}
+Use Javascript optimization. Clean Javascript files and put all code in one line -\/ size reduction. This means we will use some of external Javascript Packers.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$optimize\_\-javascript} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 303 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga73a53fbf95bca0dd45d7b6cca1f6a689}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$combine\_\-all\_\-javascript@{\$combine\_\-all\_\-javascript}}
+\index{\$combine\_\-all\_\-javascript@{\$combine\_\-all\_\-javascript}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$combine\_\-all\_\-javascript}]{\setlength{\rightskip}{0pt plus 5cm}\$combine\_\-all\_\-javascript = true\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga73a53fbf95bca0dd45d7b6cca1f6a689}
+Combine all Javascript and Javscript Frameworks files in one file. If we use this option all Javascript files will be treated as native Javascript files.\par
+ Compress Javascript files -\/ Reduces the number of HTTP requests.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$combine\_\-all\_\-javascript} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 312 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga8090fbc1c574d4134d6ab4b973d170d0}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$compact\_\-javascript@{\$compact\_\-javascript}}
+\index{\$compact\_\-javascript@{\$compact\_\-javascript}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$compact\_\-javascript}]{\setlength{\rightskip}{0pt plus 5cm}\$compact\_\-javascript = true\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga8090fbc1c574d4134d6ab4b973d170d0}
+Combine all Javascript files in two files, one for native Javascript source files and other for Javscript Frameworks Files.\par
+ Compress Javascript files -\/ Reduces the number of HTTP requests.\par
+\par
+ If \$combine\_\-all\_\-javascript are enabled this setting will have no effects.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$compact\_\-javascript} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 321 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga0cdc0ded508ad7f1a3cfc63ef1df780a}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$optimize\_\-javascript\_\-gz@{\$optimize\_\-javascript\_\-gz}}
+\index{\$optimize\_\-javascript\_\-gz@{\$optimize\_\-javascript\_\-gz}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$optimize\_\-javascript\_\-gz}]{\setlength{\rightskip}{0pt plus 5cm}bool \$optimize\_\-javascript\_\-gz = true\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga0cdc0ded508ad7f1a3cfc63ef1df780a}
+Use gzip compression on Javascript Cache files . Compress Javascript files -\/ size reduction. 
+
+Definition at line 328 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga16b8a20321620dbef3a8deb7462ef4f4}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$packer@{\$packer}}
+\index{\$packer@{\$packer}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$packer}]{\setlength{\rightskip}{0pt plus 5cm}\$packer = 'jsmin'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga16b8a20321620dbef3a8deb7462ef4f4}
+Optimize Javascript files, by using some of build in Javascript Packers. \par
+ You must realize that every time you use Javascript Optimization you will have high server load, and long response time.\par
+\par
+ Workarround for this is to create minified versions of Javascript Frameworks files. Or to create them on Localhost.\par
+\par
+ By default \hyperlink{class_t_i_d_engine}{TIDEngine} checks if there are minified version of Javascript files during first time load and if they \par
+ do not exist create them, so you will have high Server load just once during creation of minified version of \par
+ Javascript files. When you have minified version of Javascript files there are no high Server load.\par
+ If you do not have Javascript changes you could just:
+\begin{DoxyItemize}
+\item set \$cache\_\-lifetime = 'permanent'; and
+\item change .httacces file lines 1 month to 1 year:\par
+\par
+ 
+\begin{DoxyCode}
+                          ExpiresByType application/javascript "access plus 1 mon
+      th"
+                          ExpiresByType application/x-javascript "access plus 1 m
+      onth"
+\end{DoxyCode}
+
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$packer,:} & 
+\begin{DoxyItemize}
+\item packer -\/ PHP 5 ported version of Dean Edwards Packer
+\item jsmin -\/ JSmin packer PHP ported version of Dean Edwards JSmin
+\item jshrink -\/ JShrink-\/0.2.class.php hosted on Google Code
+\item jsminplus -\/ one more port of Dean Edwards JSmin
+\item native -\/ \hyperlink{class_t_i_d_engine}{TIDEngine} native compressor based on regular Expressions -\/ Not finished. 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 352 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga0d34488b74d51638331cf68641b18369}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$js\_\-ext@{\$js\_\-ext}}
+\index{\$js\_\-ext@{\$js\_\-ext}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$js\_\-ext}]{\setlength{\rightskip}{0pt plus 5cm}\$js\_\-ext = '.js'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga0d34488b74d51638331cf68641b18369}
+Set default Javascript extension. Look sily but we need that for Safari gzip bug. Safari acceprt default extension for gzipped files in format .js.gz.js or .css.gz.css$\ast$
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$js\_\-ext} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 360 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga08f8005b517d19f5a2d099d7ec595e2d}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$javascript\_\-combined@{\$javascript\_\-combined}}
+\index{\$javascript\_\-combined@{\$javascript\_\-combined}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$javascript\_\-combined}]{\setlength{\rightskip}{0pt plus 5cm}\$javascript\_\-combined = 'combined'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga08f8005b517d19f5a2d099d7ec595e2d}
+New combined javascript file name. When we use combinig all Javascript files into one.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$javascript\_\-combined} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 367 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga38703f3ad6532639e4ec66aaa9ffc03b}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$javascript\_\-filename@{\$javascript\_\-filename}}
+\index{\$javascript\_\-filename@{\$javascript\_\-filename}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$javascript\_\-filename}]{\setlength{\rightskip}{0pt plus 5cm}\$javascript\_\-filename = 'javascript'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga38703f3ad6532639e4ec66aaa9ffc03b}
+New combined javascript file name. When we combine native Javascript files ad one Cache file and Frameworks as second..
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$javascript\_\-filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 374 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga79efa8f1523c6f83cffbe8d18366a0f3}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$framework\_\-filename@{\$framework\_\-filename}}
+\index{\$framework\_\-filename@{\$framework\_\-filename}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$framework\_\-filename}]{\setlength{\rightskip}{0pt plus 5cm}\$framework\_\-filename = 'framework'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga79efa8f1523c6f83cffbe8d18366a0f3}
+New combined frameworks file name. When we combine native Javascript files ad one Cache file and Frameworks as second..
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$framework\_\-filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 382 of file TIDEngine.php.
+
+\hypertarget{group__js__cache__settings_ga74a35165f016f24e125268a1e122c14f}{
+\index{js\_\-cache\_\-settings@{js\_\-cache\_\-settings}!\$frameworks\_\-type@{\$frameworks\_\-type}}
+\index{\$frameworks\_\-type@{\$frameworks\_\-type}!js_cache_settings@{js\_\-cache\_\-settings}}
+\subsubsection[{\$frameworks\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}\$frameworks\_\-type = 'minified'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__js__cache__settings_ga74a35165f016f24e125268a1e122c14f}
+If Framework type in use.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$frameworks\_\-type,:} & 
+\begin{DoxyItemize}
+\item source -\/ If we use source -\/ no minified versions of Javascript will be created.
+\item minified -\/ If we use minified -\/ minified versions of all Javascript will be created. 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 391 of file TIDEngine.php.
+

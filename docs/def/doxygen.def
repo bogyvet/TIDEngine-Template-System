@@ -1,0 +1,2122 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'class_t_i_d_engine';
+  cp-name   = 'TIDEngine';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a095c5d389db211932136b53f25f39685';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '__construct';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '476';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Class constructor. \n\n
+ Detailed instructions inside Class inline comments
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a406da7d26abff8587a707e5e7315bacf';
+        sec-mem-ref-line = '1717';
+        sec-mem-ref-name = 'caculate_lifetime';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a16783567e39b102990730f699675819c';
+        sec-mem-ref-line = '1795';
+        sec-mem-ref-name = 'check_browser_set_extension';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ad1d5d85a42a4f8a83ca6261448b5457c';
+        sec-mem-ref-line = '1319';
+        sec-mem-ref-name = 'include_packer';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'check_cache';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = '_data';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'template_path';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'template_id';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'elements';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'caching';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '509';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Checks for Cache existance, Cache file validity and Cache expiration time.\n\n
+ Detailed instructions inside Class inline comments
+
+ @param array $_data - Data to be phrased to template shortcodes array key = SHORTCODE, array value = DATA.
+ @param string $template_path - Path to template file
+ @param string $template_id - Template name
+ @param array $elements - Extra elements we need to include, default header, body and footer.
+ @param bool $caching - Do we use caching for specific template
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ga88d4a982e092d52e64e05ee2b28f418f';
+        sec-mem-ref-line = '431';
+        sec-mem-ref-name = '$template_id';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a07e07caf771b9d4171388e8258ddf4ef';
+        sec-mem-ref-line = '807';
+        sec-mem-ref-name = 'create_minified';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a3e3e3ea9bd1b6af66e25f2e559f45322';
+        sec-mem-ref-line = '821';
+        sec-mem-ref-name = 'display';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a6f31e46a51e73bd13b22a605d6599edf';
+        sec-mem-ref-line = '1685';
+        sec-mem-ref-name = 'getRequestHeaders';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aea13c262e2b03850c680ec85a0011624';
+        sec-mem-ref-line = '930';
+        sec-mem-ref-name = 'shortcodes';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a07e07caf771b9d4171388e8258ddf4ef';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'create_minified';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'file';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '807';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Create minified version of source Javascript files
+
+ @param string $file
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa59f4a795d744620f3cc6b49f4a27992';
+        sec-mem-ref-line = '1260';
+        sec-mem-ref-name = 'js_packers';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa15b352bea711619b46255f3b216268d';
+        sec-mem-ref-line = '509';
+        sec-mem-ref-name = 'check_cache';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a3e3e3ea9bd1b6af66e25f2e559f45322';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'display';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'file_path';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'cache';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+false
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'elements';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+false
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '821';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Display page and|or Create Cache file.
+
+ @param string $file_path - path to template or cache file.
+ @param bool $cache - we need to create cache file controll variable
+ @param bool $elements - page elements.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a85b507378fa82cfbbcde72783fe506b8';
+        sec-mem-ref-line = '1633';
+        sec-mem-ref-name = 'clean_file';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a5c7a49fd6510389df88ca9f97685b2af';
+        sec-mem-ref-line = '1512';
+        sec-mem-ref-name = 'clean_html_code';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aea13c262e2b03850c680ec85a0011624';
+        sec-mem-ref-line = '930';
+        sec-mem-ref-name = 'shortcodes';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa15b352bea711619b46255f3b216268d';
+        sec-mem-ref-line = '509';
+        sec-mem-ref-name = 'check_cache';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'shortcodes';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '930';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ shortcodes($data) - Set shortcodes for template
+
+ @param array $data - defined shortcodes that must be phrased to template
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a9032066a9c91083b137ffa57627d08fa';
+        sec-mem-ref-line = '1002';
+        sec-mem-ref-name = 'css_data';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a0b8ae084a5dc63ca4f6876ab2e43438d';
+        sec-mem-ref-line = '1135';
+        sec-mem-ref-name = 'javascript_data';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a4d6587cd9ae73fa86b13f90c7ddf5a2d';
+        sec-mem-ref-line = '1442';
+        sec-mem-ref-name = 'meta_data';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa15b352bea711619b46255f3b216268d';
+        sec-mem-ref-line = '509';
+        sec-mem-ref-name = 'check_cache';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a9032066a9c91083b137ffa57627d08fa';
+        sec-mem-ref-line = '1002';
+        sec-mem-ref-name = 'css_data';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a3e3e3ea9bd1b6af66e25f2e559f45322';
+        sec-mem-ref-line = '821';
+        sec-mem-ref-name = 'display';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a0b8ae084a5dc63ca4f6876ab2e43438d';
+        sec-mem-ref-line = '1135';
+        sec-mem-ref-name = 'javascript_data';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a4d6587cd9ae73fa86b13f90c7ddf5a2d';
+        sec-mem-ref-line = '1442';
+        sec-mem-ref-name = 'meta_data';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a9032066a9c91083b137ffa57627d08fa';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'css_data';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1002';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set CSS head data.
+ CSS files paths
+
+ @param array $data - CSS files paths
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ae545113763a61b7d0d2066ed70773e61';
+        sec-mem-ref-line = '1052';
+        sec-mem-ref-name = 'optimize_css';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aea13c262e2b03850c680ec85a0011624';
+        sec-mem-ref-line = '930';
+        sec-mem-ref-name = 'shortcodes';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aea13c262e2b03850c680ec85a0011624';
+        sec-mem-ref-line = '930';
+        sec-mem-ref-name = 'shortcodes';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1ae545113763a61b7d0d2066ed70773e61';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'optimize_css';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'files';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1052';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Optimize css files
+
+ @param string $files - CSS file content
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a85b507378fa82cfbbcde72783fe506b8';
+        sec-mem-ref-line = '1633';
+        sec-mem-ref-name = 'clean_file';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa51877c4a67aee5e44b3291aa3aa4de2';
+        sec-mem-ref-line = '1403';
+        sec-mem-ref-name = 'gzip_data';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a9032066a9c91083b137ffa57627d08fa';
+        sec-mem-ref-line = '1002';
+        sec-mem-ref-name = 'css_data';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a0b8ae084a5dc63ca4f6876ab2e43438d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'javascript_data';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'type';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1135';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set Javascript/Javascript Frameworks
+ @param array $data - Javascript files
+ @param string $type - frameworks or regular Javascript files
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ae3b381ddbd1de0b6053b2c82e60fd385';
+        sec-mem-ref-line = '1185';
+        sec-mem-ref-name = 'optimize_javascript';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aea13c262e2b03850c680ec85a0011624';
+        sec-mem-ref-line = '930';
+        sec-mem-ref-name = 'shortcodes';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aea13c262e2b03850c680ec85a0011624';
+        sec-mem-ref-line = '930';
+        sec-mem-ref-name = 'shortcodes';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1ae3b381ddbd1de0b6053b2c82e60fd385';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'optimize_javascript';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'files';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'type';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1185';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Optimize Javascript files
+ @param array $files
+ @param string $type
+ @return string $js - Links 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa51877c4a67aee5e44b3291aa3aa4de2';
+        sec-mem-ref-line = '1403';
+        sec-mem-ref-name = 'gzip_data';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa59f4a795d744620f3cc6b49f4a27992';
+        sec-mem-ref-line = '1260';
+        sec-mem-ref-name = 'js_packers';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a0b8ae084a5dc63ca4f6876ab2e43438d';
+        sec-mem-ref-line = '1135';
+        sec-mem-ref-name = 'javascript_data';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'js_packers';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'file_content';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1260';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Optimize Javascript data with different Packers.
+
+ @param string $file_content
+ @return string $optimized_file
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ab97cdbd51067978f155d7611010b4e7f';
+        sec-mem-ref-line = '1378';
+        sec-mem-ref-name = 'JShrink';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a33c1ef0d08960a1d75f4b55ecc7a844d';
+        sec-mem-ref-line = '1364';
+        sec-mem-ref-name = 'JSmin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a37b0692940dabb81cb4b317721fe1657';
+        sec-mem-ref-line = '1391';
+        sec-mem-ref-name = 'JSminplus';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a5a39f9ecf7304d4645246b5bcb916c1e';
+        sec-mem-ref-line = '1352';
+        sec-mem-ref-name = 'Packer';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a07e07caf771b9d4171388e8258ddf4ef';
+        sec-mem-ref-line = '807';
+        sec-mem-ref-name = 'create_minified';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ae3b381ddbd1de0b6053b2c82e60fd385';
+        sec-mem-ref-line = '1185';
+        sec-mem-ref-name = 'optimize_javascript';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a6c23057376e72bfa98f72e68cf39b787';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'include_debugger';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1305';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Include  SEO Optimization Adviser/Debugger Class.
+\xrefitem todo 4.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1ad1d5d85a42a4f8a83ca6261448b5457c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'include_packer';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1319';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Include defined packer Class in use.
+
+\xrefitem todo 5.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a095c5d389db211932136b53f25f39685';
+        sec-mem-ref-line = '476';
+        sec-mem-ref-name = '__construct';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a5a39f9ecf7304d4645246b5bcb916c1e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Packer';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'js_file';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1352';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Packer - PHP 5 ported version of Dean Edwards Packer
+
+ @param string $js_file
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ga16b8a20321620dbef3a8deb7462ef4f4';
+        sec-mem-ref-line = '352';
+        sec-mem-ref-name = '$packer';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa59f4a795d744620f3cc6b49f4a27992';
+        sec-mem-ref-line = '1260';
+        sec-mem-ref-name = 'js_packers';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a33c1ef0d08960a1d75f4b55ecc7a844d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'JSmin';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'js_file';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1364';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ JSmin -  JSmin packer PHP ported version of Dean Edwards JS
+ @param string $js_file
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa59f4a795d744620f3cc6b49f4a27992';
+        sec-mem-ref-line = '1260';
+        sec-mem-ref-name = 'js_packers';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1ab97cdbd51067978f155d7611010b4e7f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'JShrink';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'js_file';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1378';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ JShrink -   JShrink-0.2.class.php hosted on Google Code
+
+ @param string $js_file
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa59f4a795d744620f3cc6b49f4a27992';
+        sec-mem-ref-line = '1260';
+        sec-mem-ref-name = 'js_packers';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a37b0692940dabb81cb4b317721fe1657';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'JSminplus';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'js_file';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1391';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ JSminPlus -  one more port of Dean Edwards JSmin
+
+ @param string $js_file
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa59f4a795d744620f3cc6b49f4a27992';
+        sec-mem-ref-line = '1260';
+        sec-mem-ref-name = 'js_packers';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1aa51877c4a67aee5e44b3291aa3aa4de2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'gzip_data';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1403';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ If enabled gzip cache files
+
+ @param string $data
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ae545113763a61b7d0d2066ed70773e61';
+        sec-mem-ref-line = '1052';
+        sec-mem-ref-name = 'optimize_css';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ae3b381ddbd1de0b6053b2c82e60fd385';
+        sec-mem-ref-line = '1185';
+        sec-mem-ref-name = 'optimize_javascript';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1adaa8cd255f4af21f4fa6d1566a90e8b7';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'save_data';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'path';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'modifiers';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+false
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1424';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Save cache files
+
+ @param string $data 		- file data 
+ @param string $path		- Cache File Path
+ @param bool $modifiers	- overwrite, append data to file.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a4d6587cd9ae73fa86b13f90c7ddf5a2d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'meta_data';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1442';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set head Page Title and Meta Tags.
+
+ @param array $data
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aea13c262e2b03850c680ec85a0011624';
+        sec-mem-ref-line = '930';
+        sec-mem-ref-name = 'shortcodes';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aea13c262e2b03850c680ec85a0011624';
+        sec-mem-ref-line = '930';
+        sec-mem-ref-name = 'shortcodes';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1ab0432c08e048640c83f871e3ca119e62';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'fix_newlines_for_clean_html';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'fixthistext';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1486';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Function to seperate multiple tags one line. Credits to orginal author.
+
+ @param string $fixthistext
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a5c7a49fd6510389df88ca9f97685b2af';
+        sec-mem-ref-line = '1512';
+        sec-mem-ref-name = 'clean_html_code';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a5c7a49fd6510389df88ca9f97685b2af';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'clean_html_code';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'uncleanhtml';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1512';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Indent XHTML output code  $this->xhtml_code_indentation. Credits to orginal author.
+
+ @param string $uncleanhtml
+ @return string implode("\n", $cleanhtml_array)
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ab0432c08e048640c83f871e3ca119e62';
+        sec-mem-ref-line = '1486';
+        sec-mem-ref-name = 'fix_newlines_for_clean_html';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a3e3e3ea9bd1b6af66e25f2e559f45322';
+        sec-mem-ref-line = '821';
+        sec-mem-ref-name = 'display';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a05cc9b8d0b0f75a57a2b3da3a8891780';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'clear_cache';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'template_id';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+false
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1603';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Manualy clear cache.
+
+ @param string $template_id
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ga88d4a982e092d52e64e05ee2b28f418f';
+        sec-mem-ref-line = '431';
+        sec-mem-ref-name = '$template_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a85b507378fa82cfbbcde72783fe506b8';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'clean_file';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'content';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1633';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Remove white space, comments etc. 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a3e3e3ea9bd1b6af66e25f2e559f45322';
+        sec-mem-ref-line = '821';
+        sec-mem-ref-name = 'display';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1ae545113763a61b7d0d2066ed70773e61';
+        sec-mem-ref-line = '1052';
+        sec-mem-ref-name = 'optimize_css';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1acac77e9d1c1ea28406556e5dd88f1dc1';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'browser_info';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+$
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'agent';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+null
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1653';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Code taken php.org and slitly adapted. Lightweight alternative for Browscap.
+ @param string|null $agent - string to check if we have access by defined agent
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a16783567e39b102990730f699675819c';
+        sec-mem-ref-line = '1795';
+        sec-mem-ref-name = 'check_browser_set_extension';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a6f31e46a51e73bd13b22a605d6599edf';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getRequestHeaders';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1685';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Get Client Browser headers data.  
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa15b352bea711619b46255f3b216268d';
+        sec-mem-ref-line = '509';
+        sec-mem-ref-name = 'check_cache';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a406da7d26abff8587a707e5e7315bacf';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'caculate_lifetime';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1717';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Calculate Cache Life Time in miliseconds
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a095c5d389db211932136b53f25f39685';
+        sec-mem-ref-line = '476';
+        sec-mem-ref-name = '__construct';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_t_i_d_engine_1a16783567e39b102990730f699675819c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'check_browser_set_extension';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '1795';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+  Workarround for Safari problem with gzipped content we need other type of compressed cache files extensions.
+  As some hosting companies do not support get_browser function I was thinking that best solution is native
+  Browscap class - first time load this class will update all data in cache file.
+  eg. Other browsers .css.gz and .js.gz
+      Safari css.gz.css and js.gz.js
+      - infact this is not strict rule you can set any kind of extension just not to be .gz
+        eg. js.gz.xyz and css.gz.xyz - this will work without problem.
+
+      Uncomment this line :
+
+      $check_browser = new Browscap($this->Browscap_cache);
+      $browser = $check_browser->getBrowser(null, false);
+      $this->browser = $browser->Browser;
+
+      and
+
+      $this->Browscap_cache =  $this->root_cache . 'Browscap';
+
+      also comment this two lines of code:
+
+      $browser = $this->browser_info();
+      $this->browser = ucfirst($browser[0]);
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1acac77e9d1c1ea28406556e5dd88f1dc1';
+        sec-mem-ref-line = '1653';
+        sec-mem-ref-name = 'browser_info';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a095c5d389db211932136b53f25f39685';
+        sec-mem-ref-line = '476';
+        sec-mem-ref-name = '__construct';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1gaef9cf198312d2f89238a8e8e2f0f67f3';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$domain';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'http://localhost/TIDengine/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ You can define root domain if for some reason you have problems with Javascript and/or CSS Cache Files Paths.\n
+ If you have no problems you can leave it empty.\n
+ @param string $domain
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1gae39d9273ea31335b789e7d9a65ddd5e5';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$root_cache';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'cache/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '35';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+  Cache directory root path. If you do not change orginal TIDEngine structure,  Default : 'cache/' \n
+  If you have your own structure set path depending of your needs.
+  @param string $root_cache
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1ga63fb01efe0d6e48b4ec22d087e8146fb';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$pages_cache';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'pages/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '42';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Cached Templates/Pages cache directory name. Default : 'pages/'
+ @param string $pages_cache
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1ga0e80adb33d63c6d68ba4c65404df2f94';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$css_cache';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'css/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Css cache directory name. Default :  'css/'
+ @param string $css_cache
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1ga16d37062fd28b17ccfbbc08ce3e0b776';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$js_cache';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'javascript/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '56';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Javascript cache directory name. Default : 'javascript/'
+ @param string $js_cache
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1ga2f10132b94f95d29119dbfc721ec89f5';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$javascript_source';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'javascript/native/source/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '63';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Javascript source files directory path. Default : 'javascript/native/source/'
+ @param string $javascript_source
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1gaf110565a1dfb60e0e30898d5087688be';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$javascript_minified';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'javascript/native/minified/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '70';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Javascript minified files directory path. Default : 'javascript/native/minified/'
+ @param string $javascript_minified
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1ga35ab8cb7ae69ec347b63dda82a173005';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$frameworks_source';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'javascript/frameworks/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '77';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Javascript Frameworks source files directory path. Default : 'javascript/frameworks/'
+ @param string $frameworks_source
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__paths__settings_1ga117298df65ff2026617e125d21463b93';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$css_source';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'css/'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ CSS source files directory path. Default : 'css/'
+ @param string $css_source
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1gad3689303b91750b4f90511e1ab46a75c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$cache_naming';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'md5'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '108';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+  Templates/Pages cache files unique naming type.
+
+ @param string $cache_naming - you can use one of the following name possibilities:
+ 	 - md5 - Page/Template cache name is md5 value of template name.
+ 	 - sha1 - Page/Template cache name is sha1 value of template name.
+ 	 - native - use native templatre names
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1gac05f99a6b3c71f3e31e77d5c9ea5914d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$cache_name_pre';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ '('
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '116';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Cache name prefix implemented for easier data changes check unique value inside brackets.
+
+ @param string:
+ 	- Default  '(' eg. ()- full Cache separators
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1ga0b2dfab31e245d074c86967134122b25';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$cache_name_post';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ ')-'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '124';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Cache name sufix implemented for easier data changes check unique value inside brackets.
+
+ @param string:
+ 	- Default  '(' eg. ()- full Cache separators
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1gac1516832f9aecd303dcb275d08e97efe';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$cache_extension';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ '.tpl.php'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '132';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Pages cache extension in use, you can use any type of extension, because Template/Page Cache File just store XHTML code,\n
+ there are no direct access, they are final data storag, render by TIDEngine.
+
+ @param string $cache_extension
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1ga94cbab658bf158b39afd90db1a44e581';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$server_caching';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '141';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use Server Caching. If this is enabled all Page Components will be processed depending of Settings and Cached  on Server Side.\n
+ Until Page Components do not expire or some of Data are changed TIDEngine will serve Cached.
+ Files for every Page Request.\n
+
+ @param bool $server_caching
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1gaa239a3baf57ffc17ad1cc1911414b539';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$client_caching';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '151';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use Client/Browser Caching. If this is enabled on every page request will be checked Cache existance and validity.\n\n
+ If Cache files pass checking for individual Cache file will be set 304 Redirect - Not Modified.\n\n
+ EG. If you have unique Javascript files for all pages on different pages access will be used same 
+ Javascript, CSS files from Browser cache if is valid if not TIDEngine will serve Server Side Cached Files.\n
+
+ @param bool $client_caching
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1ga5ac8836bca7856f49bf02d7d95c2edd2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$gzip';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '158';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use gzip compression on Page/Template Compress Server Side Cache Files.
+
+ @param bool $gzip
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1ga9a4e30766e452f0d2feaecd666787ca1';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$compression_level';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 4
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '169';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set general compression level for all Cache Files. There are 1-9 - gzip compression levels.
+ 		- fast:   1-4,
+ 		- slower: 5-6 (but better compression),
+		- slow:   7-9 (up to 2x faster, best compression)
+ On files under 300K level 4 is good enought.
+
+ @param bool $compression_level
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__general__cache__settings_1ga5aaab753f75170fa670cbb602aa97119';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$cache_lifetime';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+  array('page'=>'1.month', 'css'=>'6.month', 'javascript'=>'6.month', 'frameworks'=>'6.month')
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '194';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set Cache Life Time in seconds EG. 60 seconds x 60 minutes x 24 hours = one day cache life time.\n
+ You can set cache lifetime in miliseconds or as string 'permanent' means.\n\n
+ EG. 1.minute 1.hour 1.day 1.month 1.year \n
+ @code 
+	  	$this->cache_lifetime = array(
+						'page'=>'1.minute',
+						'css'=>'1.hour',
+						'javascript'=>'1.day',
+						'frameworks'=>'1.month'
+						);
+	  @endcode\n
+ 	Other possibility is to set one lifetime for all cache files:\n\n
+ @code 
+	  	$this->cache_lifetime = '1.month';
+	  @endcode\n
+ 	or\n
+ @code 
+	  	$this->cache_lifetime = 'permanent';
+	  @endcode
+
+ @param array $cache_lifetime
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__xhtml__cache__settings_1ga0216b64e0f4557ed5a36e5aaeccd2745';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$xhtml_code_operations';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'indent'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '219';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ You can use two types of XHTML Optimization. Indent XHTML code or clean whitespace and combine XHTML code in one lien.
+
+ @param string $xhtml_code_operations:
+ 		- compact - optimize XHTML code and remove whitespace complete XHTML in one line
+ 		- indent - set XHTML code indentation,
+ 		- false - any value no XHTML manipulation
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__xhtml__cache__settings_1ga2395c8c084b383c7fa248df50b624e9a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$xhtml_code_indentation';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ '   '
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '226';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set default indentation space only. EG. '    '
+
+ @param string $xhtml_code_indentation
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__css__cache__settings_1ga3d807a2e23ba55310871e3ed6c2bd356';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$optimize_css';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '249';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use CSS optimization. Clean CSS files and put all code in one line - size reduction.\n\n
+\xrefitem todo 1.
+
+ @param bool $optimize_css
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__css__cache__settings_1ga78989c70ad2b35d7026f6600cfe6ba92';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$optimize_css_gz';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '256';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use gzip compression on CSS Cache files. File size reduction.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__css__cache__settings_1gad7ca051062e3dc2de4fa237217abef86';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$compact_css';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '263';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Combine all CSS files in one unique file. CoReduces the number of HTTP requests.
+
+ @param bool $compact_css
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__css__cache__settings_1ga2864dee7a65933d1d4c94373d542b700';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$css_file_name';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'master'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '271';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set file name for combined file. If we combine all CSS files combined CSS file name.
+
+\xrefitem todo 2. @param bool $css_file_name
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__css__cache__settings_1ga80329ee2b55f386978162762e84ac3ee';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$css_ext';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ '.css'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '279';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set default CSS extension. Look sily but we need that for Safari gzip bug.
+ Safari acceprt default extension for gzipped files in format  .css.gz or .css.gz.css*
+
+ @param string $css_ext
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1gaf2d235fefcbea23d664080143edad37f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$optimize_javascript';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '303';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use Javascript optimization. Clean Javascript files and put all code in one line - size reduction.
+ This means we will use some of external Javascript Packers.
+
+ @param bool $optimize_javascript
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga73a53fbf95bca0dd45d7b6cca1f6a689';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$combine_all_javascript';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '312';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Combine all Javascript and Javscript Frameworks files in one file. If we use this option
+ all Javascript files will be treated as native Javascript files.\n
+ Compress Javascript files - Reduces the number of HTTP requests.
+
+ @param bool $combine_all_javascript
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga8090fbc1c574d4134d6ab4b973d170d0';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$compact_javascript';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '321';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Combine all Javascript files in two files, one for native Javascript source files and other for Javscript Frameworks Files.\n
+ Compress Javascript files - Reduces the number of HTTP requests.\n\n
+ If  $combine_all_javascript are enabled this setting will have no effects.
+
+ @param bool $compact_javascript
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga0cdc0ded508ad7f1a3cfc63ef1df780a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$optimize_javascript_gz';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ true
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '328';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use gzip compression on Javascript Cache files . Compress Javascript files - size reduction.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga16b8a20321620dbef3a8deb7462ef4f4';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$packer';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'jsmin'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '352';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Optimize Javascript files, by using some of build in Javascript Packers. \n
+ You must realize that every time you use Javascript Optimization you will have high server load, and long response time.\n\n
+ Workarround for this is to create minified versions of Javascript Frameworks files. Or to create them on Localhost.\n\n
+ By default TIDEngine checks if there are minified version of Javascript files during first time load and if they \n
+ do not exist create them, so you will have high Server load just once during creation of minified version of \n
+ Javascript files. When you have  minified version of Javascript files there are no high Server load.\n
+ If you do not have Javascript changes you could just:
+ 	- set $cache_lifetime = 'permanent'; and
+ 	- change .httacces file lines 1 month to 1 year:\n\n
+ @code 
+	  		  ExpiresByType application/javascript "access plus 1 month"
+	 	  	  ExpiresByType application/x-javascript "access plus 1 month"
+	  		@endcode
+
+ @param string $packer:
+ 	- packer - PHP 5 ported version of Dean Edwards Packer
+ 	- jsmin  - JSmin packer PHP ported version of Dean Edwards JSmin
+ 	- jshrink - JShrink-0.2.class.php hosted on Google Code
+ 	- jsminplus - one more port of Dean Edwards JSmin
+ 	- native - TIDEngine native compressor based on regular Expressions - Not finished.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a5a39f9ecf7304d4645246b5bcb916c1e';
+        sec-mem-ref-line = '1352';
+        sec-mem-ref-name = 'Packer';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga0d34488b74d51638331cf68641b18369';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$js_ext';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ '.js'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '360';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Set default Javascript extension. Look sily but we need that for Safari gzip bug.
+ Safari acceprt default extension for gzipped files in format  .js.gz.js or .css.gz.css*
+
+ @param string $js_ext
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga08f8005b517d19f5a2d099d7ec595e2d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$javascript_combined';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'combined'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '367';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ New combined javascript file name. When we use combinig all Javascript files into one.
+
+ @param string $javascript_combined
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga38703f3ad6532639e4ec66aaa9ffc03b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$javascript_filename';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'javascript'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '374';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ New combined javascript file name. When we combine native Javascript files ad one Cache file and Frameworks as second..
+
+ @param string $javascript_filename
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga79efa8f1523c6f83cffbe8d18366a0f3';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$framework_filename';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'framework'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '382';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ New combined frameworks file name. When we combine native Javascript files ad one Cache file and Frameworks as second..
+
+ @param string $framework_filename
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__js__cache__settings_1ga74a35165f016f24e125268a1e122c14f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$frameworks_type';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ 'minified'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '391';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ If Framework type in use.
+
+ @param string $frameworks_type:
+ 		- source	- If we use source - no minified versions of Javascript will be created.
+ 		- minified	- If we use minified - minified versions of all Javascript will be created.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__priv__settings_1gaac9c786f32cb63904e4579cc2bded602';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$shortcodes';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ array()
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '410';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Shortcodes array defined for specific template
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__priv__settings_1gade4bdb833871c0c762dd08d7ae627218';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$data_changes_check';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '417';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Data send to TempEngine md5 for checking for changes.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__priv__settings_1ga1c507c75ecec577b312bb845ff0e5cc2';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$modification_time';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '424';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Cache file modification time.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__priv__settings_1ga88d4a982e092d52e64e05ee2b28f418f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$template_id';
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '431';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Template file name/id.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1aa15b352bea711619b46255f3b216268d';
+        sec-mem-ref-line = '509';
+        sec-mem-ref-name = 'check_cache';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_t_i_d_engine_8php_1a05cc9b8d0b0f75a57a2b3da3a8891780';
+        sec-mem-ref-line = '1603';
+        sec-mem-ref-name = 'clear_cache';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__priv__settings_1ga25b8691d25affc422f8de6218c2adc44';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$configuration_file';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ ''
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '441';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Include external cofiguration file.\n
+ If you leave empty this path, you must set settings when you init Class.
+ If there are no defined settings default settings will be used.\n\n
+ default path:  'TIDEngine/configuration/config.php'
+
+ @param string $configuration_file
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__priv__settings_1ga9296b8da0b01b82041584bbf469081ce';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$meta_spec';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ array('Content-Language', 'Expires', 'Pragma', 'Cache-Control', 'imagetoolbar')
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '448';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ For meta tags spec.
+
+ @param array $meta_spec
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'group__priv__settings_1ga25d50f7db79ecf7fc2a94c16eacfac6b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '$debug_meta';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+ false
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+      sec-mem-desc-line = '455';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ Use SEO Optimization Adviser/Debugger.
+
+ @param bool $debug_meta
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+  cp-fileline  = '9';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+ TIDEngine core class
+ @author bogyvet
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = '_t_i_d_engine_8php';
+  file-name = 'TIDEngine.php';
+  file-full-name  = 'C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */

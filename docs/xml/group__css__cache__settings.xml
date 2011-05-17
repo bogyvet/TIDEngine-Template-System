@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="group__css__cache__settings" kind="group">
+    <compoundname>css_cache_settings</compoundname>
+    <title>TIDEngine CSS Cache Settings</title>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="group__css__cache__settings_1ga3d807a2e23ba55310871e3ed6c2bd356" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$optimize_css</definition>
+        <argsstring></argsstring>
+        <name>$optimize_css</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use CSS optimization. Clean CSS files and put all code in one line - size reduction.<linebreak/>
+<linebreak/>
+ <xrefsect id="todo_1_todo000001"><xreftitle>Todo</xreftitle><xrefdescription><para>add CSStidy support</para></xrefdescription></xrefsect></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$optimize_css</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="249" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1ga78989c70ad2b35d7026f6600cfe6ba92" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bool $optimize_css_gz</definition>
+        <argsstring></argsstring>
+        <name>$optimize_css_gz</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use gzip compression on CSS Cache files. File size reduction. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="256" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1gad7ca051062e3dc2de4fa237217abef86" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$compact_css</definition>
+        <argsstring></argsstring>
+        <name>$compact_css</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Combine all CSS files in one unique file. CoReduces the number of HTTP requests.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$compact_css</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="263" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1ga2864dee7a65933d1d4c94373d542b700" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$css_file_name</definition>
+        <argsstring></argsstring>
+        <name>$css_file_name</name>
+        <initializer> &apos;master&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set file name for combined file. If we combine all CSS files combined CSS file name.</para><para><xrefsect id="todo_1_todo000002"><xreftitle>Todo</xreftitle><xrefdescription><para><itemizedlist>
+<listitem><para>CSS Files versioning if we need it. </para></listitem></itemizedlist>
+</para></xrefdescription></xrefsect><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$css_file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="271" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1ga80329ee2b55f386978162762e84ac3ee" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$css_ext</definition>
+        <argsstring></argsstring>
+        <name>$css_ext</name>
+        <initializer> &apos;.css&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set default CSS extension. Look sily but we need that for Safari gzip bug. Safari acceprt default extension for gzipped files in format .css.gz or .css.gz.css*</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$css_ext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="279" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> different CSS Cache Settings.</para><para>Your Pages performance depends from this settings. We recomend to use Default settings for best results.<linebreak/>
+<linebreak/>
+ But anyway you could make experiments and adjust by your needs. This settings are applied just to CSS Cache files. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

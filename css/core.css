@@ -1,0 +1,365 @@
+/* 
+ * Reset
+ */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ * Admin Style
+ */
+body {
+	font-family: "Myriad Pro", Arial, sans;
+	background: #f7f7f7;
+	font-size: 14px;
+}
+
+h2 {
+	border-bottom: 1px solid #aaa;
+	margin: 10px 0 20px;
+	padding-bottom: 15px;
+	font-size: 22px;
+}
+
+#master_warper {
+	background: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 90%;
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+
+.action-bar { /*------*/
+	background: #eee;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	height: 25px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+/* Table */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	text-align: left;
+	border: 1px solid #f2f2f2;
+	border-width: 1px 1px 0 1px;
+}
+
+table td,table th {
+	background: #fdfdfd;
+	border-bottom: 1px solid #ccc;
+}
+
+table tr:nth-child(even) td {
+	background: #f7f7f7;
+}
+
+table td,table th {
+	padding: 5px;
+}
+
+/* Form */
+.form-holder {
+	width: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: inset 0 0 10px #ccc;
+	-moz-box-shadow: inset 0 0 10px #eee;
+	-webkit-box-shadow: inset 0 0 10px #eee;
+	border: 1px solid #ccc;
+	padding: 10px 10px 50px 10px;
+}
+
+.form-item {
+	clear: both;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10%;
+}
+
+.form-item label {
+	display: block;
+	padding-bottom: 2px;
+	float: left;
+	width: 200px;
+}
+
+
+.submit_button {
+	width: 200px;
+	float: right;
+	margin: 10px 20px 10px 0;
+}
+
+.error {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #db5b5b;
+	color: white;
+	font-size: 14px;
+	padding: 3px;
+	margin: 0 0 5px 10px;
+}
+
+input[type=text],input[type=password],select,textarea {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: inset 0 0 10px #eee;
+	-moz-box-shadow: inset 0 0 10px #eee;
+	-webkit-box-shadow: inset 0 0 10px #eee;
+	border: 1px solid #ccc;
+	width: 200px;
+	padding: 3px;
+}
+
+input[type=text]:hover,input[type=text]:focus,input[type=password]:hover,input[type=password]:focus,textarea:hover,textarea:focus
+	{
+	box-shadow: inset 0 0 10px #ddd;
+	-moz-box-shadow: inset 0 0 10px #ddd;
+	-webkit-box-shadow: inset 0 0 10px #ddd;
+	border: 1px solid #999;
+}
+
+select option {
+	background: transparent;
+	border: none;
+}
+
+select {
+	width: 210px
+}
+
+.action-bar input[type=text] {
+	border: 1px solid #ddd;
+}
+
+/* Icons */
+.actions {
+	width: 205px;
+}
+
+.icon {
+	text-indent: 20px;
+	color: black;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	padding: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	height: 16px;
+	display: inline-block;
+}
+
+.icon:hover {
+	background-color: #eee;
+}
+
+a.edit {
+	background:
+		url(../../../../media/core/icons/admin_selection/icon_edit.png) 3px
+		3px no-repeat;
+}
+
+a.delete {
+	background:
+		url(../../../../media/core/icons/admin_selection/icon_delete.png) 3px
+		3px no-repeat;
+}
+
+a.ban {
+	background:
+		url(../../../../media/core/icons/admin_selection/icon_ban.png) 3px 3px
+		no-repeat;
+}
+
+/* Buttons */
+.btn { /*----*/
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #2392c0;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(18, 82
+		, 107) ), color-stop(0.75, rgb(35, 145, 192) ) );
+	background-image: -moz-linear-gradient(center bottom, rgb(18, 82, 107)
+		0%, rgb(35, 145, 192) 75% );
+	border: 0;
+	color: white;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 14px;
+	font-family: "Myriad Pro", Arial, sans;
+	font-weight: normal;
+	padding: 7px 15px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(35,
+		145, 192) ), color-stop(0.75, rgb(18, 82, 107) ) );
+	background-image: -moz-linear-gradient(center bottom, rgb(35, 145, 192)
+		0%, rgb(18, 82, 107) 75% );
+}
+
+.left{
+	float:left;
+	margin-left: 5px;
+}
+.right{
+	float:right;
+}
+.form-btn {
+	padding: 5px 25px;
+	margin-left: 15px;
+}
+
+#create_user {
+	float: right;
+	margin-right: 10px;
+}
+
+/* 
+ * Form validation
+ */
+.req-field {
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+	margin-right: 10px;
+}
+
+.info-field {
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	margin: -5px 0 0 20px;
+}
+
+/*Edit user CSS fix for modal*/
+#edit-user-holder {
+	width: auto;
+	padding: 0;
+	/*margin: 0 auto;*/
+}
+
+#edit-user,#edit-user-cancel {
+	float: right;
+	margin-right: 75px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#edit-user-cancel {
+	margin-right: 15px;
+}
+
+/*Modifications for style adjusting*/
+.list-header {
+	border-bottom: 0.5px #999 solid;
+}
+
+.user-list {
+	width: 200px;
+	word-wrap: break-word;
+}
+
+.group {
+	width: 100px;
+}
+
+.acc_created {
+	width: 120px;
+}
+
+.e_mail {
+	width: 200px;
+}
+
+/** PAGINATE CLASSES */
+.paginate{
+	
+	text-align: center;
+}
+.paginate_element{
+	
+	font-weight: bold;
+}
+
+/** BREADCRUMB CLASSES */
+.breadcrumb{
+	text-align: left;
+	padding: 10px;
+
+	
+}
+.breadcrumb_element{
+	
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	
+}

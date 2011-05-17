@@ -1,0 +1,1885 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="class_t_i_d_engine" kind="class" prot="public">
+    <compoundname>TIDEngine</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="group__paths__settings_1gaef9cf198312d2f89238a8e8e2f0f67f3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$domain</definition>
+        <argsstring></argsstring>
+        <name>$domain</name>
+        <initializer> &apos;http://localhost/TIDengine/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>You can define root domain if for some reason you have problems with Javascript and/or CSS Cache Files Paths.<linebreak/>
+ If you have no problems you can leave it empty.<linebreak/>
+ <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="26" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1gae39d9273ea31335b789e7d9a65ddd5e5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$root_cache</definition>
+        <argsstring></argsstring>
+        <name>$root_cache</name>
+        <initializer> &apos;cache/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache directory root path. If you do not change orginal <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> structure, Default : &apos;cache/&apos; <linebreak/>
+ If you have your own structure set path depending of your needs. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$root_cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="35" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga63fb01efe0d6e48b4ec22d087e8146fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$pages_cache</definition>
+        <argsstring></argsstring>
+        <name>$pages_cache</name>
+        <initializer> &apos;pages/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cached Templates/Pages cache directory name. Default : &apos;pages/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$pages_cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="42" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga0e80adb33d63c6d68ba4c65404df2f94" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$css_cache</definition>
+        <argsstring></argsstring>
+        <name>$css_cache</name>
+        <initializer> &apos;css/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Css cache directory name. Default : &apos;css/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$css_cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="49" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga16d37062fd28b17ccfbbc08ce3e0b776" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$js_cache</definition>
+        <argsstring></argsstring>
+        <name>$js_cache</name>
+        <initializer> &apos;javascript/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Javascript cache directory name. Default : &apos;javascript/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$js_cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="56" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga2f10132b94f95d29119dbfc721ec89f5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$javascript_source</definition>
+        <argsstring></argsstring>
+        <name>$javascript_source</name>
+        <initializer> &apos;javascript/native/source/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Javascript source files directory path. Default : &apos;javascript/native/source/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$javascript_source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="63" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1gaf110565a1dfb60e0e30898d5087688be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$javascript_minified</definition>
+        <argsstring></argsstring>
+        <name>$javascript_minified</name>
+        <initializer> &apos;javascript/native/minified/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Javascript minified files directory path. Default : &apos;javascript/native/minified/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$javascript_minified</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="70" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga35ab8cb7ae69ec347b63dda82a173005" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$frameworks_source</definition>
+        <argsstring></argsstring>
+        <name>$frameworks_source</name>
+        <initializer> &apos;javascript/frameworks/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Javascript Frameworks source files directory path. Default : &apos;javascript/frameworks/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$frameworks_source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="77" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__paths__settings_1ga117298df65ff2026617e125d21463b93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$css_source</definition>
+        <argsstring></argsstring>
+        <name>$css_source</name>
+        <initializer> &apos;css/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CSS source files directory path. Default : &apos;css/&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$css_source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="84" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1gad3689303b91750b4f90511e1ab46a75c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_naming</definition>
+        <argsstring></argsstring>
+        <name>$cache_naming</name>
+        <initializer> &apos;md5&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Templates/Pages cache files unique naming type.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cache_naming</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- you can use one of the following name possibilities:<itemizedlist>
+<listitem><para>md5 - Page/Template cache name is md5 value of template name.</para></listitem><listitem><para>sha1 - Page/Template cache name is sha1 value of template name.</para></listitem><listitem><para>native - use native templatre names </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="108" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1gac05f99a6b3c71f3e31e77d5c9ea5914d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_name_pre</definition>
+        <argsstring></argsstring>
+        <name>$cache_name_pre</name>
+        <initializer> &apos;(&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache name prefix implemented for easier data changes check unique value inside brackets.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>Default &apos;(&apos; eg. ()- full Cache separators </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="116" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga0b2dfab31e245d074c86967134122b25" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_name_post</definition>
+        <argsstring></argsstring>
+        <name>$cache_name_post</name>
+        <initializer> &apos;)-&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache name sufix implemented for easier data changes check unique value inside brackets.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>Default &apos;(&apos; eg. ()- full Cache separators </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="124" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1gac1516832f9aecd303dcb275d08e97efe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_extension</definition>
+        <argsstring></argsstring>
+        <name>$cache_extension</name>
+        <initializer> &apos;.tpl.php&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pages cache extension in use, you can use any type of extension, because Template/Page Cache File just store XHTML code,<linebreak/>
+ there are no direct access, they are final data storag, render by <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cache_extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="132" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga94cbab658bf158b39afd90db1a44e581" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$server_caching</definition>
+        <argsstring></argsstring>
+        <name>$server_caching</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use Server Caching. If this is enabled all Page Components will be processed depending of Settings and Cached on Server Side.<linebreak/>
+ Until Page Components do not expire or some of Data are changed <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> will serve Cached. Files for every Page Request.<linebreak/>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$server_caching</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="141" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1gaa239a3baf57ffc17ad1cc1911414b539" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$client_caching</definition>
+        <argsstring></argsstring>
+        <name>$client_caching</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use Client/Browser Caching. If this is enabled on every page request will be checked Cache existance and validity.<linebreak/>
+<linebreak/>
+ If Cache files pass checking for individual Cache file will be set 304 Redirect - Not Modified.<linebreak/>
+<linebreak/>
+ EG. If you have unique Javascript files for all pages on different pages access will be used same Javascript, CSS files from Browser cache if is valid if not <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> will serve Server Side Cached Files.<linebreak/>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$client_caching</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="151" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga5ac8836bca7856f49bf02d7d95c2edd2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$gzip</definition>
+        <argsstring></argsstring>
+        <name>$gzip</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use gzip compression on Page/Template Compress Server Side Cache Files.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$gzip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="158" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga9a4e30766e452f0d2feaecd666787ca1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$compression_level</definition>
+        <argsstring></argsstring>
+        <name>$compression_level</name>
+        <initializer> 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set general compression level for all Cache Files. There are 1-9 - gzip compression levels.<itemizedlist>
+<listitem><para>fast: 1-4,</para></listitem><listitem><para>slower: 5-6 (but better compression),</para></listitem><listitem><para>slow: 7-9 (up to 2x faster, best compression) On files under 300K level 4 is good enought.</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$compression_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="169" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga5aaab753f75170fa670cbb602aa97119" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_lifetime</definition>
+        <argsstring></argsstring>
+        <name>$cache_lifetime</name>
+        <initializer>  array(&apos;page&apos;=&gt;&apos;1.month&apos;, &apos;css&apos;=&gt;&apos;6.month&apos;, &apos;javascript&apos;=&gt;&apos;6.month&apos;, &apos;frameworks&apos;=&gt;&apos;6.month&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Cache Life Time in seconds EG. 60 seconds x 60 minutes x 24 hours = one day cache life time.<linebreak/>
+ You can set cache lifetime in miliseconds or as string &apos;permanent&apos; means.<linebreak/>
+<linebreak/>
+ EG. 1.minute 1.hour 1.day 1.month 1.year <linebreak/>
+ <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;cache_lifetime<sp/>=<sp/>array(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;page&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;1.minute&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;css&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;1.hour&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;javascript&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;1.day&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;frameworks&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;1.month&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+</programlisting><linebreak/>
+ Other possibility is to set one lifetime for all cache files:<linebreak/>
+<linebreak/>
+ <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;cache_lifetime<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;1.month&apos;</highlight><highlight class="normal">;</highlight></codeline>
+</programlisting><linebreak/>
+ or<linebreak/>
+ <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;cache_lifetime<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;permanent&apos;</highlight><highlight class="normal">;</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$cache_lifetime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="194" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__xhtml__cache__settings_1ga0216b64e0f4557ed5a36e5aaeccd2745" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xhtml_code_operations</definition>
+        <argsstring></argsstring>
+        <name>$xhtml_code_operations</name>
+        <initializer> &apos;indent&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>You can use two types of XHTML Optimization. Indent XHTML code or clean whitespace and combine XHTML code in one lien.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$xhtml_code_operations</parametername>
+<parametertype>string</parametertype>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>compact - optimize XHTML code and remove whitespace complete XHTML in one line</para></listitem><listitem><para>indent - set XHTML code indentation,</para></listitem><listitem><para>false - any value no XHTML manipulation </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="219" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__xhtml__cache__settings_1ga2395c8c084b383c7fa248df50b624e9a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xhtml_code_indentation</definition>
+        <argsstring></argsstring>
+        <name>$xhtml_code_indentation</name>
+        <initializer> &apos;   &apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set default indentation space only. EG. &apos; &apos;</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$xhtml_code_indentation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="226" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1ga3d807a2e23ba55310871e3ed6c2bd356" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$optimize_css</definition>
+        <argsstring></argsstring>
+        <name>$optimize_css</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use CSS optimization. Clean CSS files and put all code in one line - size reduction.<linebreak/>
+<linebreak/>
+ <xrefsect id="todo_1_todo000001"><xreftitle>Todo</xreftitle><xrefdescription><para>add CSStidy support</para></xrefdescription></xrefsect></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$optimize_css</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="249" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1ga78989c70ad2b35d7026f6600cfe6ba92" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bool $optimize_css_gz</definition>
+        <argsstring></argsstring>
+        <name>$optimize_css_gz</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use gzip compression on CSS Cache files. File size reduction. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="256" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1gad7ca051062e3dc2de4fa237217abef86" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$compact_css</definition>
+        <argsstring></argsstring>
+        <name>$compact_css</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Combine all CSS files in one unique file. CoReduces the number of HTTP requests.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$compact_css</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="263" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1ga2864dee7a65933d1d4c94373d542b700" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$css_file_name</definition>
+        <argsstring></argsstring>
+        <name>$css_file_name</name>
+        <initializer> &apos;master&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set file name for combined file. If we combine all CSS files combined CSS file name.</para><para><xrefsect id="todo_1_todo000002"><xreftitle>Todo</xreftitle><xrefdescription><para><itemizedlist>
+<listitem><para>CSS Files versioning if we need it. </para></listitem></itemizedlist>
+</para></xrefdescription></xrefsect><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$css_file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="271" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__css__cache__settings_1ga80329ee2b55f386978162762e84ac3ee" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$css_ext</definition>
+        <argsstring></argsstring>
+        <name>$css_ext</name>
+        <initializer> &apos;.css&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set default CSS extension. Look sily but we need that for Safari gzip bug. Safari acceprt default extension for gzipped files in format .css.gz or .css.gz.css*</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$css_ext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="279" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1gaf2d235fefcbea23d664080143edad37f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$optimize_javascript</definition>
+        <argsstring></argsstring>
+        <name>$optimize_javascript</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use Javascript optimization. Clean Javascript files and put all code in one line - size reduction. This means we will use some of external Javascript Packers.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$optimize_javascript</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="303" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga73a53fbf95bca0dd45d7b6cca1f6a689" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$combine_all_javascript</definition>
+        <argsstring></argsstring>
+        <name>$combine_all_javascript</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Combine all Javascript and Javscript Frameworks files in one file. If we use this option all Javascript files will be treated as native Javascript files.<linebreak/>
+ Compress Javascript files - Reduces the number of HTTP requests.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$combine_all_javascript</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="312" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga8090fbc1c574d4134d6ab4b973d170d0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$compact_javascript</definition>
+        <argsstring></argsstring>
+        <name>$compact_javascript</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Combine all Javascript files in two files, one for native Javascript source files and other for Javscript Frameworks Files.<linebreak/>
+ Compress Javascript files - Reduces the number of HTTP requests.<linebreak/>
+<linebreak/>
+ If $combine_all_javascript are enabled this setting will have no effects.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$compact_javascript</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="321" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga0cdc0ded508ad7f1a3cfc63ef1df780a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bool $optimize_javascript_gz</definition>
+        <argsstring></argsstring>
+        <name>$optimize_javascript_gz</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use gzip compression on Javascript Cache files . Compress Javascript files - size reduction. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="328" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga16b8a20321620dbef3a8deb7462ef4f4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$packer</definition>
+        <argsstring></argsstring>
+        <name>$packer</name>
+        <initializer> &apos;jsmin&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optimize Javascript files, by using some of build in Javascript Packers. <linebreak/>
+ You must realize that every time you use Javascript Optimization you will have high server load, and long response time.<linebreak/>
+<linebreak/>
+ Workarround for this is to create minified versions of Javascript Frameworks files. Or to create them on Localhost.<linebreak/>
+<linebreak/>
+ By default <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> checks if there are minified version of Javascript files during first time load and if they <linebreak/>
+ do not exist create them, so you will have high Server load just once during creation of minified version of <linebreak/>
+ Javascript files. When you have minified version of Javascript files there are no high Server load.<linebreak/>
+ If you do not have Javascript changes you could just:<itemizedlist>
+<listitem><para>set $cache_lifetime = &apos;permanent&apos;; and</para></listitem><listitem><para>change .httacces file lines 1 month to 1 year:<linebreak/>
+<linebreak/>
+ <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ExpiresByType<sp/>application/javascript<sp/></highlight><highlight class="stringliteral">&quot;access<sp/>plus<sp/>1<sp/>month&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ExpiresByType<sp/>application/x-javascript<sp/></highlight><highlight class="stringliteral">&quot;access<sp/>plus<sp/>1<sp/>month&quot;</highlight></codeline>
+</programlisting></para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packer</parametername>
+<parametertype>string</parametertype>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>packer - PHP 5 ported version of Dean Edwards Packer</para></listitem><listitem><para>jsmin - JSmin packer PHP ported version of Dean Edwards JSmin</para></listitem><listitem><para>jshrink - JShrink-0.2.class.php hosted on Google Code</para></listitem><listitem><para>jsminplus - one more port of Dean Edwards JSmin</para></listitem><listitem><para>native - <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> native compressor based on regular Expressions - Not finished. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="352" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="352" bodyend="-1"/>
+        <referencedby refid="class_t_i_d_engine_1a5a39f9ecf7304d4645246b5bcb916c1e" compoundref="_t_i_d_engine_8php" startline="1352" endline="1357">Packer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga0d34488b74d51638331cf68641b18369" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$js_ext</definition>
+        <argsstring></argsstring>
+        <name>$js_ext</name>
+        <initializer> &apos;.js&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set default Javascript extension. Look sily but we need that for Safari gzip bug. Safari acceprt default extension for gzipped files in format .js.gz.js or .css.gz.css*</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$js_ext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="360" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga08f8005b517d19f5a2d099d7ec595e2d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$javascript_combined</definition>
+        <argsstring></argsstring>
+        <name>$javascript_combined</name>
+        <initializer> &apos;combined&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New combined javascript file name. When we use combinig all Javascript files into one.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$javascript_combined</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="367" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga38703f3ad6532639e4ec66aaa9ffc03b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$javascript_filename</definition>
+        <argsstring></argsstring>
+        <name>$javascript_filename</name>
+        <initializer> &apos;javascript&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New combined javascript file name. When we combine native Javascript files ad one Cache file and Frameworks as second..</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$javascript_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="374" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga79efa8f1523c6f83cffbe8d18366a0f3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$framework_filename</definition>
+        <argsstring></argsstring>
+        <name>$framework_filename</name>
+        <initializer> &apos;framework&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New combined frameworks file name. When we combine native Javascript files ad one Cache file and Frameworks as second..</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$framework_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="382" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga74a35165f016f24e125268a1e122c14f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$frameworks_type</definition>
+        <argsstring></argsstring>
+        <name>$frameworks_type</name>
+        <initializer> &apos;minified&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If Framework type in use.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$frameworks_type</parametername>
+<parametertype>string</parametertype>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>source - If we use source - no minified versions of Javascript will be created.</para></listitem><listitem><para>minified - If we use minified - minified versions of all Javascript will be created. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="391" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="group__priv__settings_1gaac9c786f32cb63904e4579cc2bded602" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>array $shortcodes</definition>
+        <argsstring></argsstring>
+        <name>$shortcodes</name>
+        <initializer> array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shortcodes array defined for specific template </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="410" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1gade4bdb833871c0c762dd08d7ae627218" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>num $data_changes_check</definition>
+        <argsstring></argsstring>
+        <name>$data_changes_check</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Data send to TempEngine md5 for checking for changes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="417" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga1c507c75ecec577b312bb845ff0e5cc2" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>num $modification_time</definition>
+        <argsstring></argsstring>
+        <name>$modification_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache file modification time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="424" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga88d4a982e092d52e64e05ee2b28f418f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>num $template_id</definition>
+        <argsstring></argsstring>
+        <name>$template_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Template file name/id. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="431" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="431" bodyend="-1"/>
+        <referencedby refid="class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d" compoundref="_t_i_d_engine_8php" startline="509" endline="800">check_cache</referencedby>
+        <referencedby refid="class_t_i_d_engine_1a05cc9b8d0b0f75a57a2b3da3a8891780" compoundref="_t_i_d_engine_8php" startline="1603" endline="1630">clear_cache</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga25b8691d25affc422f8de6218c2adc44" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$configuration_file</definition>
+        <argsstring></argsstring>
+        <name>$configuration_file</name>
+        <initializer> &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Include external cofiguration file.<linebreak/>
+ If you leave empty this path, you must set settings when you init Class. If there are no defined settings default settings will be used.<linebreak/>
+<linebreak/>
+ default path: &apos;TIDEngine/configuration/config.php&apos;</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$configuration_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="441" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga9296b8da0b01b82041584bbf469081ce" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$meta_spec</definition>
+        <argsstring></argsstring>
+        <name>$meta_spec</name>
+        <initializer> array(&apos;Content-Language&apos;, &apos;Expires&apos;, &apos;Pragma&apos;, &apos;Cache-Control&apos;, &apos;imagetoolbar&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For meta tags spec.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$meta_spec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="448" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__priv__settings_1ga25d50f7db79ecf7fc2a94c16eacfac6b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$debug_meta</definition>
+        <argsstring></argsstring>
+        <name>$debug_meta</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use SEO Optimization Adviser/Debugger.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$debug_meta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="455" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_i_d_engine_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Class constructor. <linebreak/>
+<linebreak/>
+ Detailed instructions inside Class inline comments </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="476" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="476" bodyend="497"/>
+        <references refid="class_t_i_d_engine_1a406da7d26abff8587a707e5e7315bacf" compoundref="_t_i_d_engine_8php" startline="1717" endline="1770">caculate_lifetime</references>
+        <references refid="class_t_i_d_engine_1a16783567e39b102990730f699675819c" compoundref="_t_i_d_engine_8php" startline="1795" endline="1832">check_browser_set_extension</references>
+        <references refid="class_t_i_d_engine_1ad1d5d85a42a4f8a83ca6261448b5457c" compoundref="_t_i_d_engine_8php" startline="1319" endline="1344">include_packer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>check_cache</definition>
+        <argsstring>($_data, $template_path, $template_id, $elements, $caching)</argsstring>
+        <name>check_cache</name>
+        <param>
+          <type>$</type>
+          <declname>_data</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>template_path</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>template_id</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>elements</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>caching</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks for Cache existance, Cache file validity and Cache expiration time.<linebreak/>
+<linebreak/>
+ Detailed instructions inside Class inline comments</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Data to be phrased to template shortcodes array key = SHORTCODE, array value = DATA. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$template_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Path to template file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$template_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Template name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$elements</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Extra elements we need to include, default header, body and footer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$caching</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Do we use caching for specific template </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="509" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="509" bodyend="800"/>
+        <references refid="group__priv__settings_1ga88d4a982e092d52e64e05ee2b28f418f" compoundref="_t_i_d_engine_8php" startline="431">$template_id</references>
+        <references refid="class_t_i_d_engine_1a07e07caf771b9d4171388e8258ddf4ef" compoundref="_t_i_d_engine_8php" startline="807" endline="812">create_minified</references>
+        <references refid="class_t_i_d_engine_1a3e3e3ea9bd1b6af66e25f2e559f45322" compoundref="_t_i_d_engine_8php" startline="821" endline="923">display</references>
+        <references refid="class_t_i_d_engine_1a6f31e46a51e73bd13b22a605d6599edf" compoundref="_t_i_d_engine_8php" startline="1685" endline="1711">getRequestHeaders</references>
+        <references refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" compoundref="_t_i_d_engine_8php" startline="930" endline="994">shortcodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a07e07caf771b9d4171388e8258ddf4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create_minified</definition>
+        <argsstring>($file)</argsstring>
+        <name>create_minified</name>
+        <param>
+          <type>$</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create minified version of source Javascript files</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="807" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="807" bodyend="812"/>
+        <references refid="class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992" compoundref="_t_i_d_engine_8php" startline="1260" endline="1299">js_packers</references>
+        <referencedby refid="class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d" compoundref="_t_i_d_engine_8php" startline="509" endline="800">check_cache</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a3e3e3ea9bd1b6af66e25f2e559f45322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>display</definition>
+        <argsstring>($file_path, $cache=false, $elements=false)</argsstring>
+        <name>display</name>
+        <param>
+          <type>$</type>
+          <declname>file_path</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>cache</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>elements</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display page and|or Create Cache file.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$file_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- path to template or cache file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$cache</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- we need to create cache file controll variable </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$elements</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- page elements. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="821" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="821" bodyend="923"/>
+        <references refid="class_t_i_d_engine_1a85b507378fa82cfbbcde72783fe506b8" compoundref="_t_i_d_engine_8php" startline="1633" endline="1646">clean_file</references>
+        <references refid="class_t_i_d_engine_1a5c7a49fd6510389df88ca9f97685b2af" compoundref="_t_i_d_engine_8php" startline="1512" endline="1596">clean_html_code</references>
+        <references refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" compoundref="_t_i_d_engine_8php" startline="930" endline="994">shortcodes</references>
+        <referencedby refid="class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d" compoundref="_t_i_d_engine_8php" startline="509" endline="800">check_cache</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shortcodes</definition>
+        <argsstring>($data)</argsstring>
+        <name>shortcodes</name>
+        <param>
+          <type>$</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shortcodes($data) - Set shortcodes for template</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- defined shortcodes that must be phrased to template </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="930" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="930" bodyend="994"/>
+        <references refid="class_t_i_d_engine_1a9032066a9c91083b137ffa57627d08fa" compoundref="_t_i_d_engine_8php" startline="1002" endline="1045">css_data</references>
+        <references refid="class_t_i_d_engine_1a0b8ae084a5dc63ca4f6876ab2e43438d" compoundref="_t_i_d_engine_8php" startline="1135" endline="1174">javascript_data</references>
+        <references refid="class_t_i_d_engine_1a4d6587cd9ae73fa86b13f90c7ddf5a2d" compoundref="_t_i_d_engine_8php" startline="1442" endline="1479">meta_data</references>
+        <referencedby refid="class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d" compoundref="_t_i_d_engine_8php" startline="509" endline="800">check_cache</referencedby>
+        <referencedby refid="class_t_i_d_engine_1a9032066a9c91083b137ffa57627d08fa" compoundref="_t_i_d_engine_8php" startline="1002" endline="1045">css_data</referencedby>
+        <referencedby refid="class_t_i_d_engine_1a3e3e3ea9bd1b6af66e25f2e559f45322" compoundref="_t_i_d_engine_8php" startline="821" endline="923">display</referencedby>
+        <referencedby refid="class_t_i_d_engine_1a0b8ae084a5dc63ca4f6876ab2e43438d" compoundref="_t_i_d_engine_8php" startline="1135" endline="1174">javascript_data</referencedby>
+        <referencedby refid="class_t_i_d_engine_1a4d6587cd9ae73fa86b13f90c7ddf5a2d" compoundref="_t_i_d_engine_8php" startline="1442" endline="1479">meta_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a9032066a9c91083b137ffa57627d08fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>css_data</definition>
+        <argsstring>($data)</argsstring>
+        <name>css_data</name>
+        <param>
+          <type>$</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set CSS head data. CSS files paths</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- CSS files paths </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1002" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1002" bodyend="1045"/>
+        <references refid="class_t_i_d_engine_1ae545113763a61b7d0d2066ed70773e61" compoundref="_t_i_d_engine_8php" startline="1052" endline="1128">optimize_css</references>
+        <references refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" compoundref="_t_i_d_engine_8php" startline="930" endline="994">shortcodes</references>
+        <referencedby refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" compoundref="_t_i_d_engine_8php" startline="930" endline="994">shortcodes</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1ae545113763a61b7d0d2066ed70773e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>optimize_css</definition>
+        <argsstring>($files)</argsstring>
+        <name>optimize_css</name>
+        <param>
+          <type>$</type>
+          <declname>files</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optimize css files</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$files</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- CSS file content </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para><xrefsect id="todo_1_todo000003"><xreftitle>Todo</xreftitle><xrefdescription><para>Add CSSTidy support and some other Libaries </para></xrefdescription></xrefsect></para>        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1052" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1052" bodyend="1128"/>
+        <references refid="class_t_i_d_engine_1a85b507378fa82cfbbcde72783fe506b8" compoundref="_t_i_d_engine_8php" startline="1633" endline="1646">clean_file</references>
+        <references refid="class_t_i_d_engine_1aa51877c4a67aee5e44b3291aa3aa4de2" compoundref="_t_i_d_engine_8php" startline="1403" endline="1415">gzip_data</references>
+        <referencedby refid="class_t_i_d_engine_1a9032066a9c91083b137ffa57627d08fa" compoundref="_t_i_d_engine_8php" startline="1002" endline="1045">css_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a0b8ae084a5dc63ca4f6876ab2e43438d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>javascript_data</definition>
+        <argsstring>($data, $type)</argsstring>
+        <name>javascript_data</name>
+        <param>
+          <type>$</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Javascript/Javascript Frameworks <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Javascript files </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- frameworks or regular Javascript files </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1135" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1135" bodyend="1174"/>
+        <references refid="class_t_i_d_engine_1ae3b381ddbd1de0b6053b2c82e60fd385" compoundref="_t_i_d_engine_8php" startline="1185" endline="1252">optimize_javascript</references>
+        <references refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" compoundref="_t_i_d_engine_8php" startline="930" endline="994">shortcodes</references>
+        <referencedby refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" compoundref="_t_i_d_engine_8php" startline="930" endline="994">shortcodes</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1ae3b381ddbd1de0b6053b2c82e60fd385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>optimize_javascript</definition>
+        <argsstring>($files, $type)</argsstring>
+        <name>optimize_javascript</name>
+        <param>
+          <type>$</type>
+          <declname>files</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optimize Javascript files <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$files</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string $js - Links </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1185" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1185" bodyend="1252"/>
+        <references refid="class_t_i_d_engine_1aa51877c4a67aee5e44b3291aa3aa4de2" compoundref="_t_i_d_engine_8php" startline="1403" endline="1415">gzip_data</references>
+        <references refid="class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992" compoundref="_t_i_d_engine_8php" startline="1260" endline="1299">js_packers</references>
+        <referencedby refid="class_t_i_d_engine_1a0b8ae084a5dc63ca4f6876ab2e43438d" compoundref="_t_i_d_engine_8php" startline="1135" endline="1174">javascript_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>js_packers</definition>
+        <argsstring>($file_content)</argsstring>
+        <name>js_packers</name>
+        <param>
+          <type>$</type>
+          <declname>file_content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optimize Javascript data with different Packers.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$file_content</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string $optimized_file </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1260" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1260" bodyend="1299"/>
+        <references refid="class_t_i_d_engine_1ab97cdbd51067978f155d7611010b4e7f" compoundref="_t_i_d_engine_8php" startline="1378" endline="1383">JShrink</references>
+        <references refid="class_t_i_d_engine_1a33c1ef0d08960a1d75f4b55ecc7a844d" compoundref="_t_i_d_engine_8php" startline="1364" endline="1370">JSmin</references>
+        <references refid="class_t_i_d_engine_1a37b0692940dabb81cb4b317721fe1657" compoundref="_t_i_d_engine_8php" startline="1391" endline="1396">JSminplus</references>
+        <references refid="class_t_i_d_engine_1a5a39f9ecf7304d4645246b5bcb916c1e" compoundref="_t_i_d_engine_8php" startline="1352" endline="1357">Packer</references>
+        <referencedby refid="class_t_i_d_engine_1a07e07caf771b9d4171388e8258ddf4ef" compoundref="_t_i_d_engine_8php" startline="807" endline="812">create_minified</referencedby>
+        <referencedby refid="class_t_i_d_engine_1ae3b381ddbd1de0b6053b2c82e60fd385" compoundref="_t_i_d_engine_8php" startline="1185" endline="1252">optimize_javascript</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a6c23057376e72bfa98f72e68cf39b787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>include_debugger</definition>
+        <argsstring>()</argsstring>
+        <name>include_debugger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Include SEO Optimization Adviser/Debugger Class. <xrefsect id="todo_1_todo000004"><xreftitle>Todo</xreftitle><xrefdescription><para>Use SEO Optimization Adviser/Debugger.</para></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1305" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1305" bodyend="1312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1ad1d5d85a42a4f8a83ca6261448b5457c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>include_packer</definition>
+        <argsstring>()</argsstring>
+        <name>include_packer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Include defined packer Class in use.</para><para><xrefsect id="todo_1_todo000005"><xreftitle>Todo</xreftitle><xrefdescription><para>Native Class packer. </para></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1319" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1319" bodyend="1344"/>
+        <referencedby refid="class_t_i_d_engine_1a095c5d389db211932136b53f25f39685" compoundref="_t_i_d_engine_8php" startline="476" endline="497">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a5a39f9ecf7304d4645246b5bcb916c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Packer</definition>
+        <argsstring>($js_file)</argsstring>
+        <name>Packer</name>
+        <param>
+          <type>$</type>
+          <declname>js_file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Packer - PHP 5 ported version of Dean Edwards Packer</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$js_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1352" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1352" bodyend="1357"/>
+        <references refid="group__js__cache__settings_1ga16b8a20321620dbef3a8deb7462ef4f4" compoundref="_t_i_d_engine_8php" startline="352">$packer</references>
+        <referencedby refid="class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992" compoundref="_t_i_d_engine_8php" startline="1260" endline="1299">js_packers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a33c1ef0d08960a1d75f4b55ecc7a844d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JSmin</definition>
+        <argsstring>($js_file)</argsstring>
+        <name>JSmin</name>
+        <param>
+          <type>$</type>
+          <declname>js_file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>JSmin - JSmin packer PHP ported version of Dean Edwards JS <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$js_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1364" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1364" bodyend="1370"/>
+        <referencedby refid="class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992" compoundref="_t_i_d_engine_8php" startline="1260" endline="1299">js_packers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1ab97cdbd51067978f155d7611010b4e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JShrink</definition>
+        <argsstring>($js_file)</argsstring>
+        <name>JShrink</name>
+        <param>
+          <type>$</type>
+          <declname>js_file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>JShrink - JShrink-0.2.class.php hosted on Google Code</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$js_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1378" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1378" bodyend="1383"/>
+        <referencedby refid="class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992" compoundref="_t_i_d_engine_8php" startline="1260" endline="1299">js_packers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a37b0692940dabb81cb4b317721fe1657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JSminplus</definition>
+        <argsstring>($js_file)</argsstring>
+        <name>JSminplus</name>
+        <param>
+          <type>$</type>
+          <declname>js_file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>JSminPlus - one more port of Dean Edwards JSmin</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$js_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1391" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1391" bodyend="1396"/>
+        <referencedby refid="class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992" compoundref="_t_i_d_engine_8php" startline="1260" endline="1299">js_packers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1aa51877c4a67aee5e44b3291aa3aa4de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gzip_data</definition>
+        <argsstring>($data)</argsstring>
+        <name>gzip_data</name>
+        <param>
+          <type>$</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If enabled gzip cache files</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1403" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1403" bodyend="1415"/>
+        <referencedby refid="class_t_i_d_engine_1ae545113763a61b7d0d2066ed70773e61" compoundref="_t_i_d_engine_8php" startline="1052" endline="1128">optimize_css</referencedby>
+        <referencedby refid="class_t_i_d_engine_1ae3b381ddbd1de0b6053b2c82e60fd385" compoundref="_t_i_d_engine_8php" startline="1185" endline="1252">optimize_javascript</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1adaa8cd255f4af21f4fa6d1566a90e8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>save_data</definition>
+        <argsstring>($data, $path, $modifiers=false)</argsstring>
+        <name>save_data</name>
+        <param>
+          <type>$</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>modifiers</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Save cache files</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- file data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Cache File Path </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$modifiers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- overwrite, append data to file. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1424" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1424" bodyend="1435"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a4d6587cd9ae73fa86b13f90c7ddf5a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>meta_data</definition>
+        <argsstring>($data)</argsstring>
+        <name>meta_data</name>
+        <param>
+          <type>$</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set head Page Title and Meta Tags.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para><xrefsect id="todo_1_todo000006"><xreftitle>Todo</xreftitle><xrefdescription><para>$this-&gt;debug_meta will be part of TIDEbugger Class </para></xrefdescription></xrefsect></para>        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1442" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1442" bodyend="1479"/>
+        <references refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" compoundref="_t_i_d_engine_8php" startline="930" endline="994">shortcodes</references>
+        <referencedby refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" compoundref="_t_i_d_engine_8php" startline="930" endline="994">shortcodes</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1ab0432c08e048640c83f871e3ca119e62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fix_newlines_for_clean_html</definition>
+        <argsstring>($fixthistext)</argsstring>
+        <name>fix_newlines_for_clean_html</name>
+        <param>
+          <type>$</type>
+          <declname>fixthistext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function to seperate multiple tags one line. Credits to orginal author.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$fixthistext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1486" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1486" bodyend="1504"/>
+        <referencedby refid="class_t_i_d_engine_1a5c7a49fd6510389df88ca9f97685b2af" compoundref="_t_i_d_engine_8php" startline="1512" endline="1596">clean_html_code</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a5c7a49fd6510389df88ca9f97685b2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clean_html_code</definition>
+        <argsstring>($uncleanhtml)</argsstring>
+        <name>clean_html_code</name>
+        <param>
+          <type>$</type>
+          <declname>uncleanhtml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Indent XHTML output code $this-&gt;xhtml_code_indentation. Credits to orginal author.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uncleanhtml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string implode(&quot;\n&quot;, $cleanhtml_array) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1512" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1512" bodyend="1596"/>
+        <references refid="class_t_i_d_engine_1ab0432c08e048640c83f871e3ca119e62" compoundref="_t_i_d_engine_8php" startline="1486" endline="1504">fix_newlines_for_clean_html</references>
+        <referencedby refid="class_t_i_d_engine_1a3e3e3ea9bd1b6af66e25f2e559f45322" compoundref="_t_i_d_engine_8php" startline="821" endline="923">display</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a05cc9b8d0b0f75a57a2b3da3a8891780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clear_cache</definition>
+        <argsstring>($template_id=false)</argsstring>
+        <name>clear_cache</name>
+        <param>
+          <type>$</type>
+          <declname>template_id</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Manualy clear cache.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$template_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1603" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1603" bodyend="1630"/>
+        <references refid="group__priv__settings_1ga88d4a982e092d52e64e05ee2b28f418f" compoundref="_t_i_d_engine_8php" startline="431">$template_id</references>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a85b507378fa82cfbbcde72783fe506b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clean_file</definition>
+        <argsstring>($content)</argsstring>
+        <name>clean_file</name>
+        <param>
+          <type>$</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove white space, comments etc. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1633" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1633" bodyend="1646"/>
+        <referencedby refid="class_t_i_d_engine_1a3e3e3ea9bd1b6af66e25f2e559f45322" compoundref="_t_i_d_engine_8php" startline="821" endline="923">display</referencedby>
+        <referencedby refid="class_t_i_d_engine_1ae545113763a61b7d0d2066ed70773e61" compoundref="_t_i_d_engine_8php" startline="1052" endline="1128">optimize_css</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1acac77e9d1c1ea28406556e5dd88f1dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>browser_info</definition>
+        <argsstring>($agent=null)</argsstring>
+        <name>browser_info</name>
+        <param>
+          <type>$</type>
+          <declname>agent</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Code taken php.org and slitly adapted. Lightweight alternative for Browscap. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametertype>null</parametertype>
+<parametername>$agent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- string to check if we have access by defined agent </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1653" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1653" bodyend="1682"/>
+        <referencedby refid="class_t_i_d_engine_1a16783567e39b102990730f699675819c" compoundref="_t_i_d_engine_8php" startline="1795" endline="1832">check_browser_set_extension</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a6f31e46a51e73bd13b22a605d6599edf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getRequestHeaders</definition>
+        <argsstring>()</argsstring>
+        <name>getRequestHeaders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get Client Browser headers data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1685" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1685" bodyend="1711"/>
+        <referencedby refid="class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d" compoundref="_t_i_d_engine_8php" startline="509" endline="800">check_cache</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a406da7d26abff8587a707e5e7315bacf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>caculate_lifetime</definition>
+        <argsstring>()</argsstring>
+        <name>caculate_lifetime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate Cache Life Time in miliseconds </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1717" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1717" bodyend="1770"/>
+        <referencedby refid="class_t_i_d_engine_1a095c5d389db211932136b53f25f39685" compoundref="_t_i_d_engine_8php" startline="476" endline="497">__construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_t_i_d_engine_1a16783567e39b102990730f699675819c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>check_browser_set_extension</definition>
+        <argsstring>()</argsstring>
+        <name>check_browser_set_extension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Workarround for Safari problem with gzipped content we need other type of compressed cache files extensions. As some hosting companies do not support get_browser function I was thinking that best solution is native Browscap class - first time load this class will update all data in cache file. eg. Other browsers .css.gz and .js.gz Safari css.gz.css and js.gz.js<itemizedlist>
+<listitem><para>infact this is not strict rule you can set any kind of extension just not to be .gz eg. js.gz.xyz and css.gz.xyz - this will work without problem.</para></listitem></itemizedlist>
+</para><para>Uncomment this line :</para><para>$check_browser = new Browscap($this-&gt;Browscap_cache); $browser = $check_browser-&gt;getBrowser(null, false); $this-&gt;browser = $browser-&gt;Browser;</para><para>and</para><para>$this-&gt;Browscap_cache = $this-&gt;root_cache . &apos;Browscap&apos;;</para><para>also comment this two lines of code:</para><para>$browser = $this-&gt;<ref refid="class_t_i_d_engine_1acac77e9d1c1ea28406556e5dd88f1dc1" kindref="member">browser_info()</ref>; $this-&gt;browser = ucfirst($browser[0]); </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="1795" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="1795" bodyend="1832"/>
+        <references refid="class_t_i_d_engine_1acac77e9d1c1ea28406556e5dd88f1dc1" compoundref="_t_i_d_engine_8php" startline="1653" endline="1682">browser_info</references>
+        <referencedby refid="class_t_i_d_engine_1a095c5d389db211932136b53f25f39685" compoundref="_t_i_d_engine_8php" startline="476" endline="497">__construct</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> core class <simplesect kind="author"><para>bogyvet </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="9" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="9" bodyend="1834"/>
+    <listofallmembers>
+      <member refid="group__general__cache__settings_1gac1516832f9aecd303dcb275d08e97efe" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$cache_extension</name></member>
+      <member refid="group__general__cache__settings_1ga5aaab753f75170fa670cbb602aa97119" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$cache_lifetime</name></member>
+      <member refid="group__general__cache__settings_1ga0b2dfab31e245d074c86967134122b25" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$cache_name_post</name></member>
+      <member refid="group__general__cache__settings_1gac05f99a6b3c71f3e31e77d5c9ea5914d" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$cache_name_pre</name></member>
+      <member refid="group__general__cache__settings_1gad3689303b91750b4f90511e1ab46a75c" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$cache_naming</name></member>
+      <member refid="group__general__cache__settings_1gaa239a3baf57ffc17ad1cc1911414b539" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$client_caching</name></member>
+      <member refid="group__js__cache__settings_1ga73a53fbf95bca0dd45d7b6cca1f6a689" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$combine_all_javascript</name></member>
+      <member refid="group__css__cache__settings_1gad7ca051062e3dc2de4fa237217abef86" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$compact_css</name></member>
+      <member refid="group__js__cache__settings_1ga8090fbc1c574d4134d6ab4b973d170d0" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$compact_javascript</name></member>
+      <member refid="group__general__cache__settings_1ga9a4e30766e452f0d2feaecd666787ca1" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$compression_level</name></member>
+      <member refid="group__priv__settings_1ga25b8691d25affc422f8de6218c2adc44" prot="private" virt="non-virtual"><scope>TIDEngine</scope><name>$configuration_file</name></member>
+      <member refid="group__paths__settings_1ga0e80adb33d63c6d68ba4c65404df2f94" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$css_cache</name></member>
+      <member refid="group__css__cache__settings_1ga80329ee2b55f386978162762e84ac3ee" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$css_ext</name></member>
+      <member refid="group__css__cache__settings_1ga2864dee7a65933d1d4c94373d542b700" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$css_file_name</name></member>
+      <member refid="group__paths__settings_1ga117298df65ff2026617e125d21463b93" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$css_source</name></member>
+      <member refid="group__priv__settings_1gade4bdb833871c0c762dd08d7ae627218" prot="private" virt="non-virtual"><scope>TIDEngine</scope><name>$data_changes_check</name></member>
+      <member refid="group__priv__settings_1ga25d50f7db79ecf7fc2a94c16eacfac6b" prot="private" virt="non-virtual"><scope>TIDEngine</scope><name>$debug_meta</name></member>
+      <member refid="group__paths__settings_1gaef9cf198312d2f89238a8e8e2f0f67f3" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$domain</name></member>
+      <member refid="group__js__cache__settings_1ga79efa8f1523c6f83cffbe8d18366a0f3" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$framework_filename</name></member>
+      <member refid="group__paths__settings_1ga35ab8cb7ae69ec347b63dda82a173005" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$frameworks_source</name></member>
+      <member refid="group__js__cache__settings_1ga74a35165f016f24e125268a1e122c14f" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$frameworks_type</name></member>
+      <member refid="group__general__cache__settings_1ga5ac8836bca7856f49bf02d7d95c2edd2" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$gzip</name></member>
+      <member refid="group__js__cache__settings_1ga08f8005b517d19f5a2d099d7ec595e2d" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$javascript_combined</name></member>
+      <member refid="group__js__cache__settings_1ga38703f3ad6532639e4ec66aaa9ffc03b" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$javascript_filename</name></member>
+      <member refid="group__paths__settings_1gaf110565a1dfb60e0e30898d5087688be" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$javascript_minified</name></member>
+      <member refid="group__paths__settings_1ga2f10132b94f95d29119dbfc721ec89f5" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$javascript_source</name></member>
+      <member refid="group__paths__settings_1ga16d37062fd28b17ccfbbc08ce3e0b776" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$js_cache</name></member>
+      <member refid="group__js__cache__settings_1ga0d34488b74d51638331cf68641b18369" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$js_ext</name></member>
+      <member refid="group__priv__settings_1ga9296b8da0b01b82041584bbf469081ce" prot="private" virt="non-virtual"><scope>TIDEngine</scope><name>$meta_spec</name></member>
+      <member refid="group__priv__settings_1ga1c507c75ecec577b312bb845ff0e5cc2" prot="private" virt="non-virtual"><scope>TIDEngine</scope><name>$modification_time</name></member>
+      <member refid="group__css__cache__settings_1ga3d807a2e23ba55310871e3ed6c2bd356" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$optimize_css</name></member>
+      <member refid="group__css__cache__settings_1ga78989c70ad2b35d7026f6600cfe6ba92" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$optimize_css_gz</name></member>
+      <member refid="group__js__cache__settings_1gaf2d235fefcbea23d664080143edad37f" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$optimize_javascript</name></member>
+      <member refid="group__js__cache__settings_1ga0cdc0ded508ad7f1a3cfc63ef1df780a" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$optimize_javascript_gz</name></member>
+      <member refid="group__js__cache__settings_1ga16b8a20321620dbef3a8deb7462ef4f4" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$packer</name></member>
+      <member refid="group__paths__settings_1ga63fb01efe0d6e48b4ec22d087e8146fb" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$pages_cache</name></member>
+      <member refid="group__paths__settings_1gae39d9273ea31335b789e7d9a65ddd5e5" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$root_cache</name></member>
+      <member refid="group__general__cache__settings_1ga94cbab658bf158b39afd90db1a44e581" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$server_caching</name></member>
+      <member refid="group__priv__settings_1gaac9c786f32cb63904e4579cc2bded602" prot="private" virt="non-virtual"><scope>TIDEngine</scope><name>$shortcodes</name></member>
+      <member refid="group__priv__settings_1ga88d4a982e092d52e64e05ee2b28f418f" prot="private" virt="non-virtual"><scope>TIDEngine</scope><name>$template_id</name></member>
+      <member refid="group__xhtml__cache__settings_1ga2395c8c084b383c7fa248df50b624e9a" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$xhtml_code_indentation</name></member>
+      <member refid="group__xhtml__cache__settings_1ga0216b64e0f4557ed5a36e5aaeccd2745" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>$xhtml_code_operations</name></member>
+      <member refid="class_t_i_d_engine_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>__construct</name></member>
+      <member refid="class_t_i_d_engine_1acac77e9d1c1ea28406556e5dd88f1dc1" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>browser_info</name></member>
+      <member refid="class_t_i_d_engine_1a406da7d26abff8587a707e5e7315bacf" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>caculate_lifetime</name></member>
+      <member refid="class_t_i_d_engine_1a16783567e39b102990730f699675819c" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>check_browser_set_extension</name></member>
+      <member refid="class_t_i_d_engine_1aa15b352bea711619b46255f3b216268d" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>check_cache</name></member>
+      <member refid="class_t_i_d_engine_1a85b507378fa82cfbbcde72783fe506b8" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>clean_file</name></member>
+      <member refid="class_t_i_d_engine_1a5c7a49fd6510389df88ca9f97685b2af" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>clean_html_code</name></member>
+      <member refid="class_t_i_d_engine_1a05cc9b8d0b0f75a57a2b3da3a8891780" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>clear_cache</name></member>
+      <member refid="class_t_i_d_engine_1a07e07caf771b9d4171388e8258ddf4ef" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>create_minified</name></member>
+      <member refid="class_t_i_d_engine_1a9032066a9c91083b137ffa57627d08fa" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>css_data</name></member>
+      <member refid="class_t_i_d_engine_1a3e3e3ea9bd1b6af66e25f2e559f45322" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>display</name></member>
+      <member refid="class_t_i_d_engine_1ab0432c08e048640c83f871e3ca119e62" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>fix_newlines_for_clean_html</name></member>
+      <member refid="class_t_i_d_engine_1a6f31e46a51e73bd13b22a605d6599edf" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>getRequestHeaders</name></member>
+      <member refid="class_t_i_d_engine_1aa51877c4a67aee5e44b3291aa3aa4de2" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>gzip_data</name></member>
+      <member refid="class_t_i_d_engine_1a6c23057376e72bfa98f72e68cf39b787" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>include_debugger</name></member>
+      <member refid="class_t_i_d_engine_1ad1d5d85a42a4f8a83ca6261448b5457c" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>include_packer</name></member>
+      <member refid="class_t_i_d_engine_1a0b8ae084a5dc63ca4f6876ab2e43438d" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>javascript_data</name></member>
+      <member refid="class_t_i_d_engine_1aa59f4a795d744620f3cc6b49f4a27992" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>js_packers</name></member>
+      <member refid="class_t_i_d_engine_1ab97cdbd51067978f155d7611010b4e7f" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>JShrink</name></member>
+      <member refid="class_t_i_d_engine_1a33c1ef0d08960a1d75f4b55ecc7a844d" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>JSmin</name></member>
+      <member refid="class_t_i_d_engine_1a37b0692940dabb81cb4b317721fe1657" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>JSminplus</name></member>
+      <member refid="class_t_i_d_engine_1a4d6587cd9ae73fa86b13f90c7ddf5a2d" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>meta_data</name></member>
+      <member refid="class_t_i_d_engine_1ae545113763a61b7d0d2066ed70773e61" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>optimize_css</name></member>
+      <member refid="class_t_i_d_engine_1ae3b381ddbd1de0b6053b2c82e60fd385" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>optimize_javascript</name></member>
+      <member refid="class_t_i_d_engine_1a5a39f9ecf7304d4645246b5bcb916c1e" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>Packer</name></member>
+      <member refid="class_t_i_d_engine_1adaa8cd255f4af21f4fa6d1566a90e8b7" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>save_data</name></member>
+      <member refid="class_t_i_d_engine_1aea13c262e2b03850c680ec85a0011624" prot="public" virt="non-virtual"><scope>TIDEngine</scope><name>shortcodes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

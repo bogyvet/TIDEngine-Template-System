@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="todo" kind="page">
+    <compoundname>todo</compoundname>
+    <title>Todo List</title>
+    <detaileddescription>
+<para><anchor id="todo_1_todo000002"/> <variablelist>
+<varlistentry><term>Global <ref refid="group__css__cache__settings_1ga2864dee7a65933d1d4c94373d542b700" kindref="member">TIDEngine::$css_file_name</ref>  </term></varlistentry>
+<listitem><para>- CSS Files versioning if we need it. </para></listitem>
+</variablelist>
+</para><para><anchor id="todo_1_todo000001"/> <variablelist>
+<varlistentry><term>Global <ref refid="group__css__cache__settings_1ga3d807a2e23ba55310871e3ed6c2bd356" kindref="member">TIDEngine::$optimize_css</ref>  </term></varlistentry>
+<listitem><para>add CSStidy support</para></listitem>
+</variablelist>
+</para><para><anchor id="todo_1_todo000004"/> <variablelist>
+<varlistentry><term>Global <ref refid="class_t_i_d_engine_1a6c23057376e72bfa98f72e68cf39b787" kindref="member">TIDEngine::include_debugger</ref> () </term></varlistentry>
+<listitem><para>Use SEO Optimization Adviser/Debugger.</para></listitem>
+</variablelist>
+</para><para><anchor id="todo_1_todo000005"/> <variablelist>
+<varlistentry><term>Global <ref refid="class_t_i_d_engine_1ad1d5d85a42a4f8a83ca6261448b5457c" kindref="member">TIDEngine::include_packer</ref> () </term></varlistentry>
+<listitem><para>Native Class packer. </para></listitem>
+</variablelist>
+</para><para><anchor id="todo_1_todo000006"/> <variablelist>
+<varlistentry><term>Global <ref refid="class_t_i_d_engine_1a4d6587cd9ae73fa86b13f90c7ddf5a2d" kindref="member">TIDEngine::meta_data</ref> ($data) </term></varlistentry>
+<listitem><para>$this-&gt;debug_meta will be part of TIDEbugger Class </para></listitem>
+</variablelist>
+</para><para><anchor id="todo_1_todo000003"/> <variablelist>
+<varlistentry><term>Global <ref refid="class_t_i_d_engine_1ae545113763a61b7d0d2066ed70773e61" kindref="member">TIDEngine::optimize_css</ref> ($files) </term></varlistentry>
+<listitem><para>Add CSSTidy support and some other Libaries </para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_t_i_d_engine.html#aa59f4a795d744620f3cc6b49f4a27992" title="js_packers" alt="" coords="136,44,221,73"/>
+<area shape="rect" id="node5" href="$class_t_i_d_engine.html#a07e07caf771b9d4171388e8258ddf4ef" title="create_minified" alt="" coords="451,5,560,35"/>
+<area shape="rect" id="node9" href="$class_t_i_d_engine.html#ae3b381ddbd1de0b6053b2c82e60fd385" title="optimize_javascript" alt="" coords="271,76,401,105"/>
+<area shape="rect" id="node7" href="$class_t_i_d_engine.html#aa15b352bea711619b46255f3b216268d" title="check_cache" alt="" coords="875,49,973,79"/>
+<area shape="rect" id="node11" href="$class_t_i_d_engine.html#a0b8ae084a5dc63ca4f6876ab2e43438d" title="javascript_data" alt="" coords="452,101,559,131"/>
+<area shape="rect" id="node13" href="$class_t_i_d_engine.html#aea13c262e2b03850c680ec85a0011624" title="shortcodes" alt="" coords="609,101,695,131"/>
+<area shape="rect" id="node16" href="$class_t_i_d_engine.html#a9032066a9c91083b137ffa57627d08fa" title="css_data" alt="" coords="748,101,823,131"/>
+<area shape="rect" id="node19" href="$class_t_i_d_engine.html#a3e3e3ea9bd1b6af66e25f2e559f45322" title="display" alt="" coords="755,155,816,184"/>
+<area shape="rect" id="node23" href="$class_t_i_d_engine.html#a4d6587cd9ae73fa86b13f90c7ddf5a2d" title="meta_data" alt="" coords="744,208,827,237"/>
+</map>

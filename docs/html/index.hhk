@@ -1,0 +1,386 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gac1516832f9aecd303dcb275d08e97efe"><param name="Name" value="$cache_extension"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gac1516832f9aecd303dcb275d08e97efe"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gac1516832f9aecd303dcb275d08e97efe"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga5aaab753f75170fa670cbb602aa97119"><param name="Name" value="$cache_lifetime"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga5aaab753f75170fa670cbb602aa97119"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga5aaab753f75170fa670cbb602aa97119"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga0b2dfab31e245d074c86967134122b25"><param name="Name" value="$cache_name_post"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga0b2dfab31e245d074c86967134122b25"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga0b2dfab31e245d074c86967134122b25"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gac05f99a6b3c71f3e31e77d5c9ea5914d"><param name="Name" value="$cache_name_pre"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gac05f99a6b3c71f3e31e77d5c9ea5914d"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gac05f99a6b3c71f3e31e77d5c9ea5914d"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gad3689303b91750b4f90511e1ab46a75c"><param name="Name" value="$cache_naming"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gad3689303b91750b4f90511e1ab46a75c"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gad3689303b91750b4f90511e1ab46a75c"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gaa239a3baf57ffc17ad1cc1911414b539"><param name="Name" value="$client_caching"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gaa239a3baf57ffc17ad1cc1911414b539"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gaa239a3baf57ffc17ad1cc1911414b539"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga73a53fbf95bca0dd45d7b6cca1f6a689"><param name="Name" value="$combine_all_javascript"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga73a53fbf95bca0dd45d7b6cca1f6a689"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga73a53fbf95bca0dd45d7b6cca1f6a689"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#gad7ca051062e3dc2de4fa237217abef86"><param name="Name" value="$compact_css"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#gad7ca051062e3dc2de4fa237217abef86"><param name="Name" value="css_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#gad7ca051062e3dc2de4fa237217abef86"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga8090fbc1c574d4134d6ab4b973d170d0"><param name="Name" value="$compact_javascript"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga8090fbc1c574d4134d6ab4b973d170d0"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga8090fbc1c574d4134d6ab4b973d170d0"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga9a4e30766e452f0d2feaecd666787ca1"><param name="Name" value="$compression_level"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga9a4e30766e452f0d2feaecd666787ca1"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga9a4e30766e452f0d2feaecd666787ca1"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga25b8691d25affc422f8de6218c2adc44"><param name="Name" value="$configuration_file"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga25b8691d25affc422f8de6218c2adc44"><param name="Name" value="priv_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga25b8691d25affc422f8de6218c2adc44"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga0e80adb33d63c6d68ba4c65404df2f94"><param name="Name" value="$css_cache"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga0e80adb33d63c6d68ba4c65404df2f94"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga0e80adb33d63c6d68ba4c65404df2f94"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga80329ee2b55f386978162762e84ac3ee"><param name="Name" value="$css_ext"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga80329ee2b55f386978162762e84ac3ee"><param name="Name" value="css_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga80329ee2b55f386978162762e84ac3ee"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga2864dee7a65933d1d4c94373d542b700"><param name="Name" value="$css_file_name"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga2864dee7a65933d1d4c94373d542b700"><param name="Name" value="css_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga2864dee7a65933d1d4c94373d542b700"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga117298df65ff2026617e125d21463b93"><param name="Name" value="$css_source"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga117298df65ff2026617e125d21463b93"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga117298df65ff2026617e125d21463b93"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#gade4bdb833871c0c762dd08d7ae627218"><param name="Name" value="$data_changes_check"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#gade4bdb833871c0c762dd08d7ae627218"><param name="Name" value="priv_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#gade4bdb833871c0c762dd08d7ae627218"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga25d50f7db79ecf7fc2a94c16eacfac6b"><param name="Name" value="$debug_meta"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga25d50f7db79ecf7fc2a94c16eacfac6b"><param name="Name" value="priv_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga25d50f7db79ecf7fc2a94c16eacfac6b"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gaef9cf198312d2f89238a8e8e2f0f67f3"><param name="Name" value="$domain"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gaef9cf198312d2f89238a8e8e2f0f67f3"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gaef9cf198312d2f89238a8e8e2f0f67f3"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga79efa8f1523c6f83cffbe8d18366a0f3"><param name="Name" value="$framework_filename"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga79efa8f1523c6f83cffbe8d18366a0f3"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga79efa8f1523c6f83cffbe8d18366a0f3"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga35ab8cb7ae69ec347b63dda82a173005"><param name="Name" value="$frameworks_source"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga35ab8cb7ae69ec347b63dda82a173005"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga35ab8cb7ae69ec347b63dda82a173005"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga74a35165f016f24e125268a1e122c14f"><param name="Name" value="$frameworks_type"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga74a35165f016f24e125268a1e122c14f"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga74a35165f016f24e125268a1e122c14f"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga5ac8836bca7856f49bf02d7d95c2edd2"><param name="Name" value="$gzip"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga5ac8836bca7856f49bf02d7d95c2edd2"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga5ac8836bca7856f49bf02d7d95c2edd2"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga08f8005b517d19f5a2d099d7ec595e2d"><param name="Name" value="$javascript_combined"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga08f8005b517d19f5a2d099d7ec595e2d"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga08f8005b517d19f5a2d099d7ec595e2d"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga38703f3ad6532639e4ec66aaa9ffc03b"><param name="Name" value="$javascript_filename"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga38703f3ad6532639e4ec66aaa9ffc03b"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga38703f3ad6532639e4ec66aaa9ffc03b"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gaf110565a1dfb60e0e30898d5087688be"><param name="Name" value="$javascript_minified"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gaf110565a1dfb60e0e30898d5087688be"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gaf110565a1dfb60e0e30898d5087688be"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga2f10132b94f95d29119dbfc721ec89f5"><param name="Name" value="$javascript_source"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga2f10132b94f95d29119dbfc721ec89f5"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga2f10132b94f95d29119dbfc721ec89f5"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga16d37062fd28b17ccfbbc08ce3e0b776"><param name="Name" value="$js_cache"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga16d37062fd28b17ccfbbc08ce3e0b776"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga16d37062fd28b17ccfbbc08ce3e0b776"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga0d34488b74d51638331cf68641b18369"><param name="Name" value="$js_ext"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga0d34488b74d51638331cf68641b18369"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga0d34488b74d51638331cf68641b18369"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga9296b8da0b01b82041584bbf469081ce"><param name="Name" value="$meta_spec"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga9296b8da0b01b82041584bbf469081ce"><param name="Name" value="priv_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga9296b8da0b01b82041584bbf469081ce"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga1c507c75ecec577b312bb845ff0e5cc2"><param name="Name" value="$modification_time"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga1c507c75ecec577b312bb845ff0e5cc2"><param name="Name" value="priv_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga1c507c75ecec577b312bb845ff0e5cc2"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga3d807a2e23ba55310871e3ed6c2bd356"><param name="Name" value="$optimize_css"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga3d807a2e23ba55310871e3ed6c2bd356"><param name="Name" value="css_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga3d807a2e23ba55310871e3ed6c2bd356"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga78989c70ad2b35d7026f6600cfe6ba92"><param name="Name" value="$optimize_css_gz"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga78989c70ad2b35d7026f6600cfe6ba92"><param name="Name" value="css_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga78989c70ad2b35d7026f6600cfe6ba92"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#gaf2d235fefcbea23d664080143edad37f"><param name="Name" value="$optimize_javascript"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#gaf2d235fefcbea23d664080143edad37f"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#gaf2d235fefcbea23d664080143edad37f"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga0cdc0ded508ad7f1a3cfc63ef1df780a"><param name="Name" value="$optimize_javascript_gz"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga0cdc0ded508ad7f1a3cfc63ef1df780a"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga0cdc0ded508ad7f1a3cfc63ef1df780a"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga16b8a20321620dbef3a8deb7462ef4f4"><param name="Name" value="$packer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga16b8a20321620dbef3a8deb7462ef4f4"><param name="Name" value="js_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga16b8a20321620dbef3a8deb7462ef4f4"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga63fb01efe0d6e48b4ec22d087e8146fb"><param name="Name" value="$pages_cache"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga63fb01efe0d6e48b4ec22d087e8146fb"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga63fb01efe0d6e48b4ec22d087e8146fb"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gae39d9273ea31335b789e7d9a65ddd5e5"><param name="Name" value="$root_cache"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gae39d9273ea31335b789e7d9a65ddd5e5"><param name="Name" value="paths_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gae39d9273ea31335b789e7d9a65ddd5e5"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga94cbab658bf158b39afd90db1a44e581"><param name="Name" value="$server_caching"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga94cbab658bf158b39afd90db1a44e581"><param name="Name" value="general_cache_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga94cbab658bf158b39afd90db1a44e581"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#gaac9c786f32cb63904e4579cc2bded602"><param name="Name" value="$shortcodes"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#gaac9c786f32cb63904e4579cc2bded602"><param name="Name" value="priv_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#gaac9c786f32cb63904e4579cc2bded602"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga88d4a982e092d52e64e05ee2b28f418f"><param name="Name" value="$template_id"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga88d4a982e092d52e64e05ee2b28f418f"><param name="Name" value="priv_settings"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga88d4a982e092d52e64e05ee2b28f418f"><param name="Name" value="TIDEngine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html#ga2395c8c084b383c7fa248df50b624e9a"><param name="Name" value="$xhtml_code_indentation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html#ga2395c8c084b383c7fa248df50b624e9a"><param name="Name" value="TIDEngine"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html#ga2395c8c084b383c7fa248df50b624e9a"><param name="Name" value="xhtml_cache_settings"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html#ga0216b64e0f4557ed5a36e5aaeccd2745"><param name="Name" value="$xhtml_code_operations"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html#ga0216b64e0f4557ed5a36e5aaeccd2745"><param name="Name" value="TIDEngine"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html#ga0216b64e0f4557ed5a36e5aaeccd2745"><param name="Name" value="xhtml_cache_settings"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a095c5d389db211932136b53f25f39685"><param name="Name" value="__construct"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#acac77e9d1c1ea28406556e5dd88f1dc1"><param name="Name" value="browser_info"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a406da7d26abff8587a707e5e7315bacf"><param name="Name" value="caculate_lifetime"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a16783567e39b102990730f699675819c"><param name="Name" value="check_browser_set_extension"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#aa15b352bea711619b46255f3b216268d"><param name="Name" value="check_cache"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a85b507378fa82cfbbcde72783fe506b8"><param name="Name" value="clean_file"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a5c7a49fd6510389df88ca9f97685b2af"><param name="Name" value="clean_html_code"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a05cc9b8d0b0f75a57a2b3da3a8891780"><param name="Name" value="clear_cache"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a07e07caf771b9d4171388e8258ddf4ef"><param name="Name" value="create_minified"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html"><param name="Name" value="css_cache_settings"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#gad7ca051062e3dc2de4fa237217abef86"><param name="Name" value="$compact_css"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga80329ee2b55f386978162762e84ac3ee"><param name="Name" value="$css_ext"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga2864dee7a65933d1d4c94373d542b700"><param name="Name" value="$css_file_name"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga3d807a2e23ba55310871e3ed6c2bd356"><param name="Name" value="$optimize_css"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html#ga78989c70ad2b35d7026f6600cfe6ba92"><param name="Name" value="$optimize_css_gz"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a9032066a9c91083b137ffa57627d08fa"><param name="Name" value="css_data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a3e3e3ea9bd1b6af66e25f2e559f45322"><param name="Name" value="display"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ab0432c08e048640c83f871e3ca119e62"><param name="Name" value="fix_newlines_for_clean_html"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html"><param name="Name" value="general_cache_settings"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gac1516832f9aecd303dcb275d08e97efe"><param name="Name" value="$cache_extension"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga5aaab753f75170fa670cbb602aa97119"><param name="Name" value="$cache_lifetime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga0b2dfab31e245d074c86967134122b25"><param name="Name" value="$cache_name_post"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gac05f99a6b3c71f3e31e77d5c9ea5914d"><param name="Name" value="$cache_name_pre"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gad3689303b91750b4f90511e1ab46a75c"><param name="Name" value="$cache_naming"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#gaa239a3baf57ffc17ad1cc1911414b539"><param name="Name" value="$client_caching"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga9a4e30766e452f0d2feaecd666787ca1"><param name="Name" value="$compression_level"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga5ac8836bca7856f49bf02d7d95c2edd2"><param name="Name" value="$gzip"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html#ga94cbab658bf158b39afd90db1a44e581"><param name="Name" value="$server_caching"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a6f31e46a51e73bd13b22a605d6599edf"><param name="Name" value="getRequestHeaders"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#aa51877c4a67aee5e44b3291aa3aa4de2"><param name="Name" value="gzip_data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a6c23057376e72bfa98f72e68cf39b787"><param name="Name" value="include_debugger"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ad1d5d85a42a4f8a83ca6261448b5457c"><param name="Name" value="include_packer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a0b8ae084a5dc63ca4f6876ab2e43438d"><param name="Name" value="javascript_data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html"><param name="Name" value="js_cache_settings"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga73a53fbf95bca0dd45d7b6cca1f6a689"><param name="Name" value="$combine_all_javascript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga8090fbc1c574d4134d6ab4b973d170d0"><param name="Name" value="$compact_javascript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga79efa8f1523c6f83cffbe8d18366a0f3"><param name="Name" value="$framework_filename"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga74a35165f016f24e125268a1e122c14f"><param name="Name" value="$frameworks_type"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga08f8005b517d19f5a2d099d7ec595e2d"><param name="Name" value="$javascript_combined"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga38703f3ad6532639e4ec66aaa9ffc03b"><param name="Name" value="$javascript_filename"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga0d34488b74d51638331cf68641b18369"><param name="Name" value="$js_ext"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#gaf2d235fefcbea23d664080143edad37f"><param name="Name" value="$optimize_javascript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga0cdc0ded508ad7f1a3cfc63ef1df780a"><param name="Name" value="$optimize_javascript_gz"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html#ga16b8a20321620dbef3a8deb7462ef4f4"><param name="Name" value="$packer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#aa59f4a795d744620f3cc6b49f4a27992"><param name="Name" value="js_packers"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ab97cdbd51067978f155d7611010b4e7f"><param name="Name" value="JShrink"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a33c1ef0d08960a1d75f4b55ecc7a844d"><param name="Name" value="JSmin"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a37b0692940dabb81cb4b317721fe1657"><param name="Name" value="JSminplus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a4d6587cd9ae73fa86b13f90c7ddf5a2d"><param name="Name" value="meta_data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ae545113763a61b7d0d2066ed70773e61"><param name="Name" value="optimize_css"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ae3b381ddbd1de0b6053b2c82e60fd385"><param name="Name" value="optimize_javascript"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a5a39f9ecf7304d4645246b5bcb916c1e"><param name="Name" value="Packer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html"><param name="Name" value="paths_settings"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga0e80adb33d63c6d68ba4c65404df2f94"><param name="Name" value="$css_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga117298df65ff2026617e125d21463b93"><param name="Name" value="$css_source"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gaef9cf198312d2f89238a8e8e2f0f67f3"><param name="Name" value="$domain"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga35ab8cb7ae69ec347b63dda82a173005"><param name="Name" value="$frameworks_source"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gaf110565a1dfb60e0e30898d5087688be"><param name="Name" value="$javascript_minified"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga2f10132b94f95d29119dbfc721ec89f5"><param name="Name" value="$javascript_source"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga16d37062fd28b17ccfbbc08ce3e0b776"><param name="Name" value="$js_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#ga63fb01efe0d6e48b4ec22d087e8146fb"><param name="Name" value="$pages_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html#gae39d9273ea31335b789e7d9a65ddd5e5"><param name="Name" value="$root_cache"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html"><param name="Name" value="priv_settings"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga25b8691d25affc422f8de6218c2adc44"><param name="Name" value="$configuration_file"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#gade4bdb833871c0c762dd08d7ae627218"><param name="Name" value="$data_changes_check"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga25d50f7db79ecf7fc2a94c16eacfac6b"><param name="Name" value="$debug_meta"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga9296b8da0b01b82041584bbf469081ce"><param name="Name" value="$meta_spec"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga1c507c75ecec577b312bb845ff0e5cc2"><param name="Name" value="$modification_time"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#gaac9c786f32cb63904e4579cc2bded602"><param name="Name" value="$shortcodes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html#ga88d4a982e092d52e64e05ee2b28f418f"><param name="Name" value="$template_id"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#adaa8cd255f4af21f4fa6d1566a90e8b7"><param name="Name" value="save_data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#aea13c262e2b03850c680ec85a0011624"><param name="Name" value="shortcodes"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html"><param name="Name" value="TIDEngine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__priv__settings.html"><param name="Name" value="TIDEngine Class Settings"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__css__cache__settings.html"><param name="Name" value="TIDEngine CSS Cache Settings"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__general__cache__settings.html"><param name="Name" value="TIDEngine General Cache Settings"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__js__cache__settings.html"><param name="Name" value="TIDEngine Javascript Cache Settings"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__paths__settings.html"><param name="Name" value="TIDEngine Paths Settings"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html"><param name="Name" value="TIDEngine XHTML Cache Settings"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html"><param name="Name" value="TIDEngine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gac1516832f9aecd303dcb275d08e97efe"><param name="Name" value="$cache_extension"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga5aaab753f75170fa670cbb602aa97119"><param name="Name" value="$cache_lifetime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga0b2dfab31e245d074c86967134122b25"><param name="Name" value="$cache_name_post"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gac05f99a6b3c71f3e31e77d5c9ea5914d"><param name="Name" value="$cache_name_pre"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gad3689303b91750b4f90511e1ab46a75c"><param name="Name" value="$cache_naming"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gaa239a3baf57ffc17ad1cc1911414b539"><param name="Name" value="$client_caching"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga73a53fbf95bca0dd45d7b6cca1f6a689"><param name="Name" value="$combine_all_javascript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gad7ca051062e3dc2de4fa237217abef86"><param name="Name" value="$compact_css"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga8090fbc1c574d4134d6ab4b973d170d0"><param name="Name" value="$compact_javascript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga9a4e30766e452f0d2feaecd666787ca1"><param name="Name" value="$compression_level"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga25b8691d25affc422f8de6218c2adc44"><param name="Name" value="$configuration_file"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga0e80adb33d63c6d68ba4c65404df2f94"><param name="Name" value="$css_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga80329ee2b55f386978162762e84ac3ee"><param name="Name" value="$css_ext"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga2864dee7a65933d1d4c94373d542b700"><param name="Name" value="$css_file_name"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga117298df65ff2026617e125d21463b93"><param name="Name" value="$css_source"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gade4bdb833871c0c762dd08d7ae627218"><param name="Name" value="$data_changes_check"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga25d50f7db79ecf7fc2a94c16eacfac6b"><param name="Name" value="$debug_meta"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gaef9cf198312d2f89238a8e8e2f0f67f3"><param name="Name" value="$domain"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga79efa8f1523c6f83cffbe8d18366a0f3"><param name="Name" value="$framework_filename"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga35ab8cb7ae69ec347b63dda82a173005"><param name="Name" value="$frameworks_source"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga74a35165f016f24e125268a1e122c14f"><param name="Name" value="$frameworks_type"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga5ac8836bca7856f49bf02d7d95c2edd2"><param name="Name" value="$gzip"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga08f8005b517d19f5a2d099d7ec595e2d"><param name="Name" value="$javascript_combined"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga38703f3ad6532639e4ec66aaa9ffc03b"><param name="Name" value="$javascript_filename"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gaf110565a1dfb60e0e30898d5087688be"><param name="Name" value="$javascript_minified"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga2f10132b94f95d29119dbfc721ec89f5"><param name="Name" value="$javascript_source"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga16d37062fd28b17ccfbbc08ce3e0b776"><param name="Name" value="$js_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga0d34488b74d51638331cf68641b18369"><param name="Name" value="$js_ext"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga9296b8da0b01b82041584bbf469081ce"><param name="Name" value="$meta_spec"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga1c507c75ecec577b312bb845ff0e5cc2"><param name="Name" value="$modification_time"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga3d807a2e23ba55310871e3ed6c2bd356"><param name="Name" value="$optimize_css"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga78989c70ad2b35d7026f6600cfe6ba92"><param name="Name" value="$optimize_css_gz"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gaf2d235fefcbea23d664080143edad37f"><param name="Name" value="$optimize_javascript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga0cdc0ded508ad7f1a3cfc63ef1df780a"><param name="Name" value="$optimize_javascript_gz"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga16b8a20321620dbef3a8deb7462ef4f4"><param name="Name" value="$packer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga63fb01efe0d6e48b4ec22d087e8146fb"><param name="Name" value="$pages_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gae39d9273ea31335b789e7d9a65ddd5e5"><param name="Name" value="$root_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga94cbab658bf158b39afd90db1a44e581"><param name="Name" value="$server_caching"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#gaac9c786f32cb63904e4579cc2bded602"><param name="Name" value="$shortcodes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga88d4a982e092d52e64e05ee2b28f418f"><param name="Name" value="$template_id"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga2395c8c084b383c7fa248df50b624e9a"><param name="Name" value="$xhtml_code_indentation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ga0216b64e0f4557ed5a36e5aaeccd2745"><param name="Name" value="$xhtml_code_operations"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a095c5d389db211932136b53f25f39685"><param name="Name" value="__construct"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#acac77e9d1c1ea28406556e5dd88f1dc1"><param name="Name" value="browser_info"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a406da7d26abff8587a707e5e7315bacf"><param name="Name" value="caculate_lifetime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a16783567e39b102990730f699675819c"><param name="Name" value="check_browser_set_extension"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#aa15b352bea711619b46255f3b216268d"><param name="Name" value="check_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a85b507378fa82cfbbcde72783fe506b8"><param name="Name" value="clean_file"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a5c7a49fd6510389df88ca9f97685b2af"><param name="Name" value="clean_html_code"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a05cc9b8d0b0f75a57a2b3da3a8891780"><param name="Name" value="clear_cache"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a07e07caf771b9d4171388e8258ddf4ef"><param name="Name" value="create_minified"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a9032066a9c91083b137ffa57627d08fa"><param name="Name" value="css_data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a3e3e3ea9bd1b6af66e25f2e559f45322"><param name="Name" value="display"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ab0432c08e048640c83f871e3ca119e62"><param name="Name" value="fix_newlines_for_clean_html"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a6f31e46a51e73bd13b22a605d6599edf"><param name="Name" value="getRequestHeaders"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#aa51877c4a67aee5e44b3291aa3aa4de2"><param name="Name" value="gzip_data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a6c23057376e72bfa98f72e68cf39b787"><param name="Name" value="include_debugger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ad1d5d85a42a4f8a83ca6261448b5457c"><param name="Name" value="include_packer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a0b8ae084a5dc63ca4f6876ab2e43438d"><param name="Name" value="javascript_data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#aa59f4a795d744620f3cc6b49f4a27992"><param name="Name" value="js_packers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ab97cdbd51067978f155d7611010b4e7f"><param name="Name" value="JShrink"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a33c1ef0d08960a1d75f4b55ecc7a844d"><param name="Name" value="JSmin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a37b0692940dabb81cb4b317721fe1657"><param name="Name" value="JSminplus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a4d6587cd9ae73fa86b13f90c7ddf5a2d"><param name="Name" value="meta_data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ae545113763a61b7d0d2066ed70773e61"><param name="Name" value="optimize_css"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#ae3b381ddbd1de0b6053b2c82e60fd385"><param name="Name" value="optimize_javascript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#a5a39f9ecf7304d4645246b5bcb916c1e"><param name="Name" value="Packer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#adaa8cd255f4af21f4fa6d1566a90e8b7"><param name="Name" value="save_data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_t_i_d_engine.html#aea13c262e2b03850c680ec85a0011624"><param name="Name" value="shortcodes"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="todo.html"><param name="Name" value="Todo List"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html"><param name="Name" value="xhtml_cache_settings"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html#ga2395c8c084b383c7fa248df50b624e9a"><param name="Name" value="$xhtml_code_indentation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__xhtml__cache__settings.html#ga0216b64e0f4557ed5a36e5aaeccd2745"><param name="Name" value="$xhtml_code_operations"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>

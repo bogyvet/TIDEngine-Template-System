@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_t_i_d_engine.html#a07e07caf771b9d4171388e8258ddf4ef" title="create_minified" alt="" coords="341,85,451,115"/>
+<area shape="rect" id="node15" href="$class_t_i_d_engine.html#a3e3e3ea9bd1b6af66e25f2e559f45322" title="display" alt="" coords="189,216,251,245"/>
+<area shape="rect" id="node23" href="$class_t_i_d_engine.html#aea13c262e2b03850c680ec85a0011624" title="shortcodes" alt="" coords="353,164,439,193"/>
+<area shape="rect" id="node43" href="$class_t_i_d_engine.html#a6f31e46a51e73bd13b22a605d6599edf" title="getRequestHeaders" alt="" coords="152,269,288,299"/>
+<area shape="rect" id="node5" href="$class_t_i_d_engine.html#aa59f4a795d744620f3cc6b49f4a27992" title="js_packers" alt="" coords="917,85,1003,115"/>
+<area shape="rect" id="node7" href="$class_t_i_d_engine.html#ab97cdbd51067978f155d7611010b4e7f" title="JShrink" alt="" coords="1060,5,1124,35"/>
+<area shape="rect" id="node9" href="$class_t_i_d_engine.html#a33c1ef0d08960a1d75f4b55ecc7a844d" title="JSmin" alt="" coords="1063,59,1121,88"/>
+<area shape="rect" id="node11" href="$class_t_i_d_engine.html#a37b0692940dabb81cb4b317721fe1657" title="JSminplus" alt="" coords="1051,112,1133,141"/>
+<area shape="rect" id="node13" href="$class_t_i_d_engine.html#a5a39f9ecf7304d4645246b5bcb916c1e" title="Packer" alt="" coords="1061,165,1123,195"/>
+<area shape="rect" id="node17" href="$class_t_i_d_engine.html#a85b507378fa82cfbbcde72783fe506b8" title="clean_file" alt="" coords="923,243,997,272"/>
+<area shape="rect" id="node19" href="$class_t_i_d_engine.html#a5c7a49fd6510389df88ca9f97685b2af" title="clean_html_code" alt="" coords="336,321,456,351"/>
+<area shape="rect" id="node21" href="$class_t_i_d_engine.html#ab0432c08e048640c83f871e3ca119e62" title="fix_newlines_for_clean_html" alt="" coords="505,321,687,351"/>
+<area shape="rect" id="node25" href="$class_t_i_d_engine.html#a9032066a9c91083b137ffa57627d08fa" title="css_data" alt="" coords="559,164,633,193"/>
+<area shape="rect" id="node33" href="$class_t_i_d_engine.html#a0b8ae084a5dc63ca4f6876ab2e43438d" title="javascript_data" alt="" coords="543,111,649,140"/>
+<area shape="rect" id="node40" href="$class_t_i_d_engine.html#a4d6587cd9ae73fa86b13f90c7ddf5a2d" title="meta_data" alt="" coords="555,217,637,247"/>
+<area shape="rect" id="node27" href="$class_t_i_d_engine.html#ae545113763a61b7d0d2066ed70773e61" title="optimize_css" alt="" coords="753,164,852,193"/>
+<area shape="rect" id="node30" href="$class_t_i_d_engine.html#aa51877c4a67aee5e44b3291aa3aa4de2" title="gzip_data" alt="" coords="921,151,999,180"/>
+<area shape="rect" id="node35" href="$class_t_i_d_engine.html#ae3b381ddbd1de0b6053b2c82e60fd385" title="optimize_javascript" alt="" coords="737,111,868,140"/>
+</map>

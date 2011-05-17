@@ -1,0 +1,554 @@
+.TH "TIDEngine" 3 "Sat Apr 30 2011" "Version 1.0" "TIDEngine API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TIDEngine \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ()"
+.br
+.ti -1c
+.RI "\fBcheck_cache\fP ($_data, $template_path, $template_id, $elements, $caching)"
+.br
+.ti -1c
+.RI "\fBcreate_minified\fP ($file)"
+.br
+.ti -1c
+.RI "\fBdisplay\fP ($file_path, $cache=false, $elements=false)"
+.br
+.ti -1c
+.RI "\fBshortcodes\fP ($data)"
+.br
+.ti -1c
+.RI "\fBcss_data\fP ($data)"
+.br
+.ti -1c
+.RI "\fBoptimize_css\fP ($files)"
+.br
+.ti -1c
+.RI "\fBjavascript_data\fP ($data, $type)"
+.br
+.ti -1c
+.RI "\fBoptimize_javascript\fP ($files, $type)"
+.br
+.ti -1c
+.RI "\fBjs_packers\fP ($file_content)"
+.br
+.ti -1c
+.RI "\fBinclude_debugger\fP ()"
+.br
+.ti -1c
+.RI "\fBinclude_packer\fP ()"
+.br
+.ti -1c
+.RI "\fBPacker\fP ($js_file)"
+.br
+.ti -1c
+.RI "\fBJSmin\fP ($js_file)"
+.br
+.ti -1c
+.RI "\fBJShrink\fP ($js_file)"
+.br
+.ti -1c
+.RI "\fBJSminplus\fP ($js_file)"
+.br
+.ti -1c
+.RI "\fBgzip_data\fP ($data)"
+.br
+.ti -1c
+.RI "\fBsave_data\fP ($data, $path, $modifiers=false)"
+.br
+.ti -1c
+.RI "\fBmeta_data\fP ($data)"
+.br
+.ti -1c
+.RI "\fBfix_newlines_for_clean_html\fP ($fixthistext)"
+.br
+.ti -1c
+.RI "\fBclean_html_code\fP ($uncleanhtml)"
+.br
+.ti -1c
+.RI "\fBclear_cache\fP ($template_id=false)"
+.br
+.ti -1c
+.RI "\fBclean_file\fP ($content)"
+.br
+.ti -1c
+.RI "\fBbrowser_info\fP ($agent=null)"
+.br
+.ti -1c
+.RI "\fBgetRequestHeaders\fP ()"
+.br
+.ti -1c
+.RI "\fBcaculate_lifetime\fP ()"
+.br
+.ti -1c
+.RI "\fBcheck_browser_set_extension\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$domain\fP = 'http://localhost/TIDengine/'"
+.br
+.ti -1c
+.RI "\fB$root_cache\fP = 'cache/'"
+.br
+.ti -1c
+.RI "\fB$pages_cache\fP = 'pages/'"
+.br
+.ti -1c
+.RI "\fB$css_cache\fP = 'css/'"
+.br
+.ti -1c
+.RI "\fB$js_cache\fP = 'javascript/'"
+.br
+.ti -1c
+.RI "\fB$javascript_source\fP = 'javascript/native/source/'"
+.br
+.ti -1c
+.RI "\fB$javascript_minified\fP = 'javascript/native/minified/'"
+.br
+.ti -1c
+.RI "\fB$frameworks_source\fP = 'javascript/frameworks/'"
+.br
+.ti -1c
+.RI "\fB$css_source\fP = 'css/'"
+.br
+.ti -1c
+.RI "\fB$cache_naming\fP = 'md5'"
+.br
+.ti -1c
+.RI "\fB$cache_name_pre\fP = '('"
+.br
+.ti -1c
+.RI "\fB$cache_name_post\fP = ')-'"
+.br
+.ti -1c
+.RI "\fB$cache_extension\fP = '.tpl.php'"
+.br
+.ti -1c
+.RI "\fB$server_caching\fP = true"
+.br
+.ti -1c
+.RI "\fB$client_caching\fP = true"
+.br
+.ti -1c
+.RI "\fB$gzip\fP = true"
+.br
+.ti -1c
+.RI "\fB$compression_level\fP = 4"
+.br
+.ti -1c
+.RI "\fB$cache_lifetime\fP = array('page'=>'1.month', 'css'=>'6.month', 'javascript'=>'6.month', 'frameworks'=>'6.month')"
+.br
+.ti -1c
+.RI "\fB$xhtml_code_operations\fP = 'indent'"
+.br
+.ti -1c
+.RI "\fB$xhtml_code_indentation\fP = ' '"
+.br
+.ti -1c
+.RI "\fB$optimize_css\fP = true"
+.br
+.ti -1c
+.RI "\fB$optimize_css_gz\fP = true"
+.br
+.ti -1c
+.RI "\fB$compact_css\fP = true"
+.br
+.ti -1c
+.RI "\fB$css_file_name\fP = 'master'"
+.br
+.ti -1c
+.RI "\fB$css_ext\fP = '.css'"
+.br
+.ti -1c
+.RI "\fB$optimize_javascript\fP = true"
+.br
+.ti -1c
+.RI "\fB$combine_all_javascript\fP = true"
+.br
+.ti -1c
+.RI "\fB$compact_javascript\fP = true"
+.br
+.ti -1c
+.RI "\fB$optimize_javascript_gz\fP = true"
+.br
+.ti -1c
+.RI "\fB$packer\fP = 'jsmin'"
+.br
+.ti -1c
+.RI "\fB$js_ext\fP = '.js'"
+.br
+.ti -1c
+.RI "\fB$javascript_combined\fP = 'combined'"
+.br
+.ti -1c
+.RI "\fB$javascript_filename\fP = 'javascript'"
+.br
+.ti -1c
+.RI "\fB$framework_filename\fP = 'framework'"
+.br
+.ti -1c
+.RI "\fB$frameworks_type\fP = 'minified'"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$shortcodes\fP = array()"
+.br
+.ti -1c
+.RI "\fB$data_changes_check\fP"
+.br
+.ti -1c
+.RI "\fB$modification_time\fP"
+.br
+.ti -1c
+.RI "\fB$template_id\fP"
+.br
+.ti -1c
+.RI "\fB$configuration_file\fP = ''"
+.br
+.ti -1c
+.RI "\fB$meta_spec\fP = array('Content-Language', 'Expires', 'Pragma', 'Cache-Control', 'imagetoolbar')"
+.br
+.ti -1c
+.RI "\fB$debug_meta\fP = false"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBTIDEngine\fP core class 
+.PP
+\fBAuthor:\fP
+.RS 4
+bogyvet 
+.RE
+.PP
+
+.PP
+Definition at line 9 of file TIDEngine.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ()"Class constructor. 
+.br
+
+.br
+ Detailed instructions inside Class inline comments 
+.PP
+Definition at line 476 of file TIDEngine.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "check_cache ($ _data, $ template_path, $ template_id, $ elements, $ caching)"Checks for Cache existance, Cache file validity and Cache expiration time.
+.br
+
+.br
+ Detailed instructions inside Class inline comments
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$_data\fP - Data to be phrased to template shortcodes array key = SHORTCODE, array value = DATA. 
+.br
+\fI$template_path\fP - Path to template file 
+.br
+\fI$template_id\fP - Template name 
+.br
+\fI$elements\fP - Extra elements we need to include, default header, body and footer. 
+.br
+\fI$caching\fP - Do we use caching for specific template 
+.RE
+.PP
+
+.PP
+Definition at line 509 of file TIDEngine.php.
+.SS "create_minified ($ file)"Create minified version of source Javascript files
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$file\fP 
+.RE
+.PP
+
+.PP
+Definition at line 807 of file TIDEngine.php.
+.SS "display ($ file_path, $ cache = \fCfalse\fP, $ elements = \fCfalse\fP)"Display page and|or Create Cache file.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$file_path\fP - path to template or cache file. 
+.br
+\fI$cache\fP - we need to create cache file controll variable 
+.br
+\fI$elements\fP - page elements. 
+.RE
+.PP
+
+.PP
+Definition at line 821 of file TIDEngine.php.
+.SS "shortcodes ($ data)"shortcodes($data) - Set shortcodes for template
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP - defined shortcodes that must be phrased to template 
+.RE
+.PP
+
+.PP
+Definition at line 930 of file TIDEngine.php.
+.SS "css_data ($ data)"Set CSS head data. CSS files paths
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP - CSS files paths 
+.RE
+.PP
+
+.PP
+Definition at line 1002 of file TIDEngine.php.
+.SS "optimize_css ($ files)"Optimize css files
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$files\fP - CSS file content 
+.RE
+.PP
+
+.PP
+\fBTodo\fP
+.RS 4
+Add CSSTidy support and some other Libaries 
+.RE
+.PP
+
+.PP
+Definition at line 1052 of file TIDEngine.php.
+.SS "javascript_data ($ data, $ type)"Set Javascript/Javascript Frameworks 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP - Javascript files 
+.br
+\fI$type\fP - frameworks or regular Javascript files 
+.RE
+.PP
+
+.PP
+Definition at line 1135 of file TIDEngine.php.
+.SS "optimize_javascript ($ files, $ type)"Optimize Javascript files 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$files\fP 
+.br
+\fI$type\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string $js - Links 
+.RE
+.PP
+
+.PP
+Definition at line 1185 of file TIDEngine.php.
+.SS "js_packers ($ file_content)"Optimize Javascript data with different Packers.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$file_content\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string $optimized_file 
+.RE
+.PP
+
+.PP
+Definition at line 1260 of file TIDEngine.php.
+.SS "include_debugger ()"Include SEO Optimization Adviser/Debugger Class. 
+.PP
+\fBTodo\fP
+.RS 4
+Use SEO Optimization Adviser/Debugger.
+.RE
+.PP
+
+.PP
+Definition at line 1305 of file TIDEngine.php.
+.SS "include_packer ()"Include defined packer Class in use.
+.PP
+\fBTodo\fP
+.RS 4
+Native Class packer. 
+.RE
+.PP
+
+.PP
+Definition at line 1319 of file TIDEngine.php.
+.SS "Packer ($ js_file)"Packer - PHP 5 ported version of Dean Edwards Packer
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$js_file\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1352 of file TIDEngine.php.
+.SS "JSmin ($ js_file)"JSmin - JSmin packer PHP ported version of Dean Edwards JS 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$js_file\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1364 of file TIDEngine.php.
+.SS "JShrink ($ js_file)"JShrink - JShrink-0.2.class.php hosted on Google Code
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$js_file\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1378 of file TIDEngine.php.
+.SS "JSminplus ($ js_file)"JSminPlus - one more port of Dean Edwards JSmin
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$js_file\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1391 of file TIDEngine.php.
+.SS "gzip_data ($ data)"If enabled gzip cache files
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1403 of file TIDEngine.php.
+.SS "save_data ($ data, $ path, $ modifiers = \fCfalse\fP)"Save cache files
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP - file data 
+.br
+\fI$path\fP - Cache File Path 
+.br
+\fI$modifiers\fP - overwrite, append data to file. 
+.RE
+.PP
+
+.PP
+Definition at line 1424 of file TIDEngine.php.
+.SS "meta_data ($ data)"Set head Page Title and Meta Tags.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP 
+.RE
+.PP
+
+.PP
+\fBTodo\fP
+.RS 4
+$this->debug_meta will be part of TIDEbugger Class 
+.RE
+.PP
+
+.PP
+Definition at line 1442 of file TIDEngine.php.
+.SS "fix_newlines_for_clean_html ($ fixthistext)"Function to seperate multiple tags one line. Credits to orginal author.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$fixthistext\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1486 of file TIDEngine.php.
+.SS "clean_html_code ($ uncleanhtml)"Indent XHTML output code $this->xhtml_code_indentation. Credits to orginal author.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$uncleanhtml\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string implode('\\n', $cleanhtml_array) 
+.RE
+.PP
+
+.PP
+Definition at line 1512 of file TIDEngine.php.
+.SS "clear_cache ($ template_id = \fCfalse\fP)"Manualy clear cache.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$template_id\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1603 of file TIDEngine.php.
+.SS "clean_file ($ content)"Remove white space, comments etc. 
+.PP
+Definition at line 1633 of file TIDEngine.php.
+.SS "browser_info ($ agent = \fCnull\fP)"Code taken php.org and slitly adapted. Lightweight alternative for Browscap. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$agent\fP - string to check if we have access by defined agent 
+.RE
+.PP
+
+.PP
+Definition at line 1653 of file TIDEngine.php.
+.SS "getRequestHeaders ()"Get Client Browser headers data. 
+.PP
+Definition at line 1685 of file TIDEngine.php.
+.SS "caculate_lifetime ()"Calculate Cache Life Time in miliseconds 
+.PP
+Definition at line 1717 of file TIDEngine.php.
+.SS "check_browser_set_extension ()"Workarround for Safari problem with gzipped content we need other type of compressed cache files extensions. As some hosting companies do not support get_browser function I was thinking that best solution is native Browscap class - first time load this class will update all data in cache file. eg. Other browsers .css.gz and .js.gz Safari css.gz.css and js.gz.js
+.IP "\(bu" 2
+infact this is not strict rule you can set any kind of extension just not to be .gz eg. js.gz.xyz and css.gz.xyz - this will work without problem.
+.PP
+.PP
+Uncomment this line :
+.PP
+$check_browser = new Browscap($this->Browscap_cache); $browser = $check_browser->getBrowser(null, false); $this->browser = $browser->Browser;
+.PP
+and
+.PP
+$this->Browscap_cache = $this->root_cache . 'Browscap';
+.PP
+also comment this two lines of code:
+.PP
+$browser = $this->\fBbrowser_info()\fP; $this->browser = ucfirst($browser[0]); 
+.PP
+Definition at line 1795 of file TIDEngine.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TIDEngine API from the source code.

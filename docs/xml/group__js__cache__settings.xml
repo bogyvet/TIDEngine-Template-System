@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="group__js__cache__settings" kind="group">
+    <compoundname>js_cache_settings</compoundname>
+    <title>TIDEngine Javascript Cache Settings</title>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="group__js__cache__settings_1gaf2d235fefcbea23d664080143edad37f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$optimize_javascript</definition>
+        <argsstring></argsstring>
+        <name>$optimize_javascript</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use Javascript optimization. Clean Javascript files and put all code in one line - size reduction. This means we will use some of external Javascript Packers.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$optimize_javascript</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="303" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga73a53fbf95bca0dd45d7b6cca1f6a689" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$combine_all_javascript</definition>
+        <argsstring></argsstring>
+        <name>$combine_all_javascript</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Combine all Javascript and Javscript Frameworks files in one file. If we use this option all Javascript files will be treated as native Javascript files.<linebreak/>
+ Compress Javascript files - Reduces the number of HTTP requests.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$combine_all_javascript</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="312" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga8090fbc1c574d4134d6ab4b973d170d0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$compact_javascript</definition>
+        <argsstring></argsstring>
+        <name>$compact_javascript</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Combine all Javascript files in two files, one for native Javascript source files and other for Javscript Frameworks Files.<linebreak/>
+ Compress Javascript files - Reduces the number of HTTP requests.<linebreak/>
+<linebreak/>
+ If $combine_all_javascript are enabled this setting will have no effects.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$compact_javascript</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="321" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga0cdc0ded508ad7f1a3cfc63ef1df780a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bool $optimize_javascript_gz</definition>
+        <argsstring></argsstring>
+        <name>$optimize_javascript_gz</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use gzip compression on Javascript Cache files . Compress Javascript files - size reduction. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="328" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga16b8a20321620dbef3a8deb7462ef4f4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$packer</definition>
+        <argsstring></argsstring>
+        <name>$packer</name>
+        <initializer> &apos;jsmin&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Optimize Javascript files, by using some of build in Javascript Packers. <linebreak/>
+ You must realize that every time you use Javascript Optimization you will have high server load, and long response time.<linebreak/>
+<linebreak/>
+ Workarround for this is to create minified versions of Javascript Frameworks files. Or to create them on Localhost.<linebreak/>
+<linebreak/>
+ By default <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> checks if there are minified version of Javascript files during first time load and if they <linebreak/>
+ do not exist create them, so you will have high Server load just once during creation of minified version of <linebreak/>
+ Javascript files. When you have minified version of Javascript files there are no high Server load.<linebreak/>
+ If you do not have Javascript changes you could just:<itemizedlist>
+<listitem><para>set $cache_lifetime = &apos;permanent&apos;; and</para></listitem><listitem><para>change .httacces file lines 1 month to 1 year:<linebreak/>
+<linebreak/>
+ <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ExpiresByType<sp/>application/javascript<sp/></highlight><highlight class="stringliteral">&quot;access<sp/>plus<sp/>1<sp/>month&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ExpiresByType<sp/>application/x-javascript<sp/></highlight><highlight class="stringliteral">&quot;access<sp/>plus<sp/>1<sp/>month&quot;</highlight></codeline>
+</programlisting></para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$packer</parametername>
+<parametertype>string</parametertype>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>packer - PHP 5 ported version of Dean Edwards Packer</para></listitem><listitem><para>jsmin - JSmin packer PHP ported version of Dean Edwards JSmin</para></listitem><listitem><para>jshrink - JShrink-0.2.class.php hosted on Google Code</para></listitem><listitem><para>jsminplus - one more port of Dean Edwards JSmin</para></listitem><listitem><para>native - <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> native compressor based on regular Expressions - Not finished. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="352" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="352" bodyend="-1"/>
+        <referencedby refid="class_t_i_d_engine_1a5a39f9ecf7304d4645246b5bcb916c1e" compoundref="_t_i_d_engine_8php" startline="1352" endline="1357">TIDEngine::Packer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga0d34488b74d51638331cf68641b18369" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$js_ext</definition>
+        <argsstring></argsstring>
+        <name>$js_ext</name>
+        <initializer> &apos;.js&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set default Javascript extension. Look sily but we need that for Safari gzip bug. Safari acceprt default extension for gzipped files in format .js.gz.js or .css.gz.css*</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$js_ext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="360" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga08f8005b517d19f5a2d099d7ec595e2d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$javascript_combined</definition>
+        <argsstring></argsstring>
+        <name>$javascript_combined</name>
+        <initializer> &apos;combined&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New combined javascript file name. When we use combinig all Javascript files into one.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$javascript_combined</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="367" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga38703f3ad6532639e4ec66aaa9ffc03b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$javascript_filename</definition>
+        <argsstring></argsstring>
+        <name>$javascript_filename</name>
+        <initializer> &apos;javascript&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New combined javascript file name. When we combine native Javascript files ad one Cache file and Frameworks as second..</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$javascript_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="374" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga79efa8f1523c6f83cffbe8d18366a0f3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$framework_filename</definition>
+        <argsstring></argsstring>
+        <name>$framework_filename</name>
+        <initializer> &apos;framework&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New combined frameworks file name. When we combine native Javascript files ad one Cache file and Frameworks as second..</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$framework_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="382" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__js__cache__settings_1ga74a35165f016f24e125268a1e122c14f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$frameworks_type</definition>
+        <argsstring></argsstring>
+        <name>$frameworks_type</name>
+        <initializer> &apos;minified&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If Framework type in use.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$frameworks_type</parametername>
+<parametertype>string</parametertype>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>source - If we use source - no minified versions of Javascript will be created.</para></listitem><listitem><para>minified - If we use minified - minified versions of all Javascript will be created. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="391" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> different Javascript Cache Settings.</para><para>Your Pages performance depends from this settings. We recomend to use Default settings for best results.<linebreak/>
+<linebreak/>
+ But anyway you could make experiments and adjust by your needs. This settings are applied just to Javascript Cache files. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

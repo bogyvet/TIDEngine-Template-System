@@ -1,0 +1,71 @@
+#teBackground{
+	margin: 0;
+	right: 0px; 
+	bottom: 0px;
+	z-index: 1000;
+	position: absolute; 
+	left: 0;
+	top:0;
+}
+
+#teModalInnerHolder {
+	margin: 0;
+	background: #fff; 
+
+}
+.teModalRadius{
+	border : 3px solid #ccc;
+		-moz-border-radius:20px;
+		-webkit-border-radius:20px;
+		border-radius:20px;
+	
+}
+#teModalHolder {
+    position: absolute;
+	z-index: 5000;
+	margin: 0;
+	background: #fff; 
+
+}
+#teModalHeader{
+	margin-top: 3px;
+	font-size: 18px;
+	font-weight: bold;
+	height : 24px;
+	
+}
+#teModalTitle{
+	float: left;
+	padding: 5px 0 5px 40px;
+	
+}
+#teModalClose{
+	float: right;
+    margin : 2px 20px 5px 0; 
+	cursor: pointer;
+}
+
+#teModalBody{
+	margin: 10px 20px 15px 20px;
+	display : block;
+	overflow : hidden;
+	
+}
+.teModal, .teModalInline{  
+	cursor: pointer;
+}
+.teModalsInlineContent{
+	display: none;
+	
+}
+
+#teModalFooter{  /*SREDJENO*/
+	float: right;
+	margin: -13px 45px 3px 0;
+}
+.teModal-message{
+	font-size: 30px;
+	margin: auto;
+	
+}
+}

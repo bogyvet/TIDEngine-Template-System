@@ -1,0 +1,229 @@
+\hypertarget{group__general__cache__settings}{
+\section{TIDEngine General Cache Settings}
+\label{group__general__cache__settings}\index{TIDEngine General Cache Settings@{TIDEngine General Cache Settings}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__general__cache__settings_gad3689303b91750b4f90511e1ab46a75c}{\$cache\_\-naming} = 'md5'
+\item 
+\hyperlink{group__general__cache__settings_gac05f99a6b3c71f3e31e77d5c9ea5914d}{\$cache\_\-name\_\-pre} = '('
+\item 
+\hyperlink{group__general__cache__settings_ga0b2dfab31e245d074c86967134122b25}{\$cache\_\-name\_\-post} = ')-\/'
+\item 
+\hyperlink{group__general__cache__settings_gac1516832f9aecd303dcb275d08e97efe}{\$cache\_\-extension} = '.tpl.php'
+\item 
+\hyperlink{group__general__cache__settings_ga94cbab658bf158b39afd90db1a44e581}{\$server\_\-caching} = true
+\item 
+\hyperlink{group__general__cache__settings_gaa239a3baf57ffc17ad1cc1911414b539}{\$client\_\-caching} = true
+\item 
+\hyperlink{group__general__cache__settings_ga5ac8836bca7856f49bf02d7d95c2edd2}{\$gzip} = true
+\item 
+\hyperlink{group__general__cache__settings_ga9a4e30766e452f0d2feaecd666787ca1}{\$compression\_\-level} = 4
+\item 
+\hyperlink{group__general__cache__settings_ga5aaab753f75170fa670cbb602aa97119}{\$cache\_\-lifetime} = array('page'=$>$'1.month', 'css'=$>$'6.month', 'javascript'=$>$'6.month', 'frameworks'=$>$'6.month')
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_t_i_d_engine}{TIDEngine} different General Cache Settings.
+
+Your Pages performance depends from this settings. We recomend to use Default settings for best results.\par
+\par
+ But anyway you could make experiments and adjust by your needs. This settings are applied to all files. 
+
+\subsection{Variable Documentation}
+\hypertarget{group__general__cache__settings_gad3689303b91750b4f90511e1ab46a75c}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$cache\_\-naming@{\$cache\_\-naming}}
+\index{\$cache\_\-naming@{\$cache\_\-naming}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$cache\_\-naming}]{\setlength{\rightskip}{0pt plus 5cm}\$cache\_\-naming = 'md5'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_gad3689303b91750b4f90511e1ab46a75c}
+Templates/Pages cache files unique naming type.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$cache\_\-naming} & -\/ you can use one of the following name possibilities:
+\begin{DoxyItemize}
+\item md5 -\/ Page/Template cache name is md5 value of template name.
+\item sha1 -\/ Page/Template cache name is sha1 value of template name.
+\item native -\/ use native templatre names 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 108 of file TIDEngine.php.
+
+\hypertarget{group__general__cache__settings_gac05f99a6b3c71f3e31e77d5c9ea5914d}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$cache\_\-name\_\-pre@{\$cache\_\-name\_\-pre}}
+\index{\$cache\_\-name\_\-pre@{\$cache\_\-name\_\-pre}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$cache\_\-name\_\-pre}]{\setlength{\rightskip}{0pt plus 5cm}\$cache\_\-name\_\-pre = '('\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_gac05f99a6b3c71f3e31e77d5c9ea5914d}
+Cache name prefix implemented for easier data changes check unique value inside brackets.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string,:} & 
+\begin{DoxyItemize}
+\item Default '(' eg. ()-\/ full Cache separators 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 116 of file TIDEngine.php.
+
+\hypertarget{group__general__cache__settings_ga0b2dfab31e245d074c86967134122b25}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$cache\_\-name\_\-post@{\$cache\_\-name\_\-post}}
+\index{\$cache\_\-name\_\-post@{\$cache\_\-name\_\-post}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$cache\_\-name\_\-post}]{\setlength{\rightskip}{0pt plus 5cm}\$cache\_\-name\_\-post = ')-\/'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_ga0b2dfab31e245d074c86967134122b25}
+Cache name sufix implemented for easier data changes check unique value inside brackets.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string,:} & 
+\begin{DoxyItemize}
+\item Default '(' eg. ()-\/ full Cache separators 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 124 of file TIDEngine.php.
+
+\hypertarget{group__general__cache__settings_gac1516832f9aecd303dcb275d08e97efe}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$cache\_\-extension@{\$cache\_\-extension}}
+\index{\$cache\_\-extension@{\$cache\_\-extension}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$cache\_\-extension}]{\setlength{\rightskip}{0pt plus 5cm}\$cache\_\-extension = '.tpl.php'\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_gac1516832f9aecd303dcb275d08e97efe}
+Pages cache extension in use, you can use any type of extension, because Template/Page Cache File just store XHTML code,\par
+ there are no direct access, they are final data storag, render by \hyperlink{class_t_i_d_engine}{TIDEngine}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$cache\_\-extension} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 132 of file TIDEngine.php.
+
+\hypertarget{group__general__cache__settings_ga94cbab658bf158b39afd90db1a44e581}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$server\_\-caching@{\$server\_\-caching}}
+\index{\$server\_\-caching@{\$server\_\-caching}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$server\_\-caching}]{\setlength{\rightskip}{0pt plus 5cm}\$server\_\-caching = true\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_ga94cbab658bf158b39afd90db1a44e581}
+Use Server Caching. If this is enabled all Page Components will be processed depending of Settings and Cached on Server Side.\par
+ Until Page Components do not expire or some of Data are changed \hyperlink{class_t_i_d_engine}{TIDEngine} will serve Cached. Files for every Page Request.\par
+
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$server\_\-caching} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 141 of file TIDEngine.php.
+
+\hypertarget{group__general__cache__settings_gaa239a3baf57ffc17ad1cc1911414b539}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$client\_\-caching@{\$client\_\-caching}}
+\index{\$client\_\-caching@{\$client\_\-caching}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$client\_\-caching}]{\setlength{\rightskip}{0pt plus 5cm}\$client\_\-caching = true\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_gaa239a3baf57ffc17ad1cc1911414b539}
+Use Client/Browser Caching. If this is enabled on every page request will be checked Cache existance and validity.\par
+\par
+ If Cache files pass checking for individual Cache file will be set 304 Redirect -\/ Not Modified.\par
+\par
+ EG. If you have unique Javascript files for all pages on different pages access will be used same Javascript, CSS files from Browser cache if is valid if not \hyperlink{class_t_i_d_engine}{TIDEngine} will serve Server Side Cached Files.\par
+
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$client\_\-caching} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 151 of file TIDEngine.php.
+
+\hypertarget{group__general__cache__settings_ga5ac8836bca7856f49bf02d7d95c2edd2}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$gzip@{\$gzip}}
+\index{\$gzip@{\$gzip}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$gzip}]{\setlength{\rightskip}{0pt plus 5cm}\$gzip = true\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_ga5ac8836bca7856f49bf02d7d95c2edd2}
+Use gzip compression on Page/Template Compress Server Side Cache Files.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$gzip} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 158 of file TIDEngine.php.
+
+\hypertarget{group__general__cache__settings_ga9a4e30766e452f0d2feaecd666787ca1}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$compression\_\-level@{\$compression\_\-level}}
+\index{\$compression\_\-level@{\$compression\_\-level}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$compression\_\-level}]{\setlength{\rightskip}{0pt plus 5cm}\$compression\_\-level = 4\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_ga9a4e30766e452f0d2feaecd666787ca1}
+Set general compression level for all Cache Files. There are 1-\/9 -\/ gzip compression levels.
+\begin{DoxyItemize}
+\item fast: 1-\/4,
+\item slower: 5-\/6 (but better compression),
+\item slow: 7-\/9 (up to 2x faster, best compression) On files under 300K level 4 is good enought.
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$compression\_\-level} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 169 of file TIDEngine.php.
+
+\hypertarget{group__general__cache__settings_ga5aaab753f75170fa670cbb602aa97119}{
+\index{general\_\-cache\_\-settings@{general\_\-cache\_\-settings}!\$cache\_\-lifetime@{\$cache\_\-lifetime}}
+\index{\$cache\_\-lifetime@{\$cache\_\-lifetime}!general_cache_settings@{general\_\-cache\_\-settings}}
+\subsubsection[{\$cache\_\-lifetime}]{\setlength{\rightskip}{0pt plus 5cm}\$cache\_\-lifetime = array('page'=$>$'1.month', 'css'=$>$'6.month', 'javascript'=$>$'6.month', 'frameworks'=$>$'6.month')\hspace{0.3cm}{\ttfamily  \mbox{[}inherited\mbox{]}}}}
+\label{group__general__cache__settings_ga5aaab753f75170fa670cbb602aa97119}
+Set Cache Life Time in seconds EG. 60 seconds x 60 minutes x 24 hours = one day cache life time.\par
+ You can set cache lifetime in miliseconds or as string 'permanent' means.\par
+\par
+ EG. 1.minute 1.hour 1.day 1.month 1.year \par
+ 
+\begin{DoxyCode}
+                $this->cache_lifetime = array(
+                                                'page'=>'1.minute',
+                                                'css'=>'1.hour',
+                                                'javascript'=>'1.day',
+                                                'frameworks'=>'1.month'
+                                                );
+\end{DoxyCode}
+\par
+ Other possibility is to set one lifetime for all cache files:\par
+\par
+ 
+\begin{DoxyCode}
+                $this->cache_lifetime = '1.month';
+\end{DoxyCode}
+\par
+ or\par
+ 
+\begin{DoxyCode}
+                $this->cache_lifetime = 'permanent';
+\end{DoxyCode}
+
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$cache\_\-lifetime} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 194 of file TIDEngine.php.
+

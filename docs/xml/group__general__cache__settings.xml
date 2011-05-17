@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="group__general__cache__settings" kind="group">
+    <compoundname>general_cache_settings</compoundname>
+    <title>TIDEngine General Cache Settings</title>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="group__general__cache__settings_1gad3689303b91750b4f90511e1ab46a75c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_naming</definition>
+        <argsstring></argsstring>
+        <name>$cache_naming</name>
+        <initializer> &apos;md5&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Templates/Pages cache files unique naming type.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cache_naming</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- you can use one of the following name possibilities:<itemizedlist>
+<listitem><para>md5 - Page/Template cache name is md5 value of template name.</para></listitem><listitem><para>sha1 - Page/Template cache name is sha1 value of template name.</para></listitem><listitem><para>native - use native templatre names </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="108" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1gac05f99a6b3c71f3e31e77d5c9ea5914d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_name_pre</definition>
+        <argsstring></argsstring>
+        <name>$cache_name_pre</name>
+        <initializer> &apos;(&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache name prefix implemented for easier data changes check unique value inside brackets.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>Default &apos;(&apos; eg. ()- full Cache separators </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="116" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga0b2dfab31e245d074c86967134122b25" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_name_post</definition>
+        <argsstring></argsstring>
+        <name>$cache_name_post</name>
+        <initializer> &apos;)-&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache name sufix implemented for easier data changes check unique value inside brackets.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><itemizedlist>
+<listitem><para>Default &apos;(&apos; eg. ()- full Cache separators </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="124" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1gac1516832f9aecd303dcb275d08e97efe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_extension</definition>
+        <argsstring></argsstring>
+        <name>$cache_extension</name>
+        <initializer> &apos;.tpl.php&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pages cache extension in use, you can use any type of extension, because Template/Page Cache File just store XHTML code,<linebreak/>
+ there are no direct access, they are final data storag, render by <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cache_extension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="132" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga94cbab658bf158b39afd90db1a44e581" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$server_caching</definition>
+        <argsstring></argsstring>
+        <name>$server_caching</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use Server Caching. If this is enabled all Page Components will be processed depending of Settings and Cached on Server Side.<linebreak/>
+ Until Page Components do not expire or some of Data are changed <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> will serve Cached. Files for every Page Request.<linebreak/>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$server_caching</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="141" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1gaa239a3baf57ffc17ad1cc1911414b539" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$client_caching</definition>
+        <argsstring></argsstring>
+        <name>$client_caching</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use Client/Browser Caching. If this is enabled on every page request will be checked Cache existance and validity.<linebreak/>
+<linebreak/>
+ If Cache files pass checking for individual Cache file will be set 304 Redirect - Not Modified.<linebreak/>
+<linebreak/>
+ EG. If you have unique Javascript files for all pages on different pages access will be used same Javascript, CSS files from Browser cache if is valid if not <ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> will serve Server Side Cached Files.<linebreak/>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$client_caching</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="151" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga5ac8836bca7856f49bf02d7d95c2edd2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$gzip</definition>
+        <argsstring></argsstring>
+        <name>$gzip</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use gzip compression on Page/Template Compress Server Side Cache Files.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$gzip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="158" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga9a4e30766e452f0d2feaecd666787ca1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$compression_level</definition>
+        <argsstring></argsstring>
+        <name>$compression_level</name>
+        <initializer> 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set general compression level for all Cache Files. There are 1-9 - gzip compression levels.<itemizedlist>
+<listitem><para>fast: 1-4,</para></listitem><listitem><para>slower: 5-6 (but better compression),</para></listitem><listitem><para>slow: 7-9 (up to 2x faster, best compression) On files under 300K level 4 is good enought.</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$compression_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="169" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__general__cache__settings_1ga5aaab753f75170fa670cbb602aa97119" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_lifetime</definition>
+        <argsstring></argsstring>
+        <name>$cache_lifetime</name>
+        <initializer>  array(&apos;page&apos;=&gt;&apos;1.month&apos;, &apos;css&apos;=&gt;&apos;6.month&apos;, &apos;javascript&apos;=&gt;&apos;6.month&apos;, &apos;frameworks&apos;=&gt;&apos;6.month&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set Cache Life Time in seconds EG. 60 seconds x 60 minutes x 24 hours = one day cache life time.<linebreak/>
+ You can set cache lifetime in miliseconds or as string &apos;permanent&apos; means.<linebreak/>
+<linebreak/>
+ EG. 1.minute 1.hour 1.day 1.month 1.year <linebreak/>
+ <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;cache_lifetime<sp/>=<sp/>array(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;page&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;1.minute&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;css&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;1.hour&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;javascript&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;1.day&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;frameworks&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;1.month&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+</programlisting><linebreak/>
+ Other possibility is to set one lifetime for all cache files:<linebreak/>
+<linebreak/>
+ <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;cache_lifetime<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;1.month&apos;</highlight><highlight class="normal">;</highlight></codeline>
+</programlisting><linebreak/>
+ or<linebreak/>
+ <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;cache_lifetime<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;permanent&apos;</highlight><highlight class="normal">;</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$cache_lifetime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" line="194" bodyfile="C:/Localhosting/xampp/htdocs/TIDEngine/TIDEngine/core/TIDEngine.php" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_t_i_d_engine" kindref="compound">TIDEngine</ref> different General Cache Settings.</para><para>Your Pages performance depends from this settings. We recomend to use Default settings for best results.<linebreak/>
+<linebreak/>
+ But anyway you could make experiments and adjust by your needs. This settings are applied to all files. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+Order deny,allow
+Allow from all
+Satisfy any
+
+AddEncoding gzip .gz
+
+
+#PHP5 support to enable compression and save bandwidth.
+#<ifModule mod_php5.c>
+#php_value zlib.output_compression 16386
+#</ifModule>
+
+<FilesMatch "\\.(css.gz)$">
+    ForceType text/css
+</FilesMatch>
+<FilesMatch "\\.(js.gz)$">
+    ForceType text/javascript
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header set Vary: Accept-Encoding
+    Header set Cache-Control "max-age=2592000, public"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/x-javascript "access plus 1 month"
+</IfModule>
+
+FileETag none
+
+FileETag MTime Size
+
+#<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|css.gz|js.gz)$">
+#      Header set Expires "Sun, 22 Apr 2018 01:10:54 GMT"
+#      Header set Cache-Control "max-age=2592000"
+#      Header unset Pragma
+#</FilesMatch>
+
+
+

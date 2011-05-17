@@ -1,0 +1,217 @@
+.TH "TIDEngine General Cache Settings" 3 "Sat Apr 30 2011" "Version 1.0" "TIDEngine API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TIDEngine General Cache Settings \- 
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$cache_naming\fP = 'md5'"
+.br
+.ti -1c
+.RI "\fB$cache_name_pre\fP = '('"
+.br
+.ti -1c
+.RI "\fB$cache_name_post\fP = ')-'"
+.br
+.ti -1c
+.RI "\fB$cache_extension\fP = '.tpl.php'"
+.br
+.ti -1c
+.RI "\fB$server_caching\fP = true"
+.br
+.ti -1c
+.RI "\fB$client_caching\fP = true"
+.br
+.ti -1c
+.RI "\fB$gzip\fP = true"
+.br
+.ti -1c
+.RI "\fB$compression_level\fP = 4"
+.br
+.ti -1c
+.RI "\fB$cache_lifetime\fP = array('page'=>'1.month', 'css'=>'6.month', 'javascript'=>'6.month', 'frameworks'=>'6.month')"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBTIDEngine\fP different General Cache Settings.
+.PP
+Your Pages performance depends from this settings. We recomend to use Default settings for best results.
+.br
+
+.br
+ But anyway you could make experiments and adjust by your needs. This settings are applied to all files. 
+.SH "Variable Documentation"
+.PP 
+.SS "$cache_naming = 'md5'\fC [inherited]\fP"Templates/Pages cache files unique naming type.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cache_naming\fP - you can use one of the following name possibilities:
+.IP "\(bu" 2
+md5 - Page/Template cache name is md5 value of template name.
+.IP "\(bu" 2
+sha1 - Page/Template cache name is sha1 value of template name.
+.IP "\(bu" 2
+native - use native templatre names 
+.PP
+.RE
+.PP
+
+.PP
+Definition at line 108 of file TIDEngine.php.
+.SS "$cache_name_pre = '('\fC [inherited]\fP"Cache name prefix implemented for easier data changes check unique value inside brackets.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring,:\fP 
+.IP "\(bu" 2
+Default '(' eg. ()- full Cache separators 
+.PP
+.RE
+.PP
+
+.PP
+Definition at line 116 of file TIDEngine.php.
+.SS "$cache_name_post = ')-'\fC [inherited]\fP"Cache name sufix implemented for easier data changes check unique value inside brackets.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring,:\fP 
+.IP "\(bu" 2
+Default '(' eg. ()- full Cache separators 
+.PP
+.RE
+.PP
+
+.PP
+Definition at line 124 of file TIDEngine.php.
+.SS "$cache_extension = '.tpl.php'\fC [inherited]\fP"Pages cache extension in use, you can use any type of extension, because Template/Page Cache File just store XHTML code,
+.br
+ there are no direct access, they are final data storag, render by \fBTIDEngine\fP.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cache_extension\fP 
+.RE
+.PP
+
+.PP
+Definition at line 132 of file TIDEngine.php.
+.SS "$server_caching = true\fC [inherited]\fP"Use Server Caching. If this is enabled all Page Components will be processed depending of Settings and Cached on Server Side.
+.br
+ Until Page Components do not expire or some of Data are changed \fBTIDEngine\fP will serve Cached. Files for every Page Request.
+.br
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$server_caching\fP 
+.RE
+.PP
+
+.PP
+Definition at line 141 of file TIDEngine.php.
+.SS "$client_caching = true\fC [inherited]\fP"Use Client/Browser Caching. If this is enabled on every page request will be checked Cache existance and validity.
+.br
+
+.br
+ If Cache files pass checking for individual Cache file will be set 304 Redirect - Not Modified.
+.br
+
+.br
+ EG. If you have unique Javascript files for all pages on different pages access will be used same Javascript, CSS files from Browser cache if is valid if not \fBTIDEngine\fP will serve Server Side Cached Files.
+.br
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$client_caching\fP 
+.RE
+.PP
+
+.PP
+Definition at line 151 of file TIDEngine.php.
+.SS "$gzip = true\fC [inherited]\fP"Use gzip compression on Page/Template Compress Server Side Cache Files.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$gzip\fP 
+.RE
+.PP
+
+.PP
+Definition at line 158 of file TIDEngine.php.
+.SS "$compression_level = 4\fC [inherited]\fP"Set general compression level for all Cache Files. There are 1-9 - gzip compression levels.
+.IP "\(bu" 2
+fast: 1-4,
+.IP "\(bu" 2
+slower: 5-6 (but better compression),
+.IP "\(bu" 2
+slow: 7-9 (up to 2x faster, best compression) On files under 300K level 4 is good enought.
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$compression_level\fP 
+.RE
+.PP
+
+.PP
+Definition at line 169 of file TIDEngine.php.
+.SS "$cache_lifetime = array('page'=>'1.month', 'css'=>'6.month', 'javascript'=>'6.month', 'frameworks'=>'6.month')\fC [inherited]\fP"Set Cache Life Time in seconds EG. 60 seconds x 60 minutes x 24 hours = one day cache life time.
+.br
+ You can set cache lifetime in miliseconds or as string 'permanent' means.
+.br
+
+.br
+ EG. 1.minute 1.hour 1.day 1.month 1.year 
+.br
+ 
+.PP
+.nf
+            $this->cache_lifetime = array(
+                                                'page'=>'1.minute',
+                                                'css'=>'1.hour',
+                                                'javascript'=>'1.day',
+                                                'frameworks'=>'1.month'
+                                                );
+
+.fi
+.PP
+
+.br
+ Other possibility is to set one lifetime for all cache files:
+.br
+
+.br
+ 
+.PP
+.nf
+                $this->cache_lifetime = '1.month';
+
+.fi
+.PP
+
+.br
+ or
+.br
+ 
+.PP
+.nf
+                $this->cache_lifetime = 'permanent';
+
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cache_lifetime\fP 
+.RE
+.PP
+
+.PP
+Definition at line 194 of file TIDEngine.php.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TIDEngine API from the source code.

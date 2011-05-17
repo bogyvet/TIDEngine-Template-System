@@ -1,0 +1,1116 @@
+\hypertarget{class_t_i_d_engine}{
+\section{TIDEngine Class Reference}
+\label{class_t_i_d_engine}\index{TIDEngine@{TIDEngine}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_t_i_d_engine_a095c5d389db211932136b53f25f39685}{\_\-\_\-construct} ()
+\item 
+\hyperlink{class_t_i_d_engine_aa15b352bea711619b46255f3b216268d}{check\_\-cache} (\$\_\-data, \$template\_\-path, \$template\_\-id, \$elements, \$caching)
+\item 
+\hyperlink{class_t_i_d_engine_a07e07caf771b9d4171388e8258ddf4ef}{create\_\-minified} (\$file)
+\item 
+\hyperlink{class_t_i_d_engine_a3e3e3ea9bd1b6af66e25f2e559f45322}{display} (\$file\_\-path, \$cache=false, \$elements=false)
+\item 
+\hyperlink{class_t_i_d_engine_aea13c262e2b03850c680ec85a0011624}{shortcodes} (\$data)
+\item 
+\hyperlink{class_t_i_d_engine_a9032066a9c91083b137ffa57627d08fa}{css\_\-data} (\$data)
+\item 
+\hyperlink{class_t_i_d_engine_ae545113763a61b7d0d2066ed70773e61}{optimize\_\-css} (\$files)
+\item 
+\hyperlink{class_t_i_d_engine_a0b8ae084a5dc63ca4f6876ab2e43438d}{javascript\_\-data} (\$data, \$type)
+\item 
+\hyperlink{class_t_i_d_engine_ae3b381ddbd1de0b6053b2c82e60fd385}{optimize\_\-javascript} (\$files, \$type)
+\item 
+\hyperlink{class_t_i_d_engine_aa59f4a795d744620f3cc6b49f4a27992}{js\_\-packers} (\$file\_\-content)
+\item 
+\hyperlink{class_t_i_d_engine_a6c23057376e72bfa98f72e68cf39b787}{include\_\-debugger} ()
+\item 
+\hyperlink{class_t_i_d_engine_ad1d5d85a42a4f8a83ca6261448b5457c}{include\_\-packer} ()
+\item 
+\hyperlink{class_t_i_d_engine_a5a39f9ecf7304d4645246b5bcb916c1e}{Packer} (\$js\_\-file)
+\item 
+\hyperlink{class_t_i_d_engine_a33c1ef0d08960a1d75f4b55ecc7a844d}{JSmin} (\$js\_\-file)
+\item 
+\hyperlink{class_t_i_d_engine_ab97cdbd51067978f155d7611010b4e7f}{JShrink} (\$js\_\-file)
+\item 
+\hyperlink{class_t_i_d_engine_a37b0692940dabb81cb4b317721fe1657}{JSminplus} (\$js\_\-file)
+\item 
+\hyperlink{class_t_i_d_engine_aa51877c4a67aee5e44b3291aa3aa4de2}{gzip\_\-data} (\$data)
+\item 
+\hyperlink{class_t_i_d_engine_adaa8cd255f4af21f4fa6d1566a90e8b7}{save\_\-data} (\$data, \$path, \$modifiers=false)
+\item 
+\hyperlink{class_t_i_d_engine_a4d6587cd9ae73fa86b13f90c7ddf5a2d}{meta\_\-data} (\$data)
+\item 
+\hyperlink{class_t_i_d_engine_ab0432c08e048640c83f871e3ca119e62}{fix\_\-newlines\_\-for\_\-clean\_\-html} (\$fixthistext)
+\item 
+\hyperlink{class_t_i_d_engine_a5c7a49fd6510389df88ca9f97685b2af}{clean\_\-html\_\-code} (\$uncleanhtml)
+\item 
+\hyperlink{class_t_i_d_engine_a05cc9b8d0b0f75a57a2b3da3a8891780}{clear\_\-cache} (\$template\_\-id=false)
+\item 
+\hyperlink{class_t_i_d_engine_a85b507378fa82cfbbcde72783fe506b8}{clean\_\-file} (\$content)
+\item 
+\hyperlink{class_t_i_d_engine_acac77e9d1c1ea28406556e5dd88f1dc1}{browser\_\-info} (\$agent=null)
+\item 
+\hyperlink{class_t_i_d_engine_a6f31e46a51e73bd13b22a605d6599edf}{getRequestHeaders} ()
+\item 
+\hyperlink{class_t_i_d_engine_a406da7d26abff8587a707e5e7315bacf}{caculate\_\-lifetime} ()
+\item 
+\hyperlink{class_t_i_d_engine_a16783567e39b102990730f699675819c}{check\_\-browser\_\-set\_\-extension} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__paths__settings_gaef9cf198312d2f89238a8e8e2f0f67f3}{\$domain} = 'http://localhost/TIDengine/'
+\item 
+\hyperlink{group__paths__settings_gae39d9273ea31335b789e7d9a65ddd5e5}{\$root\_\-cache} = 'cache/'
+\item 
+\hyperlink{group__paths__settings_ga63fb01efe0d6e48b4ec22d087e8146fb}{\$pages\_\-cache} = 'pages/'
+\item 
+\hyperlink{group__paths__settings_ga0e80adb33d63c6d68ba4c65404df2f94}{\$css\_\-cache} = 'css/'
+\item 
+\hyperlink{group__paths__settings_ga16d37062fd28b17ccfbbc08ce3e0b776}{\$js\_\-cache} = 'javascript/'
+\item 
+\hyperlink{group__paths__settings_ga2f10132b94f95d29119dbfc721ec89f5}{\$javascript\_\-source} = 'javascript/native/source/'
+\item 
+\hyperlink{group__paths__settings_gaf110565a1dfb60e0e30898d5087688be}{\$javascript\_\-minified} = 'javascript/native/minified/'
+\item 
+\hyperlink{group__paths__settings_ga35ab8cb7ae69ec347b63dda82a173005}{\$frameworks\_\-source} = 'javascript/frameworks/'
+\item 
+\hyperlink{group__paths__settings_ga117298df65ff2026617e125d21463b93}{\$css\_\-source} = 'css/'
+\item 
+\hyperlink{group__general__cache__settings_gad3689303b91750b4f90511e1ab46a75c}{\$cache\_\-naming} = 'md5'
+\item 
+\hyperlink{group__general__cache__settings_gac05f99a6b3c71f3e31e77d5c9ea5914d}{\$cache\_\-name\_\-pre} = '('
+\item 
+\hyperlink{group__general__cache__settings_ga0b2dfab31e245d074c86967134122b25}{\$cache\_\-name\_\-post} = ')-\/'
+\item 
+\hyperlink{group__general__cache__settings_gac1516832f9aecd303dcb275d08e97efe}{\$cache\_\-extension} = '.tpl.php'
+\item 
+\hyperlink{group__general__cache__settings_ga94cbab658bf158b39afd90db1a44e581}{\$server\_\-caching} = true
+\item 
+\hyperlink{group__general__cache__settings_gaa239a3baf57ffc17ad1cc1911414b539}{\$client\_\-caching} = true
+\item 
+\hyperlink{group__general__cache__settings_ga5ac8836bca7856f49bf02d7d95c2edd2}{\$gzip} = true
+\item 
+\hyperlink{group__general__cache__settings_ga9a4e30766e452f0d2feaecd666787ca1}{\$compression\_\-level} = 4
+\item 
+\hyperlink{group__general__cache__settings_ga5aaab753f75170fa670cbb602aa97119}{\$cache\_\-lifetime} = array('page'=$>$'1.month', 'css'=$>$'6.month', 'javascript'=$>$'6.month', 'frameworks'=$>$'6.month')
+\item 
+\hyperlink{group__xhtml__cache__settings_ga0216b64e0f4557ed5a36e5aaeccd2745}{\$xhtml\_\-code\_\-operations} = 'indent'
+\item 
+\hyperlink{group__xhtml__cache__settings_ga2395c8c084b383c7fa248df50b624e9a}{\$xhtml\_\-code\_\-indentation} = ' '
+\item 
+\hyperlink{group__css__cache__settings_ga3d807a2e23ba55310871e3ed6c2bd356}{\$optimize\_\-css} = true
+\item 
+\hyperlink{group__css__cache__settings_ga78989c70ad2b35d7026f6600cfe6ba92}{\$optimize\_\-css\_\-gz} = true
+\item 
+\hyperlink{group__css__cache__settings_gad7ca051062e3dc2de4fa237217abef86}{\$compact\_\-css} = true
+\item 
+\hyperlink{group__css__cache__settings_ga2864dee7a65933d1d4c94373d542b700}{\$css\_\-file\_\-name} = 'master'
+\item 
+\hyperlink{group__css__cache__settings_ga80329ee2b55f386978162762e84ac3ee}{\$css\_\-ext} = '.css'
+\item 
+\hyperlink{group__js__cache__settings_gaf2d235fefcbea23d664080143edad37f}{\$optimize\_\-javascript} = true
+\item 
+\hyperlink{group__js__cache__settings_ga73a53fbf95bca0dd45d7b6cca1f6a689}{\$combine\_\-all\_\-javascript} = true
+\item 
+\hyperlink{group__js__cache__settings_ga8090fbc1c574d4134d6ab4b973d170d0}{\$compact\_\-javascript} = true
+\item 
+\hyperlink{group__js__cache__settings_ga0cdc0ded508ad7f1a3cfc63ef1df780a}{\$optimize\_\-javascript\_\-gz} = true
+\item 
+\hyperlink{group__js__cache__settings_ga16b8a20321620dbef3a8deb7462ef4f4}{\$packer} = 'jsmin'
+\item 
+\hyperlink{group__js__cache__settings_ga0d34488b74d51638331cf68641b18369}{\$js\_\-ext} = '.js'
+\item 
+\hyperlink{group__js__cache__settings_ga08f8005b517d19f5a2d099d7ec595e2d}{\$javascript\_\-combined} = 'combined'
+\item 
+\hyperlink{group__js__cache__settings_ga38703f3ad6532639e4ec66aaa9ffc03b}{\$javascript\_\-filename} = 'javascript'
+\item 
+\hyperlink{group__js__cache__settings_ga79efa8f1523c6f83cffbe8d18366a0f3}{\$framework\_\-filename} = 'framework'
+\item 
+\hyperlink{group__js__cache__settings_ga74a35165f016f24e125268a1e122c14f}{\$frameworks\_\-type} = 'minified'
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__priv__settings_gaac9c786f32cb63904e4579cc2bded602}{\$shortcodes} = array()
+\item 
+\hyperlink{group__priv__settings_gade4bdb833871c0c762dd08d7ae627218}{\$data\_\-changes\_\-check}
+\item 
+\hyperlink{group__priv__settings_ga1c507c75ecec577b312bb845ff0e5cc2}{\$modification\_\-time}
+\item 
+\hyperlink{group__priv__settings_ga88d4a982e092d52e64e05ee2b28f418f}{\$template\_\-id}
+\item 
+\hyperlink{group__priv__settings_ga25b8691d25affc422f8de6218c2adc44}{\$configuration\_\-file} = ''
+\item 
+\hyperlink{group__priv__settings_ga9296b8da0b01b82041584bbf469081ce}{\$meta\_\-spec} = array('Content-\/Language', 'Expires', 'Pragma', 'Cache-\/Control', 'imagetoolbar')
+\item 
+\hyperlink{group__priv__settings_ga25d50f7db79ecf7fc2a94c16eacfac6b}{\$debug\_\-meta} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_t_i_d_engine}{TIDEngine} core class \begin{DoxyAuthor}{Author}
+bogyvet 
+\end{DoxyAuthor}
+
+
+Definition at line 9 of file TIDEngine.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_t_i_d_engine_a095c5d389db211932136b53f25f39685}{
+\index{TIDEngine@{TIDEngine}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!TIDEngine@{TIDEngine}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a095c5d389db211932136b53f25f39685}
+Class constructor. \par
+\par
+ Detailed instructions inside Class inline comments 
+
+Definition at line 476 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a095c5d389db211932136b53f25f39685_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_t_i_d_engine_aa15b352bea711619b46255f3b216268d}{
+\index{TIDEngine@{TIDEngine}!check\_\-cache@{check\_\-cache}}
+\index{check\_\-cache@{check\_\-cache}!TIDEngine@{TIDEngine}}
+\subsubsection[{check\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}check\_\-cache (
+\begin{DoxyParamCaption}
+\item[{\$}]{ \_\-data, }
+\item[{\$}]{ template\_\-path, }
+\item[{\$}]{ template\_\-id, }
+\item[{\$}]{ elements, }
+\item[{\$}]{ caching}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_aa15b352bea711619b46255f3b216268d}
+Checks for Cache existance, Cache file validity and Cache expiration time.\par
+\par
+ Detailed instructions inside Class inline comments
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$\_\-data} & -\/ Data to be phrased to template shortcodes array key = SHORTCODE, array value = DATA. \\
+\hline
+string & {\em \$template\_\-path} & -\/ Path to template file \\
+\hline
+string & {\em \$template\_\-id} & -\/ Template name \\
+\hline
+array & {\em \$elements} & -\/ Extra elements we need to include, default header, body and footer. \\
+\hline
+bool & {\em \$caching} & -\/ Do we use caching for specific template \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 509 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_aa15b352bea711619b46255f3b216268d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a07e07caf771b9d4171388e8258ddf4ef}{
+\index{TIDEngine@{TIDEngine}!create\_\-minified@{create\_\-minified}}
+\index{create\_\-minified@{create\_\-minified}!TIDEngine@{TIDEngine}}
+\subsubsection[{create\_\-minified}]{\setlength{\rightskip}{0pt plus 5cm}create\_\-minified (
+\begin{DoxyParamCaption}
+\item[{\$}]{ file}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a07e07caf771b9d4171388e8258ddf4ef}
+Create minified version of source Javascript files
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$file} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 807 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=360pt]{class_t_i_d_engine_a07e07caf771b9d4171388e8258ddf4ef_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{class_t_i_d_engine_a07e07caf771b9d4171388e8258ddf4ef_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a3e3e3ea9bd1b6af66e25f2e559f45322}{
+\index{TIDEngine@{TIDEngine}!display@{display}}
+\index{display@{display}!TIDEngine@{TIDEngine}}
+\subsubsection[{display}]{\setlength{\rightskip}{0pt plus 5cm}display (
+\begin{DoxyParamCaption}
+\item[{\$}]{ file\_\-path, }
+\item[{\$}]{ cache = {\ttfamily false}, }
+\item[{\$}]{ elements = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a3e3e3ea9bd1b6af66e25f2e559f45322}
+Display page and$|$or Create Cache file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$file\_\-path} & -\/ path to template or cache file. \\
+\hline
+bool & {\em \$cache} & -\/ we need to create cache file controll variable \\
+\hline
+bool & {\em \$elements} & -\/ page elements. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 821 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a3e3e3ea9bd1b6af66e25f2e559f45322_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_t_i_d_engine_a3e3e3ea9bd1b6af66e25f2e559f45322_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_aea13c262e2b03850c680ec85a0011624}{
+\index{TIDEngine@{TIDEngine}!shortcodes@{shortcodes}}
+\index{shortcodes@{shortcodes}!TIDEngine@{TIDEngine}}
+\subsubsection[{shortcodes}]{\setlength{\rightskip}{0pt plus 5cm}shortcodes (
+\begin{DoxyParamCaption}
+\item[{\$}]{ data}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_aea13c262e2b03850c680ec85a0011624}
+shortcodes(\$data) -\/ Set shortcodes for template
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & -\/ defined shortcodes that must be phrased to template \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 930 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_aea13c262e2b03850c680ec85a0011624_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=374pt]{class_t_i_d_engine_aea13c262e2b03850c680ec85a0011624_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a9032066a9c91083b137ffa57627d08fa}{
+\index{TIDEngine@{TIDEngine}!css\_\-data@{css\_\-data}}
+\index{css\_\-data@{css\_\-data}!TIDEngine@{TIDEngine}}
+\subsubsection[{css\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}css\_\-data (
+\begin{DoxyParamCaption}
+\item[{\$}]{ data}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a9032066a9c91083b137ffa57627d08fa}
+Set CSS head data. CSS files paths
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & -\/ CSS files paths \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1002 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a9032066a9c91083b137ffa57627d08fa_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a9032066a9c91083b137ffa57627d08fa_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_ae545113763a61b7d0d2066ed70773e61}{
+\index{TIDEngine@{TIDEngine}!optimize\_\-css@{optimize\_\-css}}
+\index{optimize\_\-css@{optimize\_\-css}!TIDEngine@{TIDEngine}}
+\subsubsection[{optimize\_\-css}]{\setlength{\rightskip}{0pt plus 5cm}optimize\_\-css (
+\begin{DoxyParamCaption}
+\item[{\$}]{ files}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_ae545113763a61b7d0d2066ed70773e61}
+Optimize css files
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$files} & -\/ CSS file content \\
+\hline
+\end{DoxyParams}
+
+
+\begin{Desc}
+\item[\hyperlink{todo__todo000003}{Todo}]Add CSSTidy support and some other Libaries \end{Desc}
+
+
+
+
+Definition at line 1052 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{class_t_i_d_engine_ae545113763a61b7d0d2066ed70773e61_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_ae545113763a61b7d0d2066ed70773e61_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a0b8ae084a5dc63ca4f6876ab2e43438d}{
+\index{TIDEngine@{TIDEngine}!javascript\_\-data@{javascript\_\-data}}
+\index{javascript\_\-data@{javascript\_\-data}!TIDEngine@{TIDEngine}}
+\subsubsection[{javascript\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}javascript\_\-data (
+\begin{DoxyParamCaption}
+\item[{\$}]{ data, }
+\item[{\$}]{ type}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a0b8ae084a5dc63ca4f6876ab2e43438d}
+Set Javascript/Javascript Frameworks 
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & -\/ Javascript files \\
+\hline
+string & {\em \$type} & -\/ frameworks or regular Javascript files \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1135 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a0b8ae084a5dc63ca4f6876ab2e43438d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a0b8ae084a5dc63ca4f6876ab2e43438d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_ae3b381ddbd1de0b6053b2c82e60fd385}{
+\index{TIDEngine@{TIDEngine}!optimize\_\-javascript@{optimize\_\-javascript}}
+\index{optimize\_\-javascript@{optimize\_\-javascript}!TIDEngine@{TIDEngine}}
+\subsubsection[{optimize\_\-javascript}]{\setlength{\rightskip}{0pt plus 5cm}optimize\_\-javascript (
+\begin{DoxyParamCaption}
+\item[{\$}]{ files, }
+\item[{\$}]{ type}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_ae3b381ddbd1de0b6053b2c82e60fd385}
+Optimize Javascript files 
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$files} & \\
+\hline
+string & {\em \$type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string \$js -\/ Links 
+\end{DoxyReturn}
+
+
+Definition at line 1185 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=378pt]{class_t_i_d_engine_ae3b381ddbd1de0b6053b2c82e60fd385_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_ae3b381ddbd1de0b6053b2c82e60fd385_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_aa59f4a795d744620f3cc6b49f4a27992}{
+\index{TIDEngine@{TIDEngine}!js\_\-packers@{js\_\-packers}}
+\index{js\_\-packers@{js\_\-packers}!TIDEngine@{TIDEngine}}
+\subsubsection[{js\_\-packers}]{\setlength{\rightskip}{0pt plus 5cm}js\_\-packers (
+\begin{DoxyParamCaption}
+\item[{\$}]{ file\_\-content}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_aa59f4a795d744620f3cc6b49f4a27992}
+Optimize Javascript data with different Packers.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$file\_\-content} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string \$optimized\_\-file 
+\end{DoxyReturn}
+
+
+Definition at line 1260 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{class_t_i_d_engine_aa59f4a795d744620f3cc6b49f4a27992_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_aa59f4a795d744620f3cc6b49f4a27992_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a6c23057376e72bfa98f72e68cf39b787}{
+\index{TIDEngine@{TIDEngine}!include\_\-debugger@{include\_\-debugger}}
+\index{include\_\-debugger@{include\_\-debugger}!TIDEngine@{TIDEngine}}
+\subsubsection[{include\_\-debugger}]{\setlength{\rightskip}{0pt plus 5cm}include\_\-debugger (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a6c23057376e72bfa98f72e68cf39b787}
+Include SEO Optimization Adviser/Debugger Class. \begin{Desc}
+\item[\hyperlink{todo__todo000004}{Todo}]Use SEO Optimization Adviser/Debugger.\end{Desc}
+
+
+Definition at line 1305 of file TIDEngine.php.
+
+\hypertarget{class_t_i_d_engine_ad1d5d85a42a4f8a83ca6261448b5457c}{
+\index{TIDEngine@{TIDEngine}!include\_\-packer@{include\_\-packer}}
+\index{include\_\-packer@{include\_\-packer}!TIDEngine@{TIDEngine}}
+\subsubsection[{include\_\-packer}]{\setlength{\rightskip}{0pt plus 5cm}include\_\-packer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_ad1d5d85a42a4f8a83ca6261448b5457c}
+Include defined packer Class in use.
+
+\begin{Desc}
+\item[\hyperlink{todo__todo000005}{Todo}]Native Class packer. \end{Desc}
+
+
+Definition at line 1319 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{class_t_i_d_engine_ad1d5d85a42a4f8a83ca6261448b5457c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a5a39f9ecf7304d4645246b5bcb916c1e}{
+\index{TIDEngine@{TIDEngine}!Packer@{Packer}}
+\index{Packer@{Packer}!TIDEngine@{TIDEngine}}
+\subsubsection[{Packer}]{\setlength{\rightskip}{0pt plus 5cm}Packer (
+\begin{DoxyParamCaption}
+\item[{\$}]{ js\_\-file}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a5a39f9ecf7304d4645246b5bcb916c1e}
+Packer -\/ PHP 5 ported version of Dean Edwards Packer
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$js\_\-file} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1352 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a5a39f9ecf7304d4645246b5bcb916c1e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a33c1ef0d08960a1d75f4b55ecc7a844d}{
+\index{TIDEngine@{TIDEngine}!JSmin@{JSmin}}
+\index{JSmin@{JSmin}!TIDEngine@{TIDEngine}}
+\subsubsection[{JSmin}]{\setlength{\rightskip}{0pt plus 5cm}JSmin (
+\begin{DoxyParamCaption}
+\item[{\$}]{ js\_\-file}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a33c1ef0d08960a1d75f4b55ecc7a844d}
+JSmin -\/ JSmin packer PHP ported version of Dean Edwards JS 
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$js\_\-file} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1364 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a33c1ef0d08960a1d75f4b55ecc7a844d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_ab97cdbd51067978f155d7611010b4e7f}{
+\index{TIDEngine@{TIDEngine}!JShrink@{JShrink}}
+\index{JShrink@{JShrink}!TIDEngine@{TIDEngine}}
+\subsubsection[{JShrink}]{\setlength{\rightskip}{0pt plus 5cm}JShrink (
+\begin{DoxyParamCaption}
+\item[{\$}]{ js\_\-file}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_ab97cdbd51067978f155d7611010b4e7f}
+JShrink -\/ JShrink-\/0.2.class.php hosted on Google Code
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$js\_\-file} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1378 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_ab97cdbd51067978f155d7611010b4e7f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a37b0692940dabb81cb4b317721fe1657}{
+\index{TIDEngine@{TIDEngine}!JSminplus@{JSminplus}}
+\index{JSminplus@{JSminplus}!TIDEngine@{TIDEngine}}
+\subsubsection[{JSminplus}]{\setlength{\rightskip}{0pt plus 5cm}JSminplus (
+\begin{DoxyParamCaption}
+\item[{\$}]{ js\_\-file}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a37b0692940dabb81cb4b317721fe1657}
+JSminPlus -\/ one more port of Dean Edwards JSmin
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$js\_\-file} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1391 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a37b0692940dabb81cb4b317721fe1657_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_aa51877c4a67aee5e44b3291aa3aa4de2}{
+\index{TIDEngine@{TIDEngine}!gzip\_\-data@{gzip\_\-data}}
+\index{gzip\_\-data@{gzip\_\-data}!TIDEngine@{TIDEngine}}
+\subsubsection[{gzip\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}gzip\_\-data (
+\begin{DoxyParamCaption}
+\item[{\$}]{ data}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_aa51877c4a67aee5e44b3291aa3aa4de2}
+If enabled gzip cache files
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1403 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_aa51877c4a67aee5e44b3291aa3aa4de2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_adaa8cd255f4af21f4fa6d1566a90e8b7}{
+\index{TIDEngine@{TIDEngine}!save\_\-data@{save\_\-data}}
+\index{save\_\-data@{save\_\-data}!TIDEngine@{TIDEngine}}
+\subsubsection[{save\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}save\_\-data (
+\begin{DoxyParamCaption}
+\item[{\$}]{ data, }
+\item[{\$}]{ path, }
+\item[{\$}]{ modifiers = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_adaa8cd255f4af21f4fa6d1566a90e8b7}
+Save cache files
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & -\/ file data \\
+\hline
+string & {\em \$path} & -\/ Cache File Path \\
+\hline
+bool & {\em \$modifiers} & -\/ overwrite, append data to file. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1424 of file TIDEngine.php.
+
+\hypertarget{class_t_i_d_engine_a4d6587cd9ae73fa86b13f90c7ddf5a2d}{
+\index{TIDEngine@{TIDEngine}!meta\_\-data@{meta\_\-data}}
+\index{meta\_\-data@{meta\_\-data}!TIDEngine@{TIDEngine}}
+\subsubsection[{meta\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}meta\_\-data (
+\begin{DoxyParamCaption}
+\item[{\$}]{ data}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a4d6587cd9ae73fa86b13f90c7ddf5a2d}
+Set head Page Title and Meta Tags.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+
+
+\begin{Desc}
+\item[\hyperlink{todo__todo000006}{Todo}]\$this-\/$>$debug\_\-meta will be part of TIDEbugger Class \end{Desc}
+
+
+
+
+Definition at line 1442 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a4d6587cd9ae73fa86b13f90c7ddf5a2d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a4d6587cd9ae73fa86b13f90c7ddf5a2d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_ab0432c08e048640c83f871e3ca119e62}{
+\index{TIDEngine@{TIDEngine}!fix\_\-newlines\_\-for\_\-clean\_\-html@{fix\_\-newlines\_\-for\_\-clean\_\-html}}
+\index{fix\_\-newlines\_\-for\_\-clean\_\-html@{fix\_\-newlines\_\-for\_\-clean\_\-html}!TIDEngine@{TIDEngine}}
+\subsubsection[{fix\_\-newlines\_\-for\_\-clean\_\-html}]{\setlength{\rightskip}{0pt plus 5cm}fix\_\-newlines\_\-for\_\-clean\_\-html (
+\begin{DoxyParamCaption}
+\item[{\$}]{ fixthistext}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_ab0432c08e048640c83f871e3ca119e62}
+Function to seperate multiple tags one line. Credits to orginal author.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$fixthistext} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1486 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_ab0432c08e048640c83f871e3ca119e62_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a5c7a49fd6510389df88ca9f97685b2af}{
+\index{TIDEngine@{TIDEngine}!clean\_\-html\_\-code@{clean\_\-html\_\-code}}
+\index{clean\_\-html\_\-code@{clean\_\-html\_\-code}!TIDEngine@{TIDEngine}}
+\subsubsection[{clean\_\-html\_\-code}]{\setlength{\rightskip}{0pt plus 5cm}clean\_\-html\_\-code (
+\begin{DoxyParamCaption}
+\item[{\$}]{ uncleanhtml}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a5c7a49fd6510389df88ca9f97685b2af}
+Indent XHTML output code \$this-\/$>$xhtml\_\-code\_\-indentation. Credits to orginal author.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uncleanhtml} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string implode(\char`\"{}$\backslash$n\char`\"{}, \$cleanhtml\_\-array) 
+\end{DoxyReturn}
+
+
+Definition at line 1512 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_t_i_d_engine_a5c7a49fd6510389df88ca9f97685b2af_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=364pt]{class_t_i_d_engine_a5c7a49fd6510389df88ca9f97685b2af_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a05cc9b8d0b0f75a57a2b3da3a8891780}{
+\index{TIDEngine@{TIDEngine}!clear\_\-cache@{clear\_\-cache}}
+\index{clear\_\-cache@{clear\_\-cache}!TIDEngine@{TIDEngine}}
+\subsubsection[{clear\_\-cache}]{\setlength{\rightskip}{0pt plus 5cm}clear\_\-cache (
+\begin{DoxyParamCaption}
+\item[{\$}]{ template\_\-id = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a05cc9b8d0b0f75a57a2b3da3a8891780}
+Manualy clear cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$template\_\-id} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1603 of file TIDEngine.php.
+
+\hypertarget{class_t_i_d_engine_a85b507378fa82cfbbcde72783fe506b8}{
+\index{TIDEngine@{TIDEngine}!clean\_\-file@{clean\_\-file}}
+\index{clean\_\-file@{clean\_\-file}!TIDEngine@{TIDEngine}}
+\subsubsection[{clean\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}clean\_\-file (
+\begin{DoxyParamCaption}
+\item[{\$}]{ content}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a85b507378fa82cfbbcde72783fe506b8}
+Remove white space, comments etc. 
+
+Definition at line 1633 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_a85b507378fa82cfbbcde72783fe506b8_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_acac77e9d1c1ea28406556e5dd88f1dc1}{
+\index{TIDEngine@{TIDEngine}!browser\_\-info@{browser\_\-info}}
+\index{browser\_\-info@{browser\_\-info}!TIDEngine@{TIDEngine}}
+\subsubsection[{browser\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}browser\_\-info (
+\begin{DoxyParamCaption}
+\item[{\$}]{ agent = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_acac77e9d1c1ea28406556e5dd88f1dc1}
+Code taken php.org and slitly adapted. Lightweight alternative for Browscap. 
+\begin{DoxyParams}[1]{Parameters}
+string | null & {\em \$agent} & -\/ string to check if we have access by defined agent \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1653 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{class_t_i_d_engine_acac77e9d1c1ea28406556e5dd88f1dc1_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a6f31e46a51e73bd13b22a605d6599edf}{
+\index{TIDEngine@{TIDEngine}!getRequestHeaders@{getRequestHeaders}}
+\index{getRequestHeaders@{getRequestHeaders}!TIDEngine@{TIDEngine}}
+\subsubsection[{getRequestHeaders}]{\setlength{\rightskip}{0pt plus 5cm}getRequestHeaders (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a6f31e46a51e73bd13b22a605d6599edf}
+Get Client Browser headers data. 
+
+Definition at line 1685 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{class_t_i_d_engine_a6f31e46a51e73bd13b22a605d6599edf_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a406da7d26abff8587a707e5e7315bacf}{
+\index{TIDEngine@{TIDEngine}!caculate\_\-lifetime@{caculate\_\-lifetime}}
+\index{caculate\_\-lifetime@{caculate\_\-lifetime}!TIDEngine@{TIDEngine}}
+\subsubsection[{caculate\_\-lifetime}]{\setlength{\rightskip}{0pt plus 5cm}caculate\_\-lifetime (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a406da7d26abff8587a707e5e7315bacf}
+Calculate Cache Life Time in miliseconds 
+
+Definition at line 1717 of file TIDEngine.php.
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{class_t_i_d_engine_a406da7d26abff8587a707e5e7315bacf_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_t_i_d_engine_a16783567e39b102990730f699675819c}{
+\index{TIDEngine@{TIDEngine}!check\_\-browser\_\-set\_\-extension@{check\_\-browser\_\-set\_\-extension}}
+\index{check\_\-browser\_\-set\_\-extension@{check\_\-browser\_\-set\_\-extension}!TIDEngine@{TIDEngine}}
+\subsubsection[{check\_\-browser\_\-set\_\-extension}]{\setlength{\rightskip}{0pt plus 5cm}check\_\-browser\_\-set\_\-extension (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_t_i_d_engine_a16783567e39b102990730f699675819c}
+Workarround for Safari problem with gzipped content we need other type of compressed cache files extensions. As some hosting companies do not support get\_\-browser function I was thinking that best solution is native Browscap class -\/ first time load this class will update all data in cache file. eg. Other browsers .css.gz and .js.gz Safari css.gz.css and js.gz.js
+\begin{DoxyItemize}
+\item infact this is not strict rule you can set any kind of extension just not to be .gz eg. js.gz.xyz and css.gz.xyz -\/ this will work without problem.
+\end{DoxyItemize}
+
+Uncomment this line :
+
+\$check\_\-browser = new Browscap(\$this-\/$>$Browscap\_\-cache); \$browser = \$check\_\-browser-\/$>$getBrowser(null, false); \$this-\/$>$browser = \$browser-\/$>$Browser;
+
+and
+
+\$this-\/$>$Browscap\_\-cache = \$this-\/$>$root\_\-cache . 'Browscap';
+
+also comment this two lines of code:
+
+\$browser = \$this-\/$>$\hyperlink{class_t_i_d_engine_acac77e9d1c1ea28406556e5dd88f1dc1}{browser\_\-info()}; \$this-\/$>$browser = ucfirst(\$browser\mbox{[}0\mbox{]}); 
+
+Definition at line 1795 of file TIDEngine.php.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_t_i_d_engine_a16783567e39b102990730f699675819c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{class_t_i_d_engine_a16783567e39b102990730f699675819c_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+TIDEngine/core/\hyperlink{_t_i_d_engine_8php}{TIDEngine.php}\end{DoxyCompactItemize}
